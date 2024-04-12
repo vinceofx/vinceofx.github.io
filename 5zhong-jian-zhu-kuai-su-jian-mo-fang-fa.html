@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+            <title>5种建筑快速建模方法 - vinceofx </title>
+        <meta name="description" content="一、Google Maps（谷歌地图） 使用2008以前的谷歌地图配合显卡缓存数据提取器，可将AI生成的建筑城市提取出来 优点：速度快、批量生产、无需数据 缺点：数据采集较难、无法二次编辑、bug较多 可行性建议： 部署时需要使用VPN或翻墙，才能获得数据 模型精度较低，面数少。适合中景和远景 由于谷歌地图存在自适应LOD，需要分布加载 模型几何体比较杂乱。且无法修改 安装 下载版本或将 .在Blender 2.83中，转到，，然后浏览到zip文件。blender/MapsModelsImporter/Edit &gt; PreferencesAdd-onInstall 不要使用 GitHub 的“下载为 zip”按钮，请确保改用发布&hellip;" />
+        
+        <meta name="generator" content="Publii Open-Source CMS for Static Site" />
+
+        <link rel="canonical" href="https://vinceofx.github.io/5zhong-jian-zhu-kuai-su-jian-mo-fang-fa.html">
+        
+        <link rel="alternate" type="application/atom+xml" href="https://vinceofx.github.io/feed.xml" />
+<link rel="alternate" type="application/json" href="https://vinceofx.github.io/feed.json" />
+
+        <meta property="og:title" content="5种建筑快速建模方法" /><meta property="og:image" content="https://vinceofx.github.io/media/posts/46/20230321-173547339.png"/><meta property="og:image:width" content="650" /><meta property="og:image:height" content="300" /><meta property="og:site_name" content="vinceofx" /><meta property="og:description" content="一、Google Maps（谷歌地图） 使用2008以前的谷歌地图配合显卡缓存数据提取器，可将AI生成的建筑城市提取出来 优点：速度快、批量生产、无需数据 缺点：数据采集较难、无法二次编辑、bug较多 可行性建议： 部署时需要使用VPN或翻墙，才能获得数据 模型精度较低，面数少。适合中景和远景 由于谷歌地图存在自适应LOD，需要分布加载 模型几何体比较杂乱。且无法修改 安装 下载版本或将 .在Blender 2.83中，转到，，然后浏览到zip文件。blender/MapsModelsImporter/Edit &gt; PreferencesAdd-onInstall 不要使用 GitHub 的“下载为 zip”按钮，请确保改用发布&hellip;" /><meta property="og:url" content="https://vinceofx.github.io/5zhong-jian-zhu-kuai-su-jian-mo-fang-fa.html" /><meta property="og:type" content="article" />
+	        <link rel="shortcut icon" href="https://vinceofx.github.io/media/website/website-log-2-2.ico" type="image/x-icon" />
+	        <link rel="shortcut icon" href="https://vinceofx.github.io/media/website/website-log-2-2.ico" type="image/x-icon" />
+        <link rel="stylesheet" href="https://vinceofx.github.io/assets/css/style.css?v=7a9d546a24c4a255941d6392d2777ec5">       
+        <script type="application/ld+json">{"@context":"http://schema.org","@type":"Article","mainEntityOfPage":{"@type":"WebPage","@id":"https://vinceofx.github.io/5zhong-jian-zhu-kuai-su-jian-mo-fang-fa.html"},"headline":"5种建筑快速建模方法","datePublished":"2023-03-17T10:36","dateModified":"2023-03-21T17:36","image":{"@type":"ImageObject","url":"https://vinceofx.github.io/media/posts/46/20230321-173547339.png","height":300,"width":650},"description":"一、Google Maps（谷歌地图） 使用2008以前的谷歌地图配合显卡缓存数据提取器，可将AI生成的建筑城市提取出来 优点：速度快、批量生产、无需数据 缺点：数据采集较难、无法二次编辑、bug较多 可行性建议： 部署时需要使用VPN或翻墙，才能获得数据 模型精度较低，面数少。适合中景和远景 由于谷歌地图存在自适应LOD，需要分布加载 模型几何体比较杂乱。且无法修改 安装 下载版本或将 .在Blender 2.83中，转到，，然后浏览到zip文件。blender/MapsModelsImporter/Edit &gt; PreferencesAdd-onInstall 不要使用 GitHub 的“下载为 zip”按钮，请确保改用发布&hellip;","author":{"@type":"Person","name":"VINCE清慕","url":"https://vinceofx.github.io/authors/vinceqing-mu/"},"publisher":{"@type":"Organization","name":"VINCE清慕"}}</script>        
+        
+        <meta name="baidu-site-verification" content="code-SE9D8Am7QQ" />
+<script defer src="/_vercel/insights/script.js"></script>
+    </head>
+    <body>
+        <header class="header" id="js-header">
+
+   <a href="https://vinceofx.github.io/" class="logo">
+         vinceofx
+   </a>
+
+      <nav class="navbar js-navbar">
+         <button class="navbar__toggle js-toggle" aria-label="菜单">
+            <span class="navbar__toggle-box">
+               <span class="navbar__toggle-inner">菜单</span>
+            </span>
+         </button>
+         <ul class="navbar__menu">
+                  <li>
+                  <a
+                     href="https://vinceofx.github.io/"
+                        title="返回到网站的首页"
+                        target="_self"
+         >
+                     Home
+                  </a>
+         
+            </li>
+                  <li>
+                  <a
+                     href="https://vinceofx.github.io/tags/graphical/"
+                        title="下载示例文件，快速启动一个项目。开始扩散和渐进式的创作。简明扼要的总结技术特性或技巧思路，帮助您探索项目初期阶段"
+                        target="_self"
+         >
+                     Graphics
+                  </a>
+         
+            </li>
+                  <li>
+                  <a
+                     href="https://vinceofx.github.io/tags/workflow/"
+                        title="这里有许多关于技术的文档和方法。例如材质的工作流、网络的解决方案。总之，这里有许多丰富的方法和经验"
+                        target="_self"
+         >
+                     Workflow
+                  </a>
+         
+            </li>
+                  <li>
+                  <a
+                     href="https://vinceofx.github.io/tags/tools/"
+                        title="存放一些来自网络的插件或脚本。也有可能是由我自己创造的插件、脚本或资产；无论如何 我都希望它能帮助到您！"
+                        target="_self"
+         >
+                     Tools
+                  </a>
+         
+            </li>
+                  <li>
+                  <a
+                     href="https://vinceofx.github.io/tags/gallery/"
+                        title="这里存放着一些我参与和创作的一些项目，主要是以美术方向为主。也是记录我的技能掌握和成长过程的地方"
+                        target="_self"
+         >
+                     Gallery
+                  </a>
+         
+            </li>
+                  <li>
+                  <a
+                     href="https://vinceofx.github.io/guan-yu.html"
+                        title="这里是关于我的一些简介和资料，如果你对我感兴趣的话。"
+                        target="_self"
+         >
+                     About
+                  </a>
+         
+            </li>
+         </ul>      </nav>
+
+      <div class="search">
+         <div class="search__overlay js-search-overlay">
+            
+         </div>
+         <button
+            class="search__btn js-search-btn"
+            aria-label="搜索">
+            <svg role="presentation" focusable="false" height="18" width="18">
+               <use xlink:href="https://vinceofx.github.io/assets/svg/svg-map.svg#search"/>
+            </svg>
+         </button>
+      </div>
+
+</header><main>
+   <div class="wrapper">
+         <article class="post">
+            <header class="post__header">
+                     <a href="https://vinceofx.github.io/tags/graphical/" class="post__maintag">
+                        Graphics
+                     </a>
+               <h1 class="post__title">
+                  5种建筑快速建模方法
+               </h1>
+                  <div class="post__meta">
+                        <div class="post__author">By
+                              <a href="https://vinceofx.github.io/authors/vinceqing-mu/" class="invert" rel="author" title="VINCE清慕">VINCE清慕</a>
+                        </div>
+                        <time datetime="2023-03-17T10:36">
+                              03/17/2023
+                        </time>
+
+                        <div class="post__comments">
+                           <a href="https://vinceofx.github.io/5zhong-jian-zhu-kuai-su-jian-mo-fang-fa.html#comments" rel="nofollow" aria-label="评论">
+                              <svg aria-hidden="true">
+                                 <title>评论</title>
+                                 <use xlink:href="https://vinceofx.github.io/assets/svg/svg-map.svg#comments"/>
+                              </svg>
+                           </a>
+                        </div>
+                  </div>
+            </header>
+
+                  <figure class="post__featured-image">
+                     <img
+                        src="https://vinceofx.github.io/media/posts/46/20230321-173547339.png"
+                         loading="eager"
+                        height="300"
+                        width="650"
+                        alt="">
+
+                  </figure>
+            <div class="post__inner">
+               <div class="post__entry">
+                  <div data-page-id="NmBNdARdToRJ3wxNTGbcsQccneC" data-docx-has-block-data="true">
+<h1 class="heading-1 ace-line old-record-id-doxcnEjCkAzsFZAfUAiQUAGvWVe">一、Google Maps（谷歌地图）</h1>
+<blockquote class=" old-record-id-doxcnivMh5s8vLWuV2g3TdIxtTf" data-type="quote_container">
+<div class="ace-line ace-line old-record-id-doxcnOjIaAvvD5affyHYExpbmQd">使用2008以前的谷歌地图配合显卡缓存数据提取器，可将AI生成的建筑城市提取出来</div>
+<div class="ace-line ace-line old-record-id-doxcnQzoajAhsJ3thWLob3RFmUb">优点：速度快、批量生产、无需数据</div>
+<div class="ace-line ace-line old-record-id-doxcniPrInsPpdtwTe3h1mMfuYc">缺点：数据采集较难、无法二次编辑、bug较多</div>
+</blockquote>
+<div class="zoneType-calloutBlock old-record-id-doxcnJam2LXb0GH5cBDexKpUSCg">
+<div class="callout-container" data-emoji-id="pushpin">
+<div class="callout-block">
+<div class="ace-line ace-line old-record-id-doxcnD5pQKGGmoIYVKPTwbvTtgc"><strong>可行性建议：</strong></div>
+<ol class="list-number1" start="1">
+<li class="ace-line ace-line old-record-id-doxcnVvInKwcPggqa93BCgUwOIh" data-list="number">
+<div>部署时需要使用VPN或翻墙，才能获得数据</div>
+</li>
+<li class="ace-line ace-line old-record-id-doxcnPwjGxs5KSg18zDWp32ince" data-list="number">
+<div>模型精度较低，面数少。适合中景和远景</div>
+</li>
+<li class="ace-line ace-line old-record-id-doxcn41rLySla8DrEHBaD4WRuLd" data-list="number">
+<div>由于谷歌地图存在自适应LOD，需要分布加载</div>
+</li>
+<li class="ace-line ace-line old-record-id-doxcnb92bijENF9md6KoUuLvETf" data-list="number">
+<div>模型几何体比较杂乱。且无法修改</div>
+</li>
+</ol>
+</div>
+</div>
+</div>
+<div class="image-uploaded gallery old-record-id-doxcnf5YtVluZ7sb9TYKuGM33xf" data-type="image" data-ace-gallery-json="{&quot;items&quot;:[{&quot;uuid&quot;:&quot;eb32307b-0306-4fa3-bbf0-cf68daad579f&quot;,&quot;height&quot;:1121,&quot;width&quot;:1882,&quot;currHeight&quot;:1121,&quot;currWidth&quot;:1882,&quot;natrualHeight&quot;:1121,&quot;natrualWidth&quot;:1882,&quot;pluginName&quot;:&quot;imageUpload&quot;,&quot;scale&quot;:1,&quot;src&quot;:&quot;https%3A%2F%2Finternal-api-drive-stream.feishu.cn%2Fspace%2Fapi%2Fbox%2Fstream%2Fdownload%2Fpreview%2FboxcnsK6nIfTUhkuQtX7FPyPB4f%2F%3Fpreview_type%3D16&quot;,&quot;file_token&quot;:&quot;boxcnsK6nIfTUhkuQtX7FPyPB4f&quot;,&quot;image_type&quot;:&quot;image/png&quot;,&quot;size&quot;:2990342,&quot;comments&quot;:[]}]}"><img loading="lazy" src="https://qnzb4xapyg.feishu.cn/space/api/box/stream/download/asynccode/?code=ZjFjNDk0YTg1NTQ4ZTA1MTM2ZmI3MzFjYWRiN2M1YWNfUlRCNE1QZTYxdmZLU01MclZxRllKV1RkRndTQ1J6SEFfVG9rZW46Ym94Y25zSzZuSWZUVWhrdVF0WDdGUHlQQjRmXzE2NzkzOTEzMTg6MTY3OTM5NDkxOF9WNA" data-single-block="true" data-snapshot="eyJ0eXBlIjoiaW1hZ2UiLCJwYXJlbnRfaWQiOiJObUJOZEFSZFRvUkozd3hOVEdiY3NRY2NuZUMiLCJjb21tZW50cyI6W10sImxvY2tlZCI6ZmFsc2UsImhpZGRlbiI6ZmFsc2UsImF1dGhvciI6IjcwODM0MjgyMjY4OTg0MTE1NDgiLCJhbGlnbiI6ImNlbnRlciIsImltYWdlIjp7InRva2VuIjoiYm94Y25zSzZuSWZUVWhrdVF0WDdGUHlQQjRmIiwibWltZVR5cGUiOiJpbWFnZS9wbmciLCJzaXplIjoyOTkwMzQyLCJzY2FsZSI6MSwid2lkdGgiOjE4ODIsImhlaWdodCI6MTEyMSwibmFtZSI6ImltYWdlLnBuZyIsImNyb3AiOlswLDAsMCwwXSwicm90YXRpb24iOjB9fQ==" data-suite="eyJmaWxlVG9rZW4iOiJib3hjbnNLNm5JZlRVaGt1UXRYN0ZQeVBCNGYiLCJvYmpUeXBlIjoiZG9jeCIsIm9ialRva2VuIjoiZG94Y25mNVl0Vmx1WjdzYjlUWUt1R00zM3hmIiwib3JpZ2luU3JjIjoiaHR0cHM6Ly9pbnRlcm5hbC1hcGktZHJpdmUtc3RyZWFtLmZlaXNodS5jbi9zcGFjZS9hcGkvYm94L3N0cmVhbS9kb3dubG9hZC9wcmV2aWV3L2JveGNuc0s2bklmVFVoa3VRdFg3RlB5UEI0Zi8/cHJldmlld190eXBlPTE2In0=" data-src="https://internal-api-drive-stream.feishu.cn/space/api/box/stream/download/all/boxcnsK6nIfTUhkuQtX7FPyPB4f/?mount_node_token=doxcnf5YtVluZ7sb9TYKuGM33xf&amp;mount_point=docx_image" data-width="1882" data-height="1121"></div>
+<h2 class="heading-2 ace-line old-record-id-doxcnJVEjXNgplSDv78fS8BBHLf">安装</h2>
+<div class="ace-line ace-line old-record-id-doxcnYI8irpza7073xHbq1pIgUg">下载<a href="https://github.com/eliemichel/MapsModelsImporter/releases">版本</a>或将 .在Blender 2.83中，转到，，然后浏览到zip文件。<code>blender/MapsModelsImporter/Edit &gt; PreferencesAdd-onInstall</code></div>
+<div class="ace-line ace-line old-record-id-doxcnFzT3W17qQYTgtZttnCg4Re">不要使用 GitHub 的“下载为 zip”按钮，请确保改用发布 zip。</div>
+<div class="ace-line ace-line old-record-id-doxcnUuq6aZSEtd8xYAr7CdYe2f">安装 <a href="https://renderdoc.org/builds">RenderDoc</a>，最新版本</div>
+<div class="ace-line ace-line old-record-id-doxcnypikFQ4zNtx0b6u9RG3pyg"> </div>
+<h2 class="heading-2 ace-line old-record-id-doxcnezC9HNKNb0RFDqKfh17lTh">用法</h2>
+<div class="ace-line ace-line old-record-id-doxcnAWTDRJ5q4gpkBfYUeekyCh">您可以按照演练视频中的说明进行操作：<a href="https://youtu.be/X6Q7dbtXVZQ">https://youtu.be/X6Q7dbtXVZQ</a> 或者，请查看以下步骤：</div>
+<ol class="list-number1" start="1">
+<li class="ace-line ace-line old-record-id-doxcnsY3uuyBEkEYXzxZjrYi8kh" data-list="number">
+<div>启动 RenderDoc，然后<code>File &gt; Inject into process</code>;</div>
+</li>
+<li class="ace-line ace-line old-record-id-doxcnFkhwRoV750lLHVf8KMBmdc" data-list="number">
+<div>启动终端（Win+R，“cmd”）并运行（使第二行适应Chrome安装的位置）：</div>
+</li>
+</ol>
+<pre class="ace-line ace-line old-record-id-doxcnrUssM9R3pO5I5fVsd2UCbh"><code class="language-Plaintext" data-wrap="true"></code></pre>
+<div>set RENDERDOC_HOOK_EGL=0 "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-gpu-sandbox --gpu-startup-dialog</div>
+<pre class="ace-line ace-line old-record-id-doxcnrUssM9R3pO5I5fVsd2UCbh"><code class="language-Plaintext" data-wrap="true"></code></pre>
+<ol class="list-number1" start="1">
+<li class="ace-line ace-line old-record-id-doxcnup7gnZ9wcUWJ0CTwE6QKGf" data-list="number">
+<div>不要按 Ok 在对话框中;</div>
+</li>
+<li class="ace-line ace-line old-record-id-doxcnKUWZMgaWyKh9HGXcfsdc2f" data-list="number">
+<div>在 RenderDoc 中，搜索 chrome 的 GPU 进程并注入其中（您可以使用搜索字段）;</div>
+</li>
+<li class="ace-line ace-line old-record-id-doxcnkJwfCqoaUyeyCjkamcLlFe" data-list="number">
+<div>按 OK 在镶边对话框中;</div>
+</li>
+<li class="ace-line ace-line old-record-id-doxcnXSQRyxjx4sR5Qf1SuLVHpb" data-list="number">
+<div>在卫星视图中转到谷歌地图（不是谷歌地球！），并在视口中移动时使用进行捕获;<code>Print Screen</code></div>
+</li>
+<li class="ace-line ace-line old-record-id-doxcnxvxzCRvPuUB3z3YEOvnbpc" data-list="number">
+<div>在 RenderDoc 中，将捕获内容另存为 rdc 文件</div>
+</li>
+<li class="ace-line ace-line old-record-id-doxcnVmPWrF5xxktYoWDO7Kpqdc" data-list="number">
+<div>在Blender中，转到选择您的捕获文件。<code>File &gt; Import &gt; Google Maps Capture</code></div>
+</li>
+</ol>
+<div class="ace-line ace-line old-record-id-doxcnawb6rZLIrePjPRJMsm0QLp">对于步骤 2。您可以创建指向Chrome的链接，而不是使用cmd，并将其作为目标（再次，使路径适应您的安装）：<code>chrome.exe</code></div>
+<pre class="ace-line ace-line old-record-id-doxcnHozXB1uyQoHMMBLKhmjPwB"><code class="language-Plaintext" data-wrap="true"></code></pre>
+<div>C:\Windows\System32\cmd.exe /c "SET RENDERDOC_HOOK_EGL=0 &amp;&amp; START "" ^"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe^" --disable-gpu-sandbox --gpu-startup-dialog"</div>
+<pre class="ace-line ace-line old-record-id-doxcnHozXB1uyQoHMMBLKhmjPwB"><code class="language-Plaintext" data-wrap="true"></code></pre>
+<h2 class="heading-2 ace-line old-record-id-doxcnYy2P6vRh7OLkTzrFdkkalc">故障</h2>
+<div class="ace-line ace-line old-record-id-doxcn1B5KnwXYVcxcHBJHAP1s9b">有用的信息可以在视频的评论中找到，也可以<a href="https://blenderartists.org/t/google-maps-models-importer/1153561">在搅拌机艺术家的支持线程中找到</a>。</div>
+<div class="heading-3 ace-line old-record-id-doxcnJE7yvdjD42bwwBqi5Uoc5d"> </div>
+<div class="ace-line ace-line old-record-id-doxcnURhgnui6rzc25AZlAXAbzr"><strong>检查软件版本</strong></div>
+<div class="ace-line ace-line old-record-id-doxcnvMYyx7cdY3ZvIluocnylGg">最重要的是，使用此加载项的最新版本。在每个版本的发行说明中，都指定了RetretDoc和Blender的推荐/必需版本。截至目前，请使用ReenderDoc v1.13（不是其他东西）和Blender的最后一个版本。</div>
+<div class="heading-3 ace-line old-record-id-doxcnAqneY8BMHeIQXNvOY9ESVc"> </div>
+<div class="ace-line ace-line old-record-id-doxcnc3zMJruIOLwcMT3ZObONfe"><strong>捕获文件示例</strong></div>
+<div class="ace-line ace-line old-record-id-doxcnG2szUmW6ad5F9oMRYSfAuh">要检查您的安装，您可以尝试从 <a href="https://github.com/eliemichel/MapsModelsImporter-samples">MapsModels导入</a>示例捕获导入示例。</div>
+<div class="heading-3 ace-line old-record-id-doxcn4QcPKCSMqlQbaLeLXl7nBf"> </div>
+<div class="ace-line ace-line old-record-id-doxcnM9Mm5FR54IL9be93VD2tL2"><strong>缺少块</strong></div>
+<div class="ace-line ace-line old-record-id-doxcnt0sGykzPjOIieMASdrso7d">该附加组件可以限制导入块的数量，以防止Blender冻结太长时间。如果未设置为 -1 或 0（表示无限制），则导入的场景中将缺少块，但速度会更快（通常适用于测试管道）。</div>
+<div class="heading-3 ace-line old-record-id-doxcnr0ItoEiBiXaFA8cgVlt8wf"> </div>
+<div class="ace-line ace-line old-record-id-doxcn8YOBj2exMLaTBCAW1Ael3g"><strong>搅拌机不想安装附加组件</strong></div>
+<div class="ace-line ace-line old-record-id-doxcnr92Lsm9RqIQ5mogUUNHCsf">请勿使用 GitHub 的绿色“克隆或下载”按钮。我知道这很诱人，但我无法隐藏它，这是GitHub的一个功能。要获得正确的压缩，请转到<a href="https://github.com/eliemichel/MapsModelsImporter/releases/latest">发布页面</a>。</div>
+<div class="heading-3 ace-line old-record-id-doxcnTCHfRxUs1VKRkxACyaULme"> </div>
+<div class="ace-line ace-line old-record-id-doxcnX51eXYQp5cTGnPED56tXwc"><strong>谷歌地图中没有3D选项</strong></div>
+<div class="ace-line ace-line old-record-id-doxcnPJzrZizaotMNqqh5Uli5mb">尝试在谷歌地图网址的末尾附加。另外，请检查您是否启用了 Globe 模式（进入卫星模式后，右侧会显示一个额外的按钮）。<code>?force=webgl</code></div>
+<div class="ace-line ace-line old-record-id-doxcnEk7NROwi1H8jKT9N2Oz7vf">如果这还不够，您可以尝试将您所在的地区更改为美国，因为当您在其他地区进行本地化时，Google可能会出于某些（政治？）原因选择关闭3D。请参阅<a href="https://blenderartists.org/t/google-maps-models-importer/1153561/176">此帖子</a>。</div>
+<div class="heading-3 ace-line old-record-id-doxcn8rt92EvssB9MNekdt6q9lb"> </div>
+<div class="ace-line ace-line old-record-id-doxcnMKjOzJBINfX6nR5OUspXRh"><strong>API： OpenGL （Not Presenting）</strong></div>
+<div class="ace-line ace-line old-record-id-doxcnkJiUGHXntOWU53G53tA9Mh">这是 v0.2.0 之前的此加载项版本的常见问题。更新到此加载项的最新版本，然后确保从chrome快捷方式中删除该选项。你应该得到.<code>--use-angle=glAPI: D3D11</code></div>
+<div class="heading-3 ace-line old-record-id-doxcnhXb6sLZdxI0n8IObEkRTne"> </div>
+<div class="ace-line ace-line old-record-id-doxcnKH7mBILtmRqtNQCuqOilNc"><strong>接口：无</strong></div>
+<ul class="list-bullet1">
+<li class="ace-line ace-line old-record-id-doxcn1CYcVLemWVbzjGAfvu1jab" data-list="bullet">
+<div>在启动自定义快捷方式之前，请确保 Chrome 已完全停止</div>
+</li>
+<li class="ace-line ace-line old-record-id-doxcnrdax4rKpF2Mq8s1yls7kk5" data-list="bullet">
+<div>确保您在 Chrome 设置的高级部分中启用了硬件加速。</div>
+</li>
+</ul>
+<div class="heading-3 ace-line old-record-id-doxcnMHxP1YnnE8yfASXcMraVBg"> </div>
+<div class="ace-line ace-line old-record-id-doxcnqr9japTeMwc91FY7y5fBAh"><strong>Chrome 显示有关不受支持的功能的警告</strong></div>
+<div class="ace-line ace-line old-record-id-doxcnoP3QIeq8SF5tskObSFWq3e">如果chrome说“不支持的命令行，安全性会受到影响”，请不要介意。这是由于标志，但它只是一个警告，它不应该是我们正在做的事情的问题。<code>--disable-gpu-sandbox</code></div>
+<div class="heading-3 ace-line old-record-id-doxcndyKMZJ6rHF6GXoF1RMDXib"> </div>
+<div class="ace-line ace-line old-record-id-doxcnPqb4QLgDOwRTX2HnSQDipg"><strong>镀铬窗口全是纯黑色</strong></div>
+<div class="ace-line ace-line old-record-id-doxcninKVD2wfVl9oPg9RbTgHlf">尝试使用 F11 设置和取消设置全屏模式。</div>
+<div class="heading-3 ace-line old-record-id-doxcn1zFyeSEnlRcwKcyLuzKxif"> </div>
+<div class="ace-line ace-line old-record-id-doxcnO3JlGbRuFFJcffDoyhdFXQ"><strong>没有 GPU 弹出窗口</strong></div>
+<div class="ace-line ace-line old-record-id-doxcnOkbwhGT8E4yrqpnSZ0MLig">请确保使用正确的自定义快捷方式来启动镶边，并在开始之前关闭任何进程镶边进程。</div>
+<div class="heading-3 ace-line old-record-id-doxcnTHpzgCaZXuJ0VeQN8LEgte"> </div>
+<div class="ace-line ace-line old-record-id-doxcnPyVD8GtdWaoxhogGyrRJEd"><strong>PrintScr实际上并没有捕获</strong></div>
+<div class="ace-line ace-line old-record-id-doxcnyNrYJKMVSKZ0VnOB10hrZg">这种情况有时会发生，在这种情况下，您可以使用 RenderDoc 中的“延迟后捕获”按钮来触发捕获。不要忘记确保在捕获发生时在3D视口中移动。</div>
+<div class="heading-3 ace-line old-record-id-doxcn5oyjlsWT42ERM66MoiFueg"> </div>
+<div class="ace-line ace-line old-record-id-doxcn2DziapPfI9CTEG1nTECc0b"><strong>如何提高细节水平？</strong></div>
+<div class="ace-line ace-line old-record-id-doxcnPvM9HBLbnx2QAVxse8vVmh">如果您想要更高质量的捕获，您应该知道Google地图会加载与网络浏览器的窗口大小相关的LoDs（细节级别）。有几种方法可以增加它：</div>
+<ul class="list-bullet1">
+<li class="ace-line ace-line old-record-id-doxcnw2Du9xApl3ZCOJ4qOINzNc" data-list="bullet">
+<div>您可以提高屏幕分辨率。另请注意，nvidia现在允许将屏幕的渲染分辨率提高到4k，即使使用简单的全高清屏幕也是如此。</div>
+</li>
+<li class="ace-line ace-line old-record-id-doxcnEBUDPTsI602JGm420sl9jb" data-list="bullet">
+<div>您还可以在谷歌浏览器中使用渲染大小百分比。大多数浏览器都提供了放大或缩小网页的选项（通常使用Ctrl + 鼠标滚轮）以使其适应您的屏幕分辨率。通过在谷歌浏览器中将缩放比例设置为25%，您可以提高谷歌地图加载的细节级别。</div>
+</li>
+<li class="ace-line ace-line old-record-id-doxcnBeQG66NBSVck7d0tt8ugn4" data-list="bullet">
+<div>拍摄多个捕获并将它们合并在一起（请参阅下一个问题）</div>
+</li>
+</ul>
+<div class="ace-line ace-line old-record-id-doxcneu4BoXNaxQERjoUnbnj75b">但是，在这样做的同时，您也大大增加了块的数量。请注意，默认情况下，MapsModelsImporter 附加组件限制为 200 个块，以防止冻结时间过长。您可以在导入时更改此数字。</div>
+<div class="heading-3 ace-line old-record-id-doxcnHisWey6kn0NQFdyUfaoRyc"> </div>
+<div class="ace-line ace-line old-record-id-doxcnEAga5M7w5BtxhwgWewODNh"><strong>如何将多个捕获拼接在一起？</strong></div>
+<div class="ace-line ace-line old-record-id-doxcn7xvruo02CoeVTPlC3EGQdl">您可以使用<a href="https://gumroad.com/l/KSvXuu">LilyCaptureMerger</a>插件，这里有一个快速演示：<a href="https://www.youtube.com/watch?v=BcGM76dwF_s">https://www.youtube.com/watch?v=BcGM76dwF_s</a></div>
+<div class="heading-3 ace-line old-record-id-doxcnvmEHRVP3PZ2roxT2LXxPcb"> </div>
+<div class="ace-line ace-line old-record-id-doxcnowvuzofyAVfATxbazcvyNg"><strong>纹理太多了，出口是不切实际的！</strong></div>
+<div class="ace-line ace-line old-record-id-doxcntyhrdeSUTqMkU7j3at9Zne">您可以查看我专门为此制作的<a href="https://gumroad.com/l/DFExj">LilyTexturePacker</a>附加组件。请注意，只有在使用LilyCaptureMerger之后才使用它，因为后者依赖于单个块纹理来执行匹配。</div>
+<div class="heading-3 ace-line old-record-id-doxcnsHqYBdzQ6zh68fsrp9ctGg"> </div>
+<div class="ace-line ace-line old-record-id-doxcnekmcIQdG3rqk76iAZuXG9f"><strong>如何清理导入的几何图形</strong></div>
+<div class="ace-line ace-line old-record-id-doxcntMg90gmaG1wGTZnFwPRNHd">即使它不会创造奇迹，以下可以提供帮助：</div>
+<ul class="list-bullet1">
+<li class="ace-line ace-line old-record-id-doxcnsV4ScoyHT2ylGTwtO5eLje" data-list="bullet">
+<div>要将所有块联接到单个网格中：A（全选），Ctrl+J</div>
+</li>
+<li class="ace-line ace-line old-record-id-doxcnE590uKrygDWYveavVup6te" data-list="bullet">
+<div>焊接顶点：切换到“编辑”模式（选项卡），M &gt;按距离。</div>
+</li>
+<li class="ace-line ace-line old-record-id-doxcnTogfEtSbGWSRUr5AZ8i0Hb" data-list="bullet">
+<div>要将比例设置为 1 而不更改几何图形的大小：Ctrl+A &gt;缩放</div>
+</li>
+</ul>
+<div class="heading-3 ace-line old-record-id-doxcnNGntbW0GiMkHP7EdLaDhBd"> </div>
+<div class="ace-line ace-line old-record-id-doxcn6NQCFWkZS35lYxcxGMToPh"><strong>这太长了，如何自动化这个过程？</strong></div>
+<div class="ace-line ace-line old-record-id-doxcnaLlBFnZ3KoVJtHHkt1Mp4c">虽然我不知道如何自动执行捕获本身，但您可以轻松地自动执行导入部分，请参阅<a href="https://github.com/eliemichel/MapsModelsImporter/issues/39">此问题</a>以获取自动化脚本的示例，或者<a href="https://github.com/eliemichel/MapsModelsImporter/issues/128">查看此问题</a>以从目录中导入所有rdc文件。</div>
+<div class="heading-3 ace-line old-record-id-doxcnvI1GKEJJF8vK01xvxQilif"> </div>
+<div class="ace-line ace-line old-record-id-doxcnTJMi7AceOtUiT3DsHbtiIZ"><strong>导入失败，出现一些“UnicodeEncodeError”</strong></div>
+<div class="ace-line ace-line old-record-id-doxcnGcxCf0oHN6Pfmc1Qv1DO5d">从文件名和包含特殊字符的目录中删除任何特殊字符。</div>
+<div class="heading-2 ace-line old-record-id-doxcnuuP0HS2ttl51KLNspqxORT"> </div>
+<div class="ace-line ace-line old-record-id-doxcnMJHbnzvmdywomIxJMn9eHc"><strong>需要帮助</strong></div>
+<div class="ace-line ace-line old-record-id-doxcnFW59Ia3MeVCNwLz2emd9oc">此存储库不提供 Linux 和 OSX 所需的 RenderDoc 二进制文件。如果你有这样一个系统，就针对Python 3.9构建ReenderDoc（次要版本很重要）与Blender的Python发行版版本兼容。请参阅<u><a href="https://github.com/eliemichel/MapsModelsImporter/blob/master/doc/Building%20RenderDoc%20module.md">文档/构建 RenderDoc module.md</a></u>。</div>
+<div class="heading-2 ace-line old-record-id-doxcnQVrHWT7AkK4DIdsiThJBlh"> </div>
+<div class="ace-line ace-line old-record-id-doxcnX9hvPyiwqAdfIykTWTkh7d"><strong>其他链接</strong></div>
+<div class="ace-line ace-line old-record-id-doxcnZh8RIckkeX8gXAi21BdnHe">要在Blender中导入地图数据，这个开源插件非常方便：<a href="https://github.com/domlysz/BlenderGIS">domlysz/BlenderGIS</a></div>
+<div class="ace-line ace-line old-record-id-doxcn67U12B8VWGPHoMe9YtsFEb">这是对谷歌数据进行逆向工程的另一次尝试：<a href="https://github.com/retroplasma/earth-reverse-engineering">retroplasma/earth-reverse-engineering。</a></div>
+<div class="ace-line ace-line old-record-id-doxcnrs2H7FdIIvHYJb5SJ63rMh"> </div>
+<div class="ace-line ace-line old-record-id-doxcnVhqvO3nxmjmVRySqtd3qec"> </div>
+<h1 class="heading-1 ace-line old-record-id-doxcno0HhZIpBMpbDNtVqc21vqd">二、CityEngine（城市引擎）</h1>
+<blockquote class=" old-record-id-doxcnwltrXZmCEquo6FapRyhG9g" data-type="quote_container">
+<div class="ace-line ace-line old-record-id-doxcn649zD34pxGBoYa2nwuq4ng">使用osm数据进行基础的制作，再使用cga规则包进行建模</div>
+<div class="ace-line ace-line old-record-id-doxcngvnYLAd7aOGE6NFPV7bkrh">优点：速度快、重量轻、批量生产</div>
+<div class="ace-line ace-line old-record-id-doxcnnss3w086Lo1vZV6BtP1QFf">缺点：精度较低、灵活度较低、编辑性差</div>
+</blockquote>
+<div class="ace-line ace-line old-record-id-doxcntW2k2WKGZrx8enPyIUe7Ae"> </div>
+<h1 class="heading-1 ace-line old-record-id-doxcnXRBjmVOedU4QhSzjxYMqGh">三、ObliquePhotography（倾斜摄影）</h1>
+<blockquote class=" old-record-id-doxcnVEE79rTFlfCL91RG6XtnAg" data-type="quote_container">
+<div class="ace-line ace-line old-record-id-doxcneuDyGkLpiuUivhUiAbze9b">使用无人机进行倾斜垂直测绘，根据采集的数据进行照片建模</div>
+<div class="ace-line ace-line old-record-id-doxcnx4NHJXC3WfRb2ZFURKQfke">优点：仿真度高、速度快、效果较好</div>
+<div class="ace-line ace-line old-record-id-doxcnryXpOKY5KxiIoDKHMteiHc">缺点：数据采集较难、容错率低、无法二次编辑、bug较多</div>
+</blockquote>
+<div class="ace-line ace-line old-record-id-doxcnjxNV3kkpOvDe9uGjeI3PPf"> </div>
+<div class="ace-line ace-line old-record-id-doxcnMspMFnB0uJGQ24Mmhjjxeg"><strong>预览图</strong></div>
+<div class="image-uploaded gallery old-record-id-doxcnAGvhUh1EZVuL1AV4PJOA6e" data-type="image" data-ace-gallery-json="{&quot;items&quot;:[{&quot;uuid&quot;:&quot;6c0f02bd-6dcb-43e8-81a4-9e7241e6b41b&quot;,&quot;height&quot;:1030,&quot;width&quot;:3048,&quot;currHeight&quot;:1030,&quot;currWidth&quot;:3048,&quot;natrualHeight&quot;:1030,&quot;natrualWidth&quot;:3048,&quot;pluginName&quot;:&quot;imageUpload&quot;,&quot;scale&quot;:1,&quot;src&quot;:&quot;https%3A%2F%2Finternal-api-drive-stream.feishu.cn%2Fspace%2Fapi%2Fbox%2Fstream%2Fdownload%2Fpreview%2FboxcnwnjBVrBLQbgt3fD4j0eMdd%2F%3Fpreview_type%3D16&quot;,&quot;file_token&quot;:&quot;boxcnwnjBVrBLQbgt3fD4j0eMdd&quot;,&quot;image_type&quot;:&quot;image/png&quot;,&quot;size&quot;:2092789,&quot;comments&quot;:[]}]}"><img loading="lazy" src="https://qnzb4xapyg.feishu.cn/space/api/box/stream/download/asynccode/?code=ZDBlZjJhOGQzMzU1NWQ1NDYyMjJjMThhZWEyZWQyMzNfY2ltSGtVMDJYem1Pa2JINGhzbDZpckVhc3U3YnBVbFNfVG9rZW46Ym94Y253bmpCVnJCTFFiZ3QzZkQ0ajBlTWRkXzE2NzkzOTEzMTg6MTY3OTM5NDkxOF9WNA" data-single-block="true" data-snapshot="eyJ0eXBlIjoiaW1hZ2UiLCJwYXJlbnRfaWQiOiJObUJOZEFSZFRvUkozd3hOVEdiY3NRY2NuZUMiLCJjb21tZW50cyI6W10sImxvY2tlZCI6ZmFsc2UsImhpZGRlbiI6ZmFsc2UsImF1dGhvciI6IjcwODM0MjgyMjY4OTg0MTE1NDgiLCJhbGlnbiI6ImNlbnRlciIsImltYWdlIjp7InRva2VuIjoiYm94Y253bmpCVnJCTFFiZ3QzZkQ0ajBlTWRkIiwibWltZVR5cGUiOiJpbWFnZS9wbmciLCJzaXplIjoyMDkyNzg5LCJzY2FsZSI6MSwid2lkdGgiOjMwNDgsImhlaWdodCI6MTAzMCwibmFtZSI6ImltYWdlLnBuZyIsImNyb3AiOlswLDAsMCwwXSwicm90YXRpb24iOjB9fQ==" data-suite="eyJmaWxlVG9rZW4iOiJib3hjbnduakJWckJMUWJndDNmRDRqMGVNZGQiLCJvYmpUeXBlIjoiZG9jeCIsIm9ialRva2VuIjoiZG94Y25BR3ZoVWgxRVpWdUwxQVY0UEpPQTZlIiwib3JpZ2luU3JjIjoiaHR0cHM6Ly9pbnRlcm5hbC1hcGktZHJpdmUtc3RyZWFtLmZlaXNodS5jbi9zcGFjZS9hcGkvYm94L3N0cmVhbS9kb3dubG9hZC9wcmV2aWV3L2JveGNud25qQlZyQkxRYmd0M2ZENGowZU1kZC8/cHJldmlld190eXBlPTE2In0=" data-src="https://internal-api-drive-stream.feishu.cn/space/api/box/stream/download/all/boxcnwnjBVrBLQbgt3fD4j0eMdd/?mount_node_token=doxcnAGvhUh1EZVuL1AV4PJOA6e&amp;mount_point=docx_image" data-width="3048" data-height="1030"></div>
+<div class="image-uploaded gallery" data-ace-gallery-json="{&quot;items&quot;:[{&quot;uuid&quot;:&quot;8d80e9a0-12ff-489c-bdd5-eb1484232875&quot;,&quot;height&quot;:204.59375,&quot;width&quot;:398,&quot;currHeight&quot;:204.59375,&quot;currWidth&quot;:398,&quot;natrualHeight&quot;:1317,&quot;natrualWidth&quot;:2560,&quot;pluginName&quot;:&quot;imageUpload&quot;,&quot;scale&quot;:0.28515624999999994,&quot;src&quot;:&quot;https%3A%2F%2Finternal-api-drive-stream.feishu.cn%2Fspace%2Fapi%2Fbox%2Fstream%2Fdownload%2Fpreview%2Fboxcnp3pr0Giw4i1ig3PxiYxz8g%2F%3Fpreview_type%3D16&quot;,&quot;file_token&quot;:&quot;boxcnp3pr0Giw4i1ig3PxiYxz8g&quot;,&quot;image_type&quot;:&quot;image/png&quot;,&quot;size&quot;:2095856,&quot;comments&quot;:[]},{&quot;uuid&quot;:&quot;79955501-1e15-4e24-bc40-4fae15b7308d&quot;,&quot;height&quot;:204.59375,&quot;width&quot;:398,&quot;currHeight&quot;:204.59375,&quot;currWidth&quot;:398,&quot;natrualHeight&quot;:1317,&quot;natrualWidth&quot;:2560,&quot;pluginName&quot;:&quot;imageUpload&quot;,&quot;scale&quot;:0.28515624999999994,&quot;src&quot;:&quot;https%3A%2F%2Finternal-api-drive-stream.feishu.cn%2Fspace%2Fapi%2Fbox%2Fstream%2Fdownload%2Fpreview%2FboxcnQU1uh3SdNI7b8k3iQbWcFe%2F%3Fpreview_type%3D16&quot;,&quot;file_token&quot;:&quot;boxcnQU1uh3SdNI7b8k3iQbWcFe&quot;,&quot;image_type&quot;:&quot;image/png&quot;,&quot;size&quot;:2091181,&quot;comments&quot;:[]}]}"><figure class=" old-record-id-doxcneCBS0xdIZd76fbFRDTAoOe"><img  src="https://qnzb4xapyg.feishu.cn/space/api/box/stream/download/asynccode/?code=NDQzZmE3OTQyNTVjZTE1YzhjN2IxN2I5NWRmNjYyNzBfYmtiQm92WThrOTBNVzVER296NHJveTBla0FhU1lVYmZfVG9rZW46Ym94Y25wM3ByMEdpdzRpMWlnM1B4aVl4ejhnXzE2NzkzOTEzMTg6MTY3OTM5NDkxOF9WNA" data-single-block="true" data-snapshot="eyJ0eXBlIjoiaW1hZ2UiLCJwYXJlbnRfaWQiOiJkb3hjbnVOOFBUNE1oR25lSEhOU0V6eDNBZmUiLCJjb21tZW50cyI6W10sImxvY2tlZCI6ZmFsc2UsImhpZGRlbiI6ZmFsc2UsImF1dGhvciI6IjcwODM0MjgyMjY4OTg0MTE1NDgiLCJhbGlnbiI6ImNlbnRlciIsImltYWdlIjp7InRva2VuIjoiYm94Y25wM3ByMEdpdzRpMWlnM1B4aVl4ejhnIiwibWltZVR5cGUiOiJpbWFnZS9wbmciLCJzaXplIjoyMDk1ODU2LCJzY2FsZSI6MC4yODUxNTYyNSwid2lkdGgiOjI1NjAsImhlaWdodCI6MTMxNywibmFtZSI6ImltYWdlLnBuZyIsImNyb3AiOlswLDAsMCwwXSwicm90YXRpb24iOjB9fQ==" data-suite="eyJmaWxlVG9rZW4iOiJib3hjbnAzcHIwR2l3NGkxaWczUHhpWXh6OGciLCJvYmpUeXBlIjoiZG9jeCIsIm9ialRva2VuIjoiZG94Y25lQ0JTMHhkSVpkNzZmYkZSRFRBb09lIiwib3JpZ2luU3JjIjoiaHR0cHM6Ly9pbnRlcm5hbC1hcGktZHJpdmUtc3RyZWFtLmZlaXNodS5jbi9zcGFjZS9hcGkvYm94L3N0cmVhbS9kb3dubG9hZC9wcmV2aWV3L2JveGNucDNwcjBHaXc0aTFpZzNQeGlZeHo4Zy8/cHJldmlld190eXBlPTE2In0=" data-src="https://internal-api-drive-stream.feishu.cn/space/api/box/stream/download/all/boxcnp3pr0Giw4i1ig3PxiYxz8g/?mount_node_token=doxcneCBS0xdIZd76fbFRDTAoOe&amp;mount_point=docx_image" data-width="2560" data-height="1317"></figure><figure class=" old-record-id-doxcnOVVmxlMJdojC7V1vOjzang"><img loading="lazy"  src="https://qnzb4xapyg.feishu.cn/space/api/box/stream/download/asynccode/?code=ZjJhNjVjN2FmOTAwNjI3YWYyZDkwNmEzMjgwZTllMmJfZ2ExUGlkV0Z3WVMwYW1XRHI3NnlHV3E0Q1NyVWlYNmpfVG9rZW46Ym94Y25RVTF1aDNTZE5JN2I4azNpUWJXY0ZlXzE2NzkzOTEzMTg6MTY3OTM5NDkxOF9WNA" data-single-block="true" data-snapshot="eyJ0eXBlIjoiaW1hZ2UiLCJwYXJlbnRfaWQiOiJkb3hjblBUYU1Gc3c4bDZ1R3VPUDg0V2JNeGYiLCJjb21tZW50cyI6W10sImxvY2tlZCI6ZmFsc2UsImhpZGRlbiI6ZmFsc2UsImF1dGhvciI6IjcwODM0MjgyMjY4OTg0MTE1NDgiLCJhbGlnbiI6ImNlbnRlciIsImltYWdlIjp7InRva2VuIjoiYm94Y25RVTF1aDNTZE5JN2I4azNpUWJXY0ZlIiwibWltZVR5cGUiOiJpbWFnZS9wbmciLCJzaXplIjoyMDkxMTgxLCJzY2FsZSI6MC4yODUxNTYyNSwid2lkdGgiOjI1NjAsImhlaWdodCI6MTMxNywibmFtZSI6ImltYWdlLnBuZyIsImNyb3AiOlswLDAsMCwwXSwicm90YXRpb24iOjB9fQ==" data-suite="eyJmaWxlVG9rZW4iOiJib3hjblFVMXVoM1NkTkk3YjhrM2lRYldjRmUiLCJvYmpUeXBlIjoiZG9jeCIsIm9ialRva2VuIjoiZG94Y25PVlZteGxNSmRvakM3VjF2T2p6YW5nIiwib3JpZ2luU3JjIjoiaHR0cHM6Ly9pbnRlcm5hbC1hcGktZHJpdmUtc3RyZWFtLmZlaXNodS5jbi9zcGFjZS9hcGkvYm94L3N0cmVhbS9kb3dubG9hZC9wcmV2aWV3L2JveGNuUVUxdWgzU2ROSTdiOGszaVFiV2NGZS8/cHJldmlld190eXBlPTE2In0=" data-src="https://internal-api-drive-stream.feishu.cn/space/api/box/stream/download/all/boxcnQU1uh3SdNI7b8k3iQbWcFe/?mount_node_token=doxcnOVVmxlMJdojC7V1vOjzang&amp;mount_point=docx_image" data-width="2560" data-height="1317"></figure></div>
+<div class=" old-record-id-doxcnIUiU19EjI7cHy7ybykwBY6" data-type="grid"> </div>
+<div class="image-uploaded gallery" data-ace-gallery-json="{&quot;items&quot;:[{&quot;uuid&quot;:&quot;8945c8c3-1483-4c3d-9d4f-f73b36c44f20&quot;,&quot;height&quot;:204.59375,&quot;width&quot;:398,&quot;currHeight&quot;:204.59375,&quot;currWidth&quot;:398,&quot;natrualHeight&quot;:1317,&quot;natrualWidth&quot;:2560,&quot;pluginName&quot;:&quot;imageUpload&quot;,&quot;scale&quot;:0.28515624999999994,&quot;src&quot;:&quot;https%3A%2F%2Finternal-api-drive-stream.feishu.cn%2Fspace%2Fapi%2Fbox%2Fstream%2Fdownload%2Fpreview%2Fboxcnth0ULUPbSRAW67Ig0dAOQb%2F%3Fpreview_type%3D16&quot;,&quot;file_token&quot;:&quot;boxcnth0ULUPbSRAW67Ig0dAOQb&quot;,&quot;image_type&quot;:&quot;image/png&quot;,&quot;size&quot;:1555895,&quot;comments&quot;:[]},{&quot;uuid&quot;:&quot;5122b990-cb70-4d0a-beb3-5ef84a31c8aa&quot;,&quot;height&quot;:204.59375,&quot;width&quot;:398,&quot;currHeight&quot;:204.59375,&quot;currWidth&quot;:398,&quot;natrualHeight&quot;:1317,&quot;natrualWidth&quot;:2560,&quot;pluginName&quot;:&quot;imageUpload&quot;,&quot;scale&quot;:0.28515624999999994,&quot;src&quot;:&quot;https%3A%2F%2Finternal-api-drive-stream.feishu.cn%2Fspace%2Fapi%2Fbox%2Fstream%2Fdownload%2Fpreview%2Fboxcn67Qm9TF3oh1LpWJmXJExne%2F%3Fpreview_type%3D16&quot;,&quot;file_token&quot;:&quot;boxcn67Qm9TF3oh1LpWJmXJExne&quot;,&quot;image_type&quot;:&quot;image/png&quot;,&quot;size&quot;:1131184,&quot;comments&quot;:[]}]}"><figure class=" old-record-id-doxcnNaletVE7iF0bUoRPWEpBgD"><img  src="https://qnzb4xapyg.feishu.cn/space/api/box/stream/download/asynccode/?code=ZjNhNTkxNTE4NDg4NTg3NzA0N2Y2NjgyNjc0NmQ2MTZfZTBpOWpxN1RzNjYza1NrZ2xMcjBFT244NExEWFpUZ3dfVG9rZW46Ym94Y250aDBVTFVQYlNSQVc2N0lnMGRBT1FiXzE2NzkzOTEzMTg6MTY3OTM5NDkxOF9WNA" data-single-block="true" data-snapshot="eyJ0eXBlIjoiaW1hZ2UiLCJwYXJlbnRfaWQiOiJkb3hjbkF6ZFBxenFkaktaQXluYThZa1lRMDMiLCJjb21tZW50cyI6W10sImxvY2tlZCI6ZmFsc2UsImhpZGRlbiI6ZmFsc2UsImF1dGhvciI6IjcwODM0MjgyMjY4OTg0MTE1NDgiLCJhbGlnbiI6ImNlbnRlciIsImltYWdlIjp7InRva2VuIjoiYm94Y250aDBVTFVQYlNSQVc2N0lnMGRBT1FiIiwibWltZVR5cGUiOiJpbWFnZS9wbmciLCJzaXplIjoxNTU1ODk1LCJzY2FsZSI6MC4yODUxNTYyNSwid2lkdGgiOjI1NjAsImhlaWdodCI6MTMxNywibmFtZSI6ImltYWdlLnBuZyIsImNyb3AiOlswLDAsMCwwXSwicm90YXRpb24iOjB9fQ==" data-suite="eyJmaWxlVG9rZW4iOiJib3hjbnRoMFVMVVBiU1JBVzY3SWcwZEFPUWIiLCJvYmpUeXBlIjoiZG9jeCIsIm9ialRva2VuIjoiZG94Y25OYWxldFZFN2lGMGJVb1JQV0VwQmdEIiwib3JpZ2luU3JjIjoiaHR0cHM6Ly9pbnRlcm5hbC1hcGktZHJpdmUtc3RyZWFtLmZlaXNodS5jbi9zcGFjZS9hcGkvYm94L3N0cmVhbS9kb3dubG9hZC9wcmV2aWV3L2JveGNudGgwVUxVUGJTUkFXNjdJZzBkQU9RYi8/cHJldmlld190eXBlPTE2In0=" data-src="https://internal-api-drive-stream.feishu.cn/space/api/box/stream/download/all/boxcnth0ULUPbSRAW67Ig0dAOQb/?mount_node_token=doxcnNaletVE7iF0bUoRPWEpBgD&amp;mount_point=docx_image" data-width="2560" data-height="1317"></figure><figure class=" old-record-id-doxcnjb1FXtXHKQ68c7rL1WR3Zc"><img loading="lazy"  src="https://qnzb4xapyg.feishu.cn/space/api/box/stream/download/asynccode/?code=MmM3ZjYxZTliNjE1Y2YyNTI5MDg3ZTNjMDNhZGY4OWNfMGVuOWRPSmN0RUxzaVNpc2N6NHNxZFhCNnN4S3JuVklfVG9rZW46Ym94Y242N1FtOVRGM29oMUxwV0ptWEpFeG5lXzE2NzkzOTEzMTg6MTY3OTM5NDkxOF9WNA" data-single-block="true" data-snapshot="eyJ0eXBlIjoiaW1hZ2UiLCJwYXJlbnRfaWQiOiJkb3hjbk1kcDV1a1NPcXlSTDNBYnBVN0xJQ2YiLCJjb21tZW50cyI6W10sImxvY2tlZCI6ZmFsc2UsImhpZGRlbiI6ZmFsc2UsImF1dGhvciI6IjcwODM0MjgyMjY4OTg0MTE1NDgiLCJhbGlnbiI6ImNlbnRlciIsImltYWdlIjp7InRva2VuIjoiYm94Y242N1FtOVRGM29oMUxwV0ptWEpFeG5lIiwibWltZVR5cGUiOiJpbWFnZS9wbmciLCJzaXplIjoxMTMxMTg0LCJzY2FsZSI6MC4yODUxNTYyNSwid2lkdGgiOjI1NjAsImhlaWdodCI6MTMxNywibmFtZSI6ImltYWdlLnBuZyIsImNyb3AiOlswLDAsMCwwXSwicm90YXRpb24iOjB9fQ==" data-suite="eyJmaWxlVG9rZW4iOiJib3hjbjY3UW05VEYzb2gxTHBXSm1YSkV4bmUiLCJvYmpUeXBlIjoiZG9jeCIsIm9ialRva2VuIjoiZG94Y25qYjFGWHRYSEtRNjhjN3JMMVdSM1pjIiwib3JpZ2luU3JjIjoiaHR0cHM6Ly9pbnRlcm5hbC1hcGktZHJpdmUtc3RyZWFtLmZlaXNodS5jbi9zcGFjZS9hcGkvYm94L3N0cmVhbS9kb3dubG9hZC9wcmV2aWV3L2JveGNuNjdRbTlURjNvaDFMcFdKbVhKRXhuZS8/cHJldmlld190eXBlPTE2In0=" data-src="https://internal-api-drive-stream.feishu.cn/space/api/box/stream/download/all/boxcn67Qm9TF3oh1LpWJmXJExne/?mount_node_token=doxcnjb1FXtXHKQ68c7rL1WR3Zc&amp;mount_point=docx_image" data-width="2560" data-height="1317"></figure></div>
+<div class=" old-record-id-doxcnaGaOfYDsIEAIpAkc2LYcRg" data-type="grid"> </div>
+<div class="image-uploaded gallery" data-ace-gallery-json="{&quot;items&quot;:[{&quot;uuid&quot;:&quot;8374a50c-0a63-4c59-b4e9-48e81260fb0e&quot;,&quot;height&quot;:0,&quot;width&quot;:0,&quot;currHeight&quot;:0,&quot;currWidth&quot;:0,&quot;natrualHeight&quot;:1317,&quot;natrualWidth&quot;:2560,&quot;pluginName&quot;:&quot;imageUpload&quot;,&quot;scale&quot;:0.28515624999999994,&quot;src&quot;:&quot;https%3A%2F%2Finternal-api-drive-stream.feishu.cn%2Fspace%2Fapi%2Fbox%2Fstream%2Fdownload%2Fpreview%2Fboxcn7DItTeq2gOKtTetxYAXAPb%2F%3Fpreview_type%3D16&quot;,&quot;file_token&quot;:&quot;boxcn7DItTeq2gOKtTetxYAXAPb&quot;,&quot;image_type&quot;:&quot;image/png&quot;,&quot;size&quot;:1601738,&quot;comments&quot;:[]},{&quot;uuid&quot;:&quot;5a867b51-2bf1-418f-ab97-049fe83bfb14&quot;,&quot;height&quot;:0,&quot;width&quot;:0,&quot;currHeight&quot;:0,&quot;currWidth&quot;:0,&quot;natrualHeight&quot;:1317,&quot;natrualWidth&quot;:2560,&quot;pluginName&quot;:&quot;imageUpload&quot;,&quot;scale&quot;:0.28515624999999994,&quot;src&quot;:&quot;https%3A%2F%2Finternal-api-drive-stream.feishu.cn%2Fspace%2Fapi%2Fbox%2Fstream%2Fdownload%2Fpreview%2Fboxcni05K05K2f17ajyd2UHxnhd%2F%3Fpreview_type%3D16&quot;,&quot;file_token&quot;:&quot;boxcni05K05K2f17ajyd2UHxnhd&quot;,&quot;image_type&quot;:&quot;image/png&quot;,&quot;size&quot;:1926568,&quot;comments&quot;:[]}]}"><figure class=" old-record-id-doxcnMjNlZAMjbR0LrmsmkwgBhc"><img  src="https://qnzb4xapyg.feishu.cn/space/api/box/stream/download/asynccode/?code=Y2FiMjBkZTM0NjYyZjIzZGM1MjdhMWQ4NDdlN2IxMzBfNGN1RWlpamRES1RyY200dk44Y09pZ1NQZkdRMzJNckJfVG9rZW46Ym94Y243REl0VGVxMmdPS3RUZXR4WUFYQVBiXzE2NzkzOTEzMTg6MTY3OTM5NDkxOF9WNA" data-single-block="true" data-snapshot="eyJ0eXBlIjoiaW1hZ2UiLCJwYXJlbnRfaWQiOiJkb3hjbmFpMUloZjlham9DZ2pDWFpFcVZEVmkiLCJjb21tZW50cyI6W10sImxvY2tlZCI6ZmFsc2UsImhpZGRlbiI6ZmFsc2UsImF1dGhvciI6IjcwODM0MjgyMjY4OTg0MTE1NDgiLCJhbGlnbiI6ImNlbnRlciIsImltYWdlIjp7InRva2VuIjoiYm94Y243REl0VGVxMmdPS3RUZXR4WUFYQVBiIiwibWltZVR5cGUiOiJpbWFnZS9wbmciLCJzaXplIjoxNjAxNzM4LCJzY2FsZSI6MC4yODUxNTYyNSwid2lkdGgiOjI1NjAsImhlaWdodCI6MTMxNywibmFtZSI6ImltYWdlLnBuZyIsImNyb3AiOlswLDAsMCwwXSwicm90YXRpb24iOjB9fQ==" data-suite="eyJmaWxlVG9rZW4iOiJib3hjbjdESXRUZXEyZ09LdFRldHhZQVhBUGIiLCJvYmpUeXBlIjoiZG9jeCIsIm9ialRva2VuIjoiZG94Y25Nak5sWkFNamJSMExybXNta3dnQmhjIiwib3JpZ2luU3JjIjoiaHR0cHM6Ly9pbnRlcm5hbC1hcGktZHJpdmUtc3RyZWFtLmZlaXNodS5jbi9zcGFjZS9hcGkvYm94L3N0cmVhbS9kb3dubG9hZC9wcmV2aWV3L2JveGNuN0RJdFRlcTJnT0t0VGV0eFlBWEFQYi8/cHJldmlld190eXBlPTE2In0=" data-src="https://internal-api-drive-stream.feishu.cn/space/api/box/stream/download/all/boxcn7DItTeq2gOKtTetxYAXAPb/?mount_node_token=doxcnMjNlZAMjbR0LrmsmkwgBhc&amp;mount_point=docx_image" data-width="2560" data-height="1317"></figure><figure class=" old-record-id-doxcnCjhDSKQg0feIpNbLl6ur6c"><img loading="lazy"  src="https://qnzb4xapyg.feishu.cn/space/api/box/stream/download/asynccode/?code=NmExNGM2ZDk4MWM3OGRiMzg0NDBiOGYwMmI4MTk5OTlfNHVrb2IxOG5ibzRoVGdjOXdZWXpURXA3ZVNnNDljWGtfVG9rZW46Ym94Y25pMDVLMDVLMmYxN2FqeWQyVUh4bmhkXzE2NzkzOTEzMTg6MTY3OTM5NDkxOF9WNA" data-single-block="true" data-snapshot="eyJ0eXBlIjoiaW1hZ2UiLCJwYXJlbnRfaWQiOiJkb3hjbm5tcHU1WmJBcDRlalYxVDhtRzhmRmQiLCJjb21tZW50cyI6W10sImxvY2tlZCI6ZmFsc2UsImhpZGRlbiI6ZmFsc2UsImF1dGhvciI6IjcwODM0MjgyMjY4OTg0MTE1NDgiLCJhbGlnbiI6ImNlbnRlciIsImltYWdlIjp7InRva2VuIjoiYm94Y25pMDVLMDVLMmYxN2FqeWQyVUh4bmhkIiwibWltZVR5cGUiOiJpbWFnZS9wbmciLCJzaXplIjoxOTI2NTY4LCJzY2FsZSI6MC4yODUxNTYyNSwid2lkdGgiOjI1NjAsImhlaWdodCI6MTMxNywibmFtZSI6ImltYWdlLnBuZyIsImNyb3AiOlswLDAsMCwwXSwicm90YXRpb24iOjB9fQ==" data-suite="eyJmaWxlVG9rZW4iOiJib3hjbmkwNUswNUsyZjE3YWp5ZDJVSHhuaGQiLCJvYmpUeXBlIjoiZG9jeCIsIm9ialRva2VuIjoiZG94Y25DamhEU0tRZzBmZUlwTmJMbDZ1cjZjIiwib3JpZ2luU3JjIjoiaHR0cHM6Ly9pbnRlcm5hbC1hcGktZHJpdmUtc3RyZWFtLmZlaXNodS5jbi9zcGFjZS9hcGkvYm94L3N0cmVhbS9kb3dubG9hZC9wcmV2aWV3L2JveGNuaTA1SzA1SzJmMTdhanlkMlVIeG5oZC8/cHJldmlld190eXBlPTE2In0=" data-src="https://internal-api-drive-stream.feishu.cn/space/api/box/stream/download/all/boxcni05K05K2f17ajyd2UHxnhd/?mount_node_token=doxcnCjhDSKQg0feIpNbLl6ur6c&amp;mount_point=docx_image" data-width="2560" data-height="1317"></figure></div>
+<div class=" old-record-id-doxcnATtS9W0bqCIRDUWongI5Fe" data-type="grid"> </div>
+<div class="j-block-container old-record-id-doxcn7gALCxfcCiyJXr5RRmj0Pd" data-meta-block-props="{&quot;blockType&quot;:&quot;LINK_BLOCK&quot;,&quot;props&quot;:{&quot;data&quot;:{&quot;cover_height&quot;:486,&quot;cover_width&quot;:640,&quot;summary&quot;:&quot;ArcGIS Desktop 10.7软件简介:ArcGIS Desktop 10.7是一款功能强大的GSI专业电子地图信息编辑和开发软件，ArcGIS Desktop包括两种可实现制图和可视化的主要应用程序，即ArcMap和ArcGIS Pro。ArcMap是用于在 ArcGIS Desktop中进行制图、编辑、分析和数据管理的主要应用程序。ArcGIS Desktop 10.7软件下载:[软件&quot;,&quot;title&quot;:&quot;ArcGIS Desktop 10.7软件安装包和安装教程&quot;,&quot;url&quot;:&quot;https://www.bilibili.com/read/cv17965087&quot;,&quot;icon&quot;:&quot;https://s3-imfile.feishucdn.com/static-resource/v1/v2_779f0b22-bcfc-4a1b-b287-339b1dcee70g~?image_size=noop&amp;cut_type=&amp;quality=&amp;format=image&amp;sticker_format=.webp&quot;,&quot;linkProvider&quot;:&quot;smartLink&quot;,&quot;linkType&quot;:&quot;bookmark&quot;,&quot;entityId&quot;:&quot;&quot;},&quot;displayMode&quot;:&quot;block&quot;,&quot;viewType&quot;:&quot;card&quot;},&quot;blockId&quot;:&quot;ef1806a2-668b-4e16-992b-2f563d2cc440&quot;}"><span class="block-paste-placeholder">https://www.bilibili.com/read/cv17965087</span></div>
+<div class="ace-line ace-line old-record-id-doxcnksfUjE1R54M7n7LggOosPh"> </div>
+<h1 class="heading-1 ace-line old-record-id-doxcnaJydVXBqjWdnXrIMEgKkBf">四、Cityscape Pro （城市景观）</h1>
+<blockquote class=" old-record-id-doxcnJRPIMVz6K4lhKKruL09zIe" data-type="quote_container">
+<div class="ace-line ace-line old-record-id-doxcnqkTOPiQFGH4l27bvIFA8Xc">依托于3ds max的插件，能按照规划制作出街道及建筑</div>
+<div class="ace-line ace-line old-record-id-doxcnLE71czdza0hjNs5LB3nMwb">优点：精度较高、灵活度高、效果较好</div>
+<div class="ace-line ace-line old-record-id-doxcnVVaJaYtKVT4GcmisWWP4Zk">缺点：生成较慢、手动制作、编辑性较差</div>
+</blockquote>
+<div class="ace-line ace-line old-record-id-doxcnmwBxLNapMqJeoE0TiEQRah"> </div>
+<div class="ace-line ace-line old-record-id-doxcn6kfluyGfDky5iKQQSYG7mc"><a href="https://www.simpolium.com/">https://www.simpolium.com/</a></div>
+<div class="ace-line ace-line old-record-id-doxcnGreLN0U1cqrhNTov39REwh">Cityscape Pro 是一款适用于3ds Max 2017-2022版本的参数化建模插件，它简化了城市区域的复杂场地、参数化道路、路缘、人行道、草地、湖泊、地形、雪等模型的创建流程。</div>
+<div class="image-uploaded gallery old-record-id-doxcn1VShZSa8JtpGfr1rLmEYYx" data-type="image" data-ace-gallery-json="{&quot;items&quot;:[{&quot;uuid&quot;:&quot;2edc30e3-dfa9-4498-8b35-517664200c1c&quot;,&quot;height&quot;:255,&quot;width&quot;:720,&quot;currHeight&quot;:255,&quot;currWidth&quot;:720,&quot;natrualHeight&quot;:255,&quot;natrualWidth&quot;:720,&quot;pluginName&quot;:&quot;imageUpload&quot;,&quot;scale&quot;:1,&quot;src&quot;:&quot;https%3A%2F%2Finternal-api-drive-stream.feishu.cn%2Fspace%2Fapi%2Fbox%2Fstream%2Fdownload%2Fpreview%2Fboxcn2e6ZaO8Jy6aaoQeCCYt1Ng%2F%3Fpreview_type%3D16&quot;,&quot;file_token&quot;:&quot;boxcn2e6ZaO8Jy6aaoQeCCYt1Ng&quot;,&quot;image_type&quot;:&quot;image/png&quot;,&quot;size&quot;:341587,&quot;comments&quot;:[]}]}"><img loading="lazy" src="https://qnzb4xapyg.feishu.cn/space/api/box/stream/download/asynccode/?code=ODA1OTgyYjJmNjAyMDliMWQ2NmU2NTgyNGIyZjgyMDJfQkRyeDJGMlhCU0U3RFVQcEI1Wk4zbGxXbDJUUlo4UVJfVG9rZW46Ym94Y24yZTZaYU84Snk2YWFvUWVDQ1l0MU5nXzE2NzkzOTEzMTg6MTY3OTM5NDkxOF9WNA" data-single-block="true" data-snapshot="eyJ0eXBlIjoiaW1hZ2UiLCJwYXJlbnRfaWQiOiJObUJOZEFSZFRvUkozd3hOVEdiY3NRY2NuZUMiLCJjb21tZW50cyI6W10sImxvY2tlZCI6ZmFsc2UsImhpZGRlbiI6ZmFsc2UsImF1dGhvciI6IjcwODM0MjgyMjY4OTg0MTE1NDgiLCJhbGlnbiI6IiIsImltYWdlIjp7InRva2VuIjoiYm94Y24yZTZaYU84Snk2YWFvUWVDQ1l0MU5nIiwibWltZVR5cGUiOiJpbWFnZS9wbmciLCJzaXplIjozNDE1ODcsInNjYWxlIjoxLCJ3aWR0aCI6NzIwLCJoZWlnaHQiOjI1NSwibmFtZSI6ImJveGNuTkJiYlBEbXE0TnhlZ0FxRkZQS3I3ZC5wbmciLCJjcm9wIjpbMCwwLDAsMF0sInJvdGF0aW9uIjowfX0=" data-suite="eyJmaWxlVG9rZW4iOiJib3hjbjJlNlphTzhKeTZhYW9RZUNDWXQxTmciLCJvYmpUeXBlIjoiZG9jeCIsIm9ialRva2VuIjoiZG94Y24xVlNoWlNhOEp0cEdmcjFyTG1FWVl4Iiwib3JpZ2luU3JjIjoiaHR0cHM6Ly9pbnRlcm5hbC1hcGktZHJpdmUtc3RyZWFtLmZlaXNodS5jbi9zcGFjZS9hcGkvYm94L3N0cmVhbS9kb3dubG9hZC9wcmV2aWV3L2JveGNuMmU2WmFPOEp5NmFhb1FlQ0NZdDFOZy8/cHJldmlld190eXBlPTE2In0=" data-src="https://internal-api-drive-stream.feishu.cn/space/api/box/stream/download/all/boxcn2e6ZaO8Jy6aaoQeCCYt1Ng/?mount_node_token=doxcn1VShZSa8JtpGfr1rLmEYYx&amp;mount_point=docx_image" data-width="720" data-height="255"></div>
+<div class="image-uploaded gallery old-record-id-doxcnz0G2mtn71QH52cWuEyb9U5" data-type="image" data-ace-gallery-json="{&quot;items&quot;:[{&quot;uuid&quot;:&quot;4a1f1acb-09ef-47fc-9f1e-9d7b59eea7ec&quot;,&quot;height&quot;:480,&quot;width&quot;:720,&quot;currHeight&quot;:480,&quot;currWidth&quot;:720,&quot;natrualHeight&quot;:480,&quot;natrualWidth&quot;:720,&quot;pluginName&quot;:&quot;imageUpload&quot;,&quot;scale&quot;:1,&quot;src&quot;:&quot;https%3A%2F%2Finternal-api-drive-stream.feishu.cn%2Fspace%2Fapi%2Fbox%2Fstream%2Fdownload%2Fpreview%2FboxcnA5KgEUE0onnuj23KsL9Lxb%2F%3Fpreview_type%3D16&quot;,&quot;file_token&quot;:&quot;boxcnA5KgEUE0onnuj23KsL9Lxb&quot;,&quot;image_type&quot;:&quot;image/png&quot;,&quot;size&quot;:515326,&quot;comments&quot;:[]}]}"><img loading="lazy" src="https://qnzb4xapyg.feishu.cn/space/api/box/stream/download/asynccode/?code=ZDcxMTEwYWE1YzFlMTA2YTAyOWI5ZjlkNDEzMmRlZGJfV2VIVGFXck1PbE5NYnJpcmc5SVAxRWUwY0FIT3RSbFRfVG9rZW46Ym94Y25BNUtnRVVFMG9ubnVqMjNLc0w5THhiXzE2NzkzOTEzMTg6MTY3OTM5NDkxOF9WNA" data-single-block="true" data-snapshot="eyJ0eXBlIjoiaW1hZ2UiLCJwYXJlbnRfaWQiOiJObUJOZEFSZFRvUkozd3hOVEdiY3NRY2NuZUMiLCJjb21tZW50cyI6W10sImxvY2tlZCI6ZmFsc2UsImhpZGRlbiI6ZmFsc2UsImF1dGhvciI6IjcwODM0MjgyMjY4OTg0MTE1NDgiLCJhbGlnbiI6IiIsImltYWdlIjp7InRva2VuIjoiYm94Y25BNUtnRVVFMG9ubnVqMjNLc0w5THhiIiwibWltZVR5cGUiOiJpbWFnZS9wbmciLCJzaXplIjo1MTUzMjYsInNjYWxlIjoxLCJ3aWR0aCI6NzIwLCJoZWlnaHQiOjQ4MCwibmFtZSI6ImJveGNua2t6c2hLUDkxakVqZ1RIanNOSHZCaC5wbmciLCJjcm9wIjpbMCwwLDAsMF0sInJvdGF0aW9uIjowfX0=" data-suite="eyJmaWxlVG9rZW4iOiJib3hjbkE1S2dFVUUwb25udWoyM0tzTDlMeGIiLCJvYmpUeXBlIjoiZG9jeCIsIm9ialRva2VuIjoiZG94Y256MEcybXRuNzFRSDUyY1d1RXliOVU1Iiwib3JpZ2luU3JjIjoiaHR0cHM6Ly9pbnRlcm5hbC1hcGktZHJpdmUtc3RyZWFtLmZlaXNodS5jbi9zcGFjZS9hcGkvYm94L3N0cmVhbS9kb3dubG9hZC9wcmV2aWV3L2JveGNuQTVLZ0VVRTBvbm51ajIzS3NMOUx4Yi8/cHJldmlld190eXBlPTE2In0=" data-src="https://internal-api-drive-stream.feishu.cn/space/api/box/stream/download/all/boxcnA5KgEUE0onnuj23KsL9Lxb/?mount_node_token=doxcnz0G2mtn71QH52cWuEyb9U5&amp;mount_point=docx_image" data-width="720" data-height="480"></div>
+<div class="ace-line ace-line old-record-id-doxcnRaAokJjvqPlBK4sBZvm0Ef"> </div>
+<div class="ace-line ace-line old-record-id-doxcnXynGZAOUkcSql6c8wjQ6o7">Cityscape Pro 通过管理大规模模型（以城市规模为基础），并提供基于线条曲线自动生成几何体的非破坏性工作流程，使用样条线作为输入对象，只需单击几次按钮即可自动生成参数化的模型，简化了制作工作流程。</div>
+<div class="ace-line ace-line old-record-id-doxcnEeGJvU5vdr28EXoGkcetke"> </div>
+<div class="image-uploaded gallery old-record-id-doxcnktbZoekcAKsXZ4KL3pAMVh" data-type="image" data-ace-gallery-json="{&quot;items&quot;:[{&quot;uuid&quot;:&quot;183ba7b0-9698-4919-bdf5-2beb0b395ea3&quot;,&quot;height&quot;:450,&quot;width&quot;:800,&quot;currHeight&quot;:450,&quot;currWidth&quot;:800,&quot;natrualHeight&quot;:450,&quot;natrualWidth&quot;:800,&quot;pluginName&quot;:&quot;imageUpload&quot;,&quot;scale&quot;:1,&quot;src&quot;:&quot;https%3A%2F%2Finternal-api-drive-stream.feishu.cn%2Fspace%2Fapi%2Fbox%2Fstream%2Fdownload%2Fpreview%2FboxcnQObANfp7eTQP3YU9TQSKZe%2F%3Fpreview_type%3D16&quot;,&quot;file_token&quot;:&quot;boxcnQObANfp7eTQP3YU9TQSKZe&quot;,&quot;image_type&quot;:&quot;image/gif&quot;,&quot;size&quot;:3693966,&quot;comments&quot;:[]}]}"><img loading="lazy" src="https://qnzb4xapyg.feishu.cn/space/api/box/stream/download/asynccode/?code=OWY5MzAzNjAxY2VjYTZhMmJhNzlhYWU3ZDlkYTRkOWZfaG9iWXFLSzBOQ3FEVHN4UkFGZVd5dTY0OVA4cWo3anpfVG9rZW46Ym94Y25RT2JBTmZwN2VUUVAzWVU5VFFTS1plXzE2NzkzOTEzMTg6MTY3OTM5NDkxOF9WNA" data-single-block="true" data-snapshot="eyJ0eXBlIjoiaW1hZ2UiLCJwYXJlbnRfaWQiOiJObUJOZEFSZFRvUkozd3hOVEdiY3NRY2NuZUMiLCJjb21tZW50cyI6W10sImxvY2tlZCI6ZmFsc2UsImhpZGRlbiI6ZmFsc2UsImF1dGhvciI6IjcwODM0MjgyMjY4OTg0MTE1NDgiLCJhbGlnbiI6IiIsImltYWdlIjp7InRva2VuIjoiYm94Y25RT2JBTmZwN2VUUVAzWVU5VFFTS1plIiwibWltZVR5cGUiOiJpbWFnZS9naWYiLCJzaXplIjozNjkzOTY2LCJzY2FsZSI6MSwid2lkdGgiOjgwMCwiaGVpZ2h0Ijo0NTAsIm5hbWUiOiJib3hjbnFZeDR0TTcxdVZ3ekd0UEw1d2ZJeWcuZ2lmIiwiY3JvcCI6WzAsMCwwLDBdLCJyb3RhdGlvbiI6MH19" data-suite="eyJmaWxlVG9rZW4iOiJib3hjblFPYkFOZnA3ZVRRUDNZVTlUUVNLWmUiLCJvYmpUeXBlIjoiZG9jeCIsIm9ialRva2VuIjoiZG94Y25rdGJab2VrY0FLc1haNEtMM3BBTVZoIiwib3JpZ2luU3JjIjoiaHR0cHM6Ly9pbnRlcm5hbC1hcGktZHJpdmUtc3RyZWFtLmZlaXNodS5jbi9zcGFjZS9hcGkvYm94L3N0cmVhbS9kb3dubG9hZC9wcmV2aWV3L2JveGNuUU9iQU5mcDdlVFFQM1lVOVRRU0taZS8/cHJldmlld190eXBlPTE2In0=" data-src="https://internal-api-drive-stream.feishu.cn/space/api/box/stream/download/all/boxcnQObANfp7eTQP3YU9TQSKZe/?mount_node_token=doxcnktbZoekcAKsXZ4KL3pAMVh&amp;mount_point=docx_image" data-width="800" data-height="450"></div>
+<div class="image-uploaded gallery old-record-id-doxcn7vcTEIeitdL1rM1UXHP4df" data-type="image" data-ace-gallery-json="{&quot;items&quot;:[{&quot;uuid&quot;:&quot;17facf9c-9aae-43d7-826d-61c6f860c1ea&quot;,&quot;height&quot;:393,&quot;width&quot;:720,&quot;currHeight&quot;:393,&quot;currWidth&quot;:720,&quot;natrualHeight&quot;:393,&quot;natrualWidth&quot;:720,&quot;pluginName&quot;:&quot;imageUpload&quot;,&quot;scale&quot;:1,&quot;src&quot;:&quot;https%3A%2F%2Finternal-api-drive-stream.feishu.cn%2Fspace%2Fapi%2Fbox%2Fstream%2Fdownload%2Fpreview%2Fboxcnd6wvnNQWRodpa38Qp9aYWd%2F%3Fpreview_type%3D16&quot;,&quot;file_token&quot;:&quot;boxcnd6wvnNQWRodpa38Qp9aYWd&quot;,&quot;image_type&quot;:&quot;image/png&quot;,&quot;size&quot;:227024,&quot;comments&quot;:[]}]}"><img loading="lazy" src="https://qnzb4xapyg.feishu.cn/space/api/box/stream/download/asynccode/?code=ZGE4NDRhZmE1OTEzY2EwNTczMTQ2NGQ5YzQ4YzI4MzJfN3haeGJtWjBiNGFGOGtsdWxhYnBVMlZ6TmoxN2tUd1FfVG9rZW46Ym94Y25kNnd2bk5RV1JvZHBhMzhRcDlhWVdkXzE2NzkzOTEzMTg6MTY3OTM5NDkxOF9WNA" data-single-block="true" data-snapshot="eyJ0eXBlIjoiaW1hZ2UiLCJwYXJlbnRfaWQiOiJObUJOZEFSZFRvUkozd3hOVEdiY3NRY2NuZUMiLCJjb21tZW50cyI6W10sImxvY2tlZCI6ZmFsc2UsImhpZGRlbiI6ZmFsc2UsImF1dGhvciI6IjcwODM0MjgyMjY4OTg0MTE1NDgiLCJhbGlnbiI6IiIsImltYWdlIjp7InRva2VuIjoiYm94Y25kNnd2bk5RV1JvZHBhMzhRcDlhWVdkIiwibWltZVR5cGUiOiJpbWFnZS9wbmciLCJzaXplIjoyMjcwMjQsInNjYWxlIjoxLCJ3aWR0aCI6NzIwLCJoZWlnaHQiOjM5MywibmFtZSI6ImJveGNuQ1BTcjl1S05rc0ZYTzRuc0dIdTlIZC5wbmciLCJjcm9wIjpbMCwwLDAsMF0sInJvdGF0aW9uIjowfX0=" data-suite="eyJmaWxlVG9rZW4iOiJib3hjbmQ2d3ZuTlFXUm9kcGEzOFFwOWFZV2QiLCJvYmpUeXBlIjoiZG9jeCIsIm9ialRva2VuIjoiZG94Y243dmNURUllaXRkTDFyTTFVWEhQNGRmIiwib3JpZ2luU3JjIjoiaHR0cHM6Ly9pbnRlcm5hbC1hcGktZHJpdmUtc3RyZWFtLmZlaXNodS5jbi9zcGFjZS9hcGkvYm94L3N0cmVhbS9kb3dubG9hZC9wcmV2aWV3L2JveGNuZDZ3dm5OUVdSb2RwYTM4UXA5YVlXZC8/cHJldmlld190eXBlPTE2In0=" data-src="https://internal-api-drive-stream.feishu.cn/space/api/box/stream/download/all/boxcnd6wvnNQWRodpa38Qp9aYWd/?mount_node_token=doxcn7vcTEIeitdL1rM1UXHP4df&amp;mount_point=docx_image" data-width="720" data-height="393"></div>
+<div class="image-uploaded gallery old-record-id-doxcnmcWx4HrGnNvmZ7WSfbPR7e" data-type="image" data-ace-gallery-json="{&quot;items&quot;:[{&quot;uuid&quot;:&quot;e28b1f7c-4064-4641-b79f-336fed2925b3&quot;,&quot;height&quot;:480,&quot;width&quot;:720,&quot;currHeight&quot;:480,&quot;currWidth&quot;:720,&quot;natrualHeight&quot;:480,&quot;natrualWidth&quot;:720,&quot;pluginName&quot;:&quot;imageUpload&quot;,&quot;scale&quot;:1,&quot;src&quot;:&quot;https%3A%2F%2Finternal-api-drive-stream.feishu.cn%2Fspace%2Fapi%2Fbox%2Fstream%2Fdownload%2Fpreview%2Fboxcn3c4oxHDYTaVAH5NJrYSaSw%2F%3Fpreview_type%3D16&quot;,&quot;file_token&quot;:&quot;boxcn3c4oxHDYTaVAH5NJrYSaSw&quot;,&quot;image_type&quot;:&quot;image/png&quot;,&quot;size&quot;:737671,&quot;comments&quot;:[]}]}"><img loading="lazy" src="https://qnzb4xapyg.feishu.cn/space/api/box/stream/download/asynccode/?code=ZDZlYTVhNWZkMDFlYzRmNjA1MzRmN2M0MDg5MTAxYWVfemNPU1ViOG1rSDN4QTRueFZXM0hKdjRjNEhFRWh3U0tfVG9rZW46Ym94Y24zYzRveEhEWVRhVkFINU5KcllTYVN3XzE2NzkzOTEzMTg6MTY3OTM5NDkxOF9WNA" data-single-block="true" data-snapshot="eyJ0eXBlIjoiaW1hZ2UiLCJwYXJlbnRfaWQiOiJObUJOZEFSZFRvUkozd3hOVEdiY3NRY2NuZUMiLCJjb21tZW50cyI6W10sImxvY2tlZCI6ZmFsc2UsImhpZGRlbiI6ZmFsc2UsImF1dGhvciI6IjcwODM0MjgyMjY4OTg0MTE1NDgiLCJhbGlnbiI6IiIsImltYWdlIjp7InRva2VuIjoiYm94Y24zYzRveEhEWVRhVkFINU5KcllTYVN3IiwibWltZVR5cGUiOiJpbWFnZS9wbmciLCJzaXplIjo3Mzc2NzEsInNjYWxlIjoxLCJ3aWR0aCI6NzIwLCJoZWlnaHQiOjQ4MCwibmFtZSI6ImJveGNuS05rZEY4bXltblo0ZkJGQUg0R01WYi5wbmciLCJjcm9wIjpbMCwwLDAsMF0sInJvdGF0aW9uIjowfX0=" data-suite="eyJmaWxlVG9rZW4iOiJib3hjbjNjNG94SERZVGFWQUg1TkpyWVNhU3ciLCJvYmpUeXBlIjoiZG9jeCIsIm9ialRva2VuIjoiZG94Y25tY1d4NEhyR25Odm1aN1dTZmJQUjdlIiwib3JpZ2luU3JjIjoiaHR0cHM6Ly9pbnRlcm5hbC1hcGktZHJpdmUtc3RyZWFtLmZlaXNodS5jbi9zcGFjZS9hcGkvYm94L3N0cmVhbS9kb3dubG9hZC9wcmV2aWV3L2JveGNuM2M0b3hIRFlUYVZBSDVOSnJZU2FTdy8/cHJldmlld190eXBlPTE2In0=" data-src="https://internal-api-drive-stream.feishu.cn/space/api/box/stream/download/all/boxcn3c4oxHDYTaVAH5NJrYSaSw/?mount_node_token=doxcnmcWx4HrGnNvmZ7WSfbPR7e&amp;mount_point=docx_image" data-width="720" data-height="480"></div>
+<div class="ace-line ace-line old-record-id-doxcnCr4WdPfl7VDp9RUGNIk3vg"> </div>
+<div class="ace-line ace-line old-record-id-doxcnsDYFaK6ZN2Hqw5WOrzwbv4">除了可以处理海量的城市规模模型外，Cityscape Pro自带的几十多个预设材料库，还能够帮助设计师们提高创作过程中的生产力并消除生产中的复杂性，从而更专注于创建具有视觉吸引力的图像。</div>
+<div class="ace-line ace-line old-record-id-doxcnLe3eqpJOX0ifi1i8E5XDJh"> </div>
+<div class="image-uploaded gallery old-record-id-doxcn0BIVOnllU4TA8Rp3MOGKbe" data-type="image" data-ace-gallery-json="{&quot;items&quot;:[{&quot;uuid&quot;:&quot;c33cbb89-27dd-4cf5-87c9-d76e86f9d32f&quot;,&quot;height&quot;:720,&quot;width&quot;:720,&quot;currHeight&quot;:720,&quot;currWidth&quot;:720,&quot;natrualHeight&quot;:720,&quot;natrualWidth&quot;:720,&quot;pluginName&quot;:&quot;imageUpload&quot;,&quot;scale&quot;:1,&quot;src&quot;:&quot;https%3A%2F%2Finternal-api-drive-stream.feishu.cn%2Fspace%2Fapi%2Fbox%2Fstream%2Fdownload%2Fpreview%2Fboxcncoqes2botbZ38N52YzcRcd%2F%3Fpreview_type%3D16&quot;,&quot;file_token&quot;:&quot;boxcncoqes2botbZ38N52YzcRcd&quot;,&quot;image_type&quot;:&quot;image/png&quot;,&quot;size&quot;:930750,&quot;comments&quot;:[]}]}"><img loading="lazy" src="https://qnzb4xapyg.feishu.cn/space/api/box/stream/download/asynccode/?code=NDljM2U2MjE3YzYxMGI5MDNkY2EyZDc3YmY0NTVlYjJfd1BOd25mZHhVT1dCNGtyanU1NFd4aldzek9Ya1dXek5fVG9rZW46Ym94Y25jb3FlczJib3RiWjM4TjUyWXpjUmNkXzE2NzkzOTEzMTg6MTY3OTM5NDkxOF9WNA" data-single-block="true" data-snapshot="eyJ0eXBlIjoiaW1hZ2UiLCJwYXJlbnRfaWQiOiJObUJOZEFSZFRvUkozd3hOVEdiY3NRY2NuZUMiLCJjb21tZW50cyI6W10sImxvY2tlZCI6ZmFsc2UsImhpZGRlbiI6ZmFsc2UsImF1dGhvciI6IjcwODM0MjgyMjY4OTg0MTE1NDgiLCJhbGlnbiI6IiIsImltYWdlIjp7InRva2VuIjoiYm94Y25jb3FlczJib3RiWjM4TjUyWXpjUmNkIiwibWltZVR5cGUiOiJpbWFnZS9wbmciLCJzaXplIjo5MzA3NTAsInNjYWxlIjoxLCJ3aWR0aCI6NzIwLCJoZWlnaHQiOjcyMCwibmFtZSI6ImJveGNuOUF0MVhFSExBVzY3T08yWG81c1N1Zy5wbmciLCJjcm9wIjpbMCwwLDAsMF0sInJvdGF0aW9uIjowfX0=" data-suite="eyJmaWxlVG9rZW4iOiJib3hjbmNvcWVzMmJvdGJaMzhONTJZemNSY2QiLCJvYmpUeXBlIjoiZG9jeCIsIm9ialRva2VuIjoiZG94Y24wQklWT25sbFU0VEE4UnAzTU9HS2JlIiwib3JpZ2luU3JjIjoiaHR0cHM6Ly9pbnRlcm5hbC1hcGktZHJpdmUtc3RyZWFtLmZlaXNodS5jbi9zcGFjZS9hcGkvYm94L3N0cmVhbS9kb3dubG9hZC9wcmV2aWV3L2JveGNuY29xZXMyYm90YlozOE41Mll6Y1JjZC8/cHJldmlld190eXBlPTE2In0=" data-src="https://internal-api-drive-stream.feishu.cn/space/api/box/stream/download/all/boxcncoqes2botbZ38N52YzcRcd/?mount_node_token=doxcn0BIVOnllU4TA8Rp3MOGKbe&amp;mount_point=docx_image" data-width="720" data-height="720"></div>
+<div class="ace-line ace-line old-record-id-doxcndqvE1GT6UCOO5WJ5B4xZRh"> </div>
+<div class="ace-line ace-line old-record-id-doxcn6iXn4lOPqEMEguksvNcbPe">通过自动化重复性任务专注于创造性工作，Cityscape Pro还提供一个沉浸式、省时省力的条件以助力用户可视化作品的完成，并且， 在Cityscape Pro中创建复杂的建筑可视化项目上最多可以节省40%的生产时间。（数据来源于软件官网介绍）</div>
+<div class="ace-line ace-line old-record-id-doxcnfuZr1PLAmGp3AuRfgqdXZc"> </div>
+<div class="image-uploaded gallery old-record-id-doxcnMilZmRJ75gjBNKnIag9B1d" data-type="image" data-ace-gallery-json="{&quot;items&quot;:[{&quot;uuid&quot;:&quot;b0a31e08-59c5-4671-b378-780db45ba115&quot;,&quot;height&quot;:338,&quot;width&quot;:600,&quot;currHeight&quot;:338,&quot;currWidth&quot;:600,&quot;natrualHeight&quot;:338,&quot;natrualWidth&quot;:600,&quot;pluginName&quot;:&quot;imageUpload&quot;,&quot;scale&quot;:1,&quot;src&quot;:&quot;https%3A%2F%2Finternal-api-drive-stream.feishu.cn%2Fspace%2Fapi%2Fbox%2Fstream%2Fdownload%2Fpreview%2FboxcnoQ2h1NzptNLXk5YB3891ob%2F%3Fpreview_type%3D16&quot;,&quot;file_token&quot;:&quot;boxcnoQ2h1NzptNLXk5YB3891ob&quot;,&quot;image_type&quot;:&quot;image/png&quot;,&quot;size&quot;:283419,&quot;comments&quot;:[]}]}"><img loading="lazy" src="https://qnzb4xapyg.feishu.cn/space/api/box/stream/download/asynccode/?code=YTFjNzRjN2FhMTZlNzYxZDI3NThlZWY4ZGU2Nzg5NzNfOTM0emI0MWJlbVUyaWk2M1R6T3NqT0M3UUR4NU1aam5fVG9rZW46Ym94Y25vUTJoMU56cHROTFhrNVlCMzg5MW9iXzE2NzkzOTEzMTg6MTY3OTM5NDkxOF9WNA" data-single-block="true" data-snapshot="eyJ0eXBlIjoiaW1hZ2UiLCJwYXJlbnRfaWQiOiJObUJOZEFSZFRvUkozd3hOVEdiY3NRY2NuZUMiLCJjb21tZW50cyI6W10sImxvY2tlZCI6ZmFsc2UsImhpZGRlbiI6ZmFsc2UsImF1dGhvciI6IjcwODM0MjgyMjY4OTg0MTE1NDgiLCJhbGlnbiI6IiIsImltYWdlIjp7InRva2VuIjoiYm94Y25vUTJoMU56cHROTFhrNVlCMzg5MW9iIiwibWltZVR5cGUiOiJpbWFnZS9wbmciLCJzaXplIjoyODM0MTksInNjYWxlIjoxLCJ3aWR0aCI6NjAwLCJoZWlnaHQiOjMzOCwibmFtZSI6ImJveGNuMWZUMlpURGRMNEpZRkJuOGg1WEgxZS5wbmciLCJjcm9wIjpbMCwwLDAsMF0sInJvdGF0aW9uIjowfX0=" data-suite="eyJmaWxlVG9rZW4iOiJib3hjbm9RMmgxTnpwdE5MWGs1WUIzODkxb2IiLCJvYmpUeXBlIjoiZG9jeCIsIm9ialRva2VuIjoiZG94Y25NaWxabVJKNzVnakJOS25JYWc5QjFkIiwib3JpZ2luU3JjIjoiaHR0cHM6Ly9pbnRlcm5hbC1hcGktZHJpdmUtc3RyZWFtLmZlaXNodS5jbi9zcGFjZS9hcGkvYm94L3N0cmVhbS9kb3dubG9hZC9wcmV2aWV3L2JveGNub1EyaDFOenB0TkxYazVZQjM4OTFvYi8/cHJldmlld190eXBlPTE2In0=" data-src="https://internal-api-drive-stream.feishu.cn/space/api/box/stream/download/all/boxcnoQ2h1NzptNLXk5YB3891ob/?mount_node_token=doxcnMilZmRJ75gjBNKnIag9B1d&amp;mount_point=docx_image" data-width="600" data-height="338"></div>
+<div class="image-uploaded gallery old-record-id-doxcn8gir2g8xiJN1JBXgZ4En0c" data-type="image" data-ace-gallery-json="{&quot;items&quot;:[{&quot;uuid&quot;:&quot;5ff11cbb-0323-4722-922b-0145603fcca5&quot;,&quot;height&quot;:480,&quot;width&quot;:720,&quot;currHeight&quot;:480,&quot;currWidth&quot;:720,&quot;natrualHeight&quot;:480,&quot;natrualWidth&quot;:720,&quot;pluginName&quot;:&quot;imageUpload&quot;,&quot;scale&quot;:1,&quot;src&quot;:&quot;https%3A%2F%2Finternal-api-drive-stream.feishu.cn%2Fspace%2Fapi%2Fbox%2Fstream%2Fdownload%2Fpreview%2FboxcnglrCJDIHLrpKzo0tVI287b%2F%3Fpreview_type%3D16&quot;,&quot;file_token&quot;:&quot;boxcnglrCJDIHLrpKzo0tVI287b&quot;,&quot;image_type&quot;:&quot;image/png&quot;,&quot;size&quot;:654208,&quot;comments&quot;:[]}]}"><img loading="lazy" src="https://qnzb4xapyg.feishu.cn/space/api/box/stream/download/asynccode/?code=MmFlOWM4YzY5YzE0NTUyYmQ3ZWE5ZTlhNTI2NGNhMDFfSWprcEpRc0dTWFd2d284c0tqQ295T3NwRkQ4WnFrdDFfVG9rZW46Ym94Y25nbHJDSkRJSExycEt6bzB0VkkyODdiXzE2NzkzOTEzMTg6MTY3OTM5NDkxOF9WNA" data-single-block="true" data-snapshot="eyJ0eXBlIjoiaW1hZ2UiLCJwYXJlbnRfaWQiOiJObUJOZEFSZFRvUkozd3hOVEdiY3NRY2NuZUMiLCJjb21tZW50cyI6W10sImxvY2tlZCI6ZmFsc2UsImhpZGRlbiI6ZmFsc2UsImF1dGhvciI6IjcwODM0MjgyMjY4OTg0MTE1NDgiLCJhbGlnbiI6IiIsImltYWdlIjp7InRva2VuIjoiYm94Y25nbHJDSkRJSExycEt6bzB0VkkyODdiIiwibWltZVR5cGUiOiJpbWFnZS9wbmciLCJzaXplIjo2NTQyMDgsInNjYWxlIjoxLCJ3aWR0aCI6NzIwLCJoZWlnaHQiOjQ4MCwibmFtZSI6ImJveGNuQ1VSNnBteFYzRkNCZ3c2NjF5OXZMWS5wbmciLCJjcm9wIjpbMCwwLDAsMF0sInJvdGF0aW9uIjowfX0=" data-suite="eyJmaWxlVG9rZW4iOiJib3hjbmdsckNKRElITHJwS3pvMHRWSTI4N2IiLCJvYmpUeXBlIjoiZG9jeCIsIm9ialRva2VuIjoiZG94Y244Z2lyMmc4eGlKTjFKQlhnWjRFbjBjIiwib3JpZ2luU3JjIjoiaHR0cHM6Ly9pbnRlcm5hbC1hcGktZHJpdmUtc3RyZWFtLmZlaXNodS5jbi9zcGFjZS9hcGkvYm94L3N0cmVhbS9kb3dubG9hZC9wcmV2aWV3L2JveGNuZ2xyQ0pESUhMcnBLem8wdFZJMjg3Yi8/cHJldmlld190eXBlPTE2In0=" data-src="https://internal-api-drive-stream.feishu.cn/space/api/box/stream/download/all/boxcnglrCJDIHLrpKzo0tVI287b/?mount_node_token=doxcn8gir2g8xiJN1JBXgZ4En0c&amp;mount_point=docx_image" data-width="720" data-height="480"></div>
+<div class="image-uploaded gallery old-record-id-doxcn5Inxx24W9XHUVGhcG168nf" data-type="image" data-ace-gallery-json="{&quot;items&quot;:[{&quot;uuid&quot;:&quot;0d8e7a02-58bd-4de1-bf33-8d4c394d5cb6&quot;,&quot;height&quot;:400,&quot;width&quot;:720,&quot;currHeight&quot;:400,&quot;currWidth&quot;:720,&quot;natrualHeight&quot;:400,&quot;natrualWidth&quot;:720,&quot;pluginName&quot;:&quot;imageUpload&quot;,&quot;scale&quot;:1,&quot;src&quot;:&quot;https%3A%2F%2Finternal-api-drive-stream.feishu.cn%2Fspace%2Fapi%2Fbox%2Fstream%2Fdownload%2Fpreview%2FboxcnWsL242oWDN5JUj8OogYn9b%2F%3Fpreview_type%3D16&quot;,&quot;file_token&quot;:&quot;boxcnWsL242oWDN5JUj8OogYn9b&quot;,&quot;image_type&quot;:&quot;image/png&quot;,&quot;size&quot;:501758,&quot;comments&quot;:[]}]}"><img loading="lazy" src="https://qnzb4xapyg.feishu.cn/space/api/box/stream/download/asynccode/?code=OWMyZTZlZmY4ZTc3YmY4NTYyOTAxYjA3Y2Q2NjVkNWRfUnNpRncxb09aZW16bWJZT1F1dzM5NVY2SFJ2QXZ1UkVfVG9rZW46Ym94Y25Xc0wyNDJvV0RONUpVajhPb2dZbjliXzE2NzkzOTEzMTg6MTY3OTM5NDkxOF9WNA" data-single-block="true" data-snapshot="eyJ0eXBlIjoiaW1hZ2UiLCJwYXJlbnRfaWQiOiJObUJOZEFSZFRvUkozd3hOVEdiY3NRY2NuZUMiLCJjb21tZW50cyI6W10sImxvY2tlZCI6ZmFsc2UsImhpZGRlbiI6ZmFsc2UsImF1dGhvciI6IjcwODM0MjgyMjY4OTg0MTE1NDgiLCJhbGlnbiI6IiIsImltYWdlIjp7InRva2VuIjoiYm94Y25Xc0wyNDJvV0RONUpVajhPb2dZbjliIiwibWltZVR5cGUiOiJpbWFnZS9wbmciLCJzaXplIjo1MDE3NTgsInNjYWxlIjoxLCJ3aWR0aCI6NzIwLCJoZWlnaHQiOjQwMCwibmFtZSI6ImJveGNuQ0g2QVZrYUhSNU1tQlQwc2p0cWFhaC5wbmciLCJjcm9wIjpbMCwwLDAsMF0sInJvdGF0aW9uIjowfX0=" data-suite="eyJmaWxlVG9rZW4iOiJib3hjbldzTDI0Mm9XRE41SlVqOE9vZ1luOWIiLCJvYmpUeXBlIjoiZG9jeCIsIm9ialRva2VuIjoiZG94Y241SW54eDI0VzlYSFVWR2hjRzE2OG5mIiwib3JpZ2luU3JjIjoiaHR0cHM6Ly9pbnRlcm5hbC1hcGktZHJpdmUtc3RyZWFtLmZlaXNodS5jbi9zcGFjZS9hcGkvYm94L3N0cmVhbS9kb3dubG9hZC9wcmV2aWV3L2JveGNuV3NMMjQyb1dETjVKVWo4T29nWW45Yi8/cHJldmlld190eXBlPTE2In0=" data-src="https://internal-api-drive-stream.feishu.cn/space/api/box/stream/download/all/boxcnWsL242oWDN5JUj8OogYn9b/?mount_node_token=doxcn5Inxx24W9XHUVGhcG168nf&amp;mount_point=docx_image" data-width="720" data-height="400"></div>
+<div class="ace-line ace-line old-record-id-doxcnD3d73mFeUOg9BkTpNgIZPd"> </div>
+<div class="ace-line ace-line old-record-id-doxcnvSojDDTCYsj6UmRfpAPzod"><strong>Cityscape Pro主要有以下几个特征</strong></div>
+<div class="ace-line ace-line old-record-id-doxcnEW19FjSfbHSTUWat8Z59lb"> </div>
+<div class="ace-line ace-line old-record-id-doxcn3sMvvz1uuaRmHsec6kNhpc"><strong># 参数化城市区域</strong></div>
+<div class="ace-line ace-line old-record-id-doxcn2ZVXkf0SNm2UJ2MLcmhUrd">具有复杂图案的路面由样条区域生成。</div>
+<div class="image-uploaded gallery old-record-id-doxcnxkBZO7JevBG74RHrEiTfdb" data-type="image" data-ace-gallery-json="{&quot;items&quot;:[{&quot;uuid&quot;:&quot;6b95cf62-59d5-4258-99f6-348a0305bd40&quot;,&quot;height&quot;:600,&quot;width&quot;:600,&quot;currHeight&quot;:600,&quot;currWidth&quot;:600,&quot;natrualHeight&quot;:600,&quot;natrualWidth&quot;:600,&quot;pluginName&quot;:&quot;imageUpload&quot;,&quot;scale&quot;:1,&quot;src&quot;:&quot;https%3A%2F%2Finternal-api-drive-stream.feishu.cn%2Fspace%2Fapi%2Fbox%2Fstream%2Fdownload%2Fpreview%2FboxcnnefsGzg1eRAp1M4hyhG78g%2F%3Fpreview_type%3D16&quot;,&quot;file_token&quot;:&quot;boxcnnefsGzg1eRAp1M4hyhG78g&quot;,&quot;image_type&quot;:&quot;image/png&quot;,&quot;size&quot;:922952,&quot;comments&quot;:[]}]}"><img loading="lazy" src="https://qnzb4xapyg.feishu.cn/space/api/box/stream/download/asynccode/?code=ZmQxNmRjNjg2MDVhNTA5Y2U1MDhiMzVmOTgyNWZmZDVfSURRNmZHV2ZXUnE1UEhka3FNanJZM0ZRbDhuRldDdUtfVG9rZW46Ym94Y25uZWZzR3pnMWVSQXAxTTRoeWhHNzhnXzE2NzkzOTEzMTg6MTY3OTM5NDkxOF9WNA" data-single-block="true" data-snapshot="eyJ0eXBlIjoiaW1hZ2UiLCJwYXJlbnRfaWQiOiJObUJOZEFSZFRvUkozd3hOVEdiY3NRY2NuZUMiLCJjb21tZW50cyI6W10sImxvY2tlZCI6ZmFsc2UsImhpZGRlbiI6ZmFsc2UsImF1dGhvciI6IjcwODM0MjgyMjY4OTg0MTE1NDgiLCJhbGlnbiI6IiIsImltYWdlIjp7InRva2VuIjoiYm94Y25uZWZzR3pnMWVSQXAxTTRoeWhHNzhnIiwibWltZVR5cGUiOiJpbWFnZS9wbmciLCJzaXplIjo5MjI5NTIsInNjYWxlIjoxLCJ3aWR0aCI6NjAwLCJoZWlnaHQiOjYwMCwibmFtZSI6ImJveGNuckM1VU83NVVkbDl0Z1FCdzN2RzRqZS5wbmciLCJjcm9wIjpbMCwwLDAsMF0sInJvdGF0aW9uIjowfX0=" data-suite="eyJmaWxlVG9rZW4iOiJib3hjbm5lZnNHemcxZVJBcDFNNGh5aEc3OGciLCJvYmpUeXBlIjoiZG9jeCIsIm9ialRva2VuIjoiZG94Y254a0JaTzdKZXZCRzc0UkhyRWlUZmRiIiwib3JpZ2luU3JjIjoiaHR0cHM6Ly9pbnRlcm5hbC1hcGktZHJpdmUtc3RyZWFtLmZlaXNodS5jbi9zcGFjZS9hcGkvYm94L3N0cmVhbS9kb3dubG9hZC9wcmV2aWV3L2JveGNubmVmc0d6ZzFlUkFwMU00aHloRzc4Zy8/cHJldmlld190eXBlPTE2In0=" data-src="https://internal-api-drive-stream.feishu.cn/space/api/box/stream/download/all/boxcnnefsGzg1eRAp1M4hyhG78g/?mount_node_token=doxcnxkBZO7JevBG74RHrEiTfdb&amp;mount_point=docx_image" data-width="600" data-height="600"></div>
+<div class="ace-line ace-line old-record-id-doxcng9SQkYMjsL73OhTMljU9xh"> </div>
+<div class="image-uploaded gallery old-record-id-doxcnflL3OvRW0mnZIx7tkzuW1f" data-type="image" data-ace-gallery-json="{&quot;items&quot;:[{&quot;uuid&quot;:&quot;7f1b50b3-3850-4df8-969a-8153f8404610&quot;,&quot;height&quot;:400,&quot;width&quot;:400,&quot;currHeight&quot;:400,&quot;currWidth&quot;:400,&quot;natrualHeight&quot;:400,&quot;natrualWidth&quot;:400,&quot;pluginName&quot;:&quot;imageUpload&quot;,&quot;scale&quot;:1,&quot;src&quot;:&quot;https%3A%2F%2Finternal-api-drive-stream.feishu.cn%2Fspace%2Fapi%2Fbox%2Fstream%2Fdownload%2Fpreview%2Fboxcn7WnH49WGyoNyjUafI0Dr7b%2F%3Fpreview_type%3D16&quot;,&quot;file_token&quot;:&quot;boxcn7WnH49WGyoNyjUafI0Dr7b&quot;,&quot;image_type&quot;:&quot;image/png&quot;,&quot;size&quot;:224303,&quot;comments&quot;:[]}]}"><img loading="lazy" src="https://qnzb4xapyg.feishu.cn/space/api/box/stream/download/asynccode/?code=YmUxNDgzYWU0ZDdlYzEyNDNjYzdhZjdjYWJjMTAzNmRfTWNuZ3NyR2FYekNtalc5eDBXVDA2OHJKNGtTeTFtY2ZfVG9rZW46Ym94Y243V25INDlXR3lvTnlqVWFmSTBEcjdiXzE2NzkzOTEzMTg6MTY3OTM5NDkxOF9WNA" data-single-block="true" data-snapshot="eyJ0eXBlIjoiaW1hZ2UiLCJwYXJlbnRfaWQiOiJObUJOZEFSZFRvUkozd3hOVEdiY3NRY2NuZUMiLCJjb21tZW50cyI6W10sImxvY2tlZCI6ZmFsc2UsImhpZGRlbiI6ZmFsc2UsImF1dGhvciI6IjcwODM0MjgyMjY4OTg0MTE1NDgiLCJhbGlnbiI6IiIsImltYWdlIjp7InRva2VuIjoiYm94Y243V25INDlXR3lvTnlqVWFmSTBEcjdiIiwibWltZVR5cGUiOiJpbWFnZS9wbmciLCJzaXplIjoyMjQzMDMsInNjYWxlIjoxLCJ3aWR0aCI6NDAwLCJoZWlnaHQiOjQwMCwibmFtZSI6ImJveGNuSG0zbkM1YmJZQjlUNnhTRzlUbFU0Zi5wbmciLCJjcm9wIjpbMCwwLDAsMF0sInJvdGF0aW9uIjowfX0=" data-suite="eyJmaWxlVG9rZW4iOiJib3hjbjdXbkg0OVdHeW9OeWpVYWZJMERyN2IiLCJvYmpUeXBlIjoiZG9jeCIsIm9ialRva2VuIjoiZG94Y25mbEwzT3ZSVzBtblpJeDd0a3p1VzFmIiwib3JpZ2luU3JjIjoiaHR0cHM6Ly9pbnRlcm5hbC1hcGktZHJpdmUtc3RyZWFtLmZlaXNodS5jbi9zcGFjZS9hcGkvYm94L3N0cmVhbS9kb3dubG9hZC9wcmV2aWV3L2JveGNuN1duSDQ5V0d5b055alVhZkkwRHI3Yi8/cHJldmlld190eXBlPTE2In0=" data-src="https://internal-api-drive-stream.feishu.cn/space/api/box/stream/download/all/boxcn7WnH49WGyoNyjUafI0Dr7b/?mount_node_token=doxcnflL3OvRW0mnZIx7tkzuW1f&amp;mount_point=docx_image" data-width="400" data-height="400"></div>
+<div class="ace-line ace-line old-record-id-doxcnRZK9oIoIBJKRiWnXLgmImg"><strong># 路缘石</strong></div>
+<div class="ace-line ace-line old-record-id-doxcnobbt4htvwv3vKWbbb8S17f">选择一个样条区域，点击生成按钮，路缘石即建模成功。</div>
+<div class="ace-line ace-line old-record-id-doxcnH8y1vbOfXoRwLRQ6Heb6te"> </div>
+<div class="ace-line ace-line old-record-id-doxcnj6YN7HdhbOaTXPdykHTAyf"><strong># 参数化道路</strong></div>
+<div class="ace-line ace-line old-record-id-doxcnWFIrub4uAOpUTE1XSE3yWf">Cityscape Pro道路纹理工具可以使用自定义路面标记和其他功能生成逼真的参数化道路。</div>
+<div class="image-uploaded gallery old-record-id-doxcn9SSVcXlTXX8g9rOokmtItd" data-type="image" data-ace-gallery-json="{&quot;items&quot;:[{&quot;uuid&quot;:&quot;17c23249-d16e-4385-845d-dc7cafbb3eae&quot;,&quot;height&quot;:600,&quot;width&quot;:600,&quot;currHeight&quot;:600,&quot;currWidth&quot;:600,&quot;natrualHeight&quot;:600,&quot;natrualWidth&quot;:600,&quot;pluginName&quot;:&quot;imageUpload&quot;,&quot;scale&quot;:1,&quot;src&quot;:&quot;https%3A%2F%2Finternal-api-drive-stream.feishu.cn%2Fspace%2Fapi%2Fbox%2Fstream%2Fdownload%2Fpreview%2FboxcnV341lBWwpqMqn1VxDKTGQe%2F%3Fpreview_type%3D16&quot;,&quot;file_token&quot;:&quot;boxcnV341lBWwpqMqn1VxDKTGQe&quot;,&quot;image_type&quot;:&quot;image/png&quot;,&quot;size&quot;:364749,&quot;comments&quot;:[]}]}"><img loading="lazy" src="https://qnzb4xapyg.feishu.cn/space/api/box/stream/download/asynccode/?code=MmFiY2ZlYTRiZTJkYmEyZjUzN2FkNzBhMmU5YWU3YTFfaVFqZXM1VGxhTlRUSkRiZ28wMlFDbXdIc1ZsQzZkYnhfVG9rZW46Ym94Y25WMzQxbEJXd3BxTXFuMVZ4REtUR1FlXzE2NzkzOTEzMTg6MTY3OTM5NDkxOF9WNA" data-single-block="true" data-snapshot="eyJ0eXBlIjoiaW1hZ2UiLCJwYXJlbnRfaWQiOiJObUJOZEFSZFRvUkozd3hOVEdiY3NRY2NuZUMiLCJjb21tZW50cyI6W10sImxvY2tlZCI6ZmFsc2UsImhpZGRlbiI6ZmFsc2UsImF1dGhvciI6IjcwODM0MjgyMjY4OTg0MTE1NDgiLCJhbGlnbiI6IiIsImltYWdlIjp7InRva2VuIjoiYm94Y25WMzQxbEJXd3BxTXFuMVZ4REtUR1FlIiwibWltZVR5cGUiOiJpbWFnZS9wbmciLCJzaXplIjozNjQ3NDksInNjYWxlIjoxLCJ3aWR0aCI6NjAwLCJoZWlnaHQiOjYwMCwibmFtZSI6ImJveGNuWVpoVGt2SXJ1ZVBlbFdxYWhUNVNkUy5wbmciLCJjcm9wIjpbMCwwLDAsMF0sInJvdGF0aW9uIjowfX0=" data-suite="eyJmaWxlVG9rZW4iOiJib3hjblYzNDFsQld3cHFNcW4xVnhES1RHUWUiLCJvYmpUeXBlIjoiZG9jeCIsIm9ialRva2VuIjoiZG94Y245U1NWY1hsVFhYOGc5ck9va210SXRkIiwib3JpZ2luU3JjIjoiaHR0cHM6Ly9pbnRlcm5hbC1hcGktZHJpdmUtc3RyZWFtLmZlaXNodS5jbi9zcGFjZS9hcGkvYm94L3N0cmVhbS9kb3dubG9hZC9wcmV2aWV3L2JveGNuVjM0MWxCV3dwcU1xbjFWeERLVEdRZS8/cHJldmlld190eXBlPTE2In0=" data-src="https://internal-api-drive-stream.feishu.cn/space/api/box/stream/download/all/boxcnV341lBWwpqMqn1VxDKTGQe/?mount_node_token=doxcn9SSVcXlTXX8g9rOokmtItd&amp;mount_point=docx_image" data-width="600" data-height="600"></div>
+<div class="ace-line ace-line old-record-id-doxcnrzinHvx9PpNCf80yikOxig"> </div>
+<div class="image-uploaded gallery old-record-id-doxcnv6qDGJVnuufTvg7mBlfMEg" data-type="image" data-ace-gallery-json="{&quot;items&quot;:[{&quot;uuid&quot;:&quot;67e8978f-e02a-4a5a-9ae2-002368d9b958&quot;,&quot;height&quot;:600,&quot;width&quot;:600,&quot;currHeight&quot;:600,&quot;currWidth&quot;:600,&quot;natrualHeight&quot;:600,&quot;natrualWidth&quot;:600,&quot;pluginName&quot;:&quot;imageUpload&quot;,&quot;scale&quot;:1,&quot;src&quot;:&quot;https%3A%2F%2Finternal-api-drive-stream.feishu.cn%2Fspace%2Fapi%2Fbox%2Fstream%2Fdownload%2Fpreview%2FboxcnPzAvPJTqs8nba5GU0dGrGd%2F%3Fpreview_type%3D16&quot;,&quot;file_token&quot;:&quot;boxcnPzAvPJTqs8nba5GU0dGrGd&quot;,&quot;image_type&quot;:&quot;image/png&quot;,&quot;size&quot;:823609,&quot;comments&quot;:[]}]}"><img loading="lazy" src="https://qnzb4xapyg.feishu.cn/space/api/box/stream/download/asynccode/?code=MmQ3NzljMmZkZWUyODUwZTNkYmZiYzhjNjhkNTZhNzZfVjlRTms3TzYyWHJWUHBCaW03d01hdGs2REdBTzRuc09fVG9rZW46Ym94Y25QekF2UEpUcXM4bmJhNUdVMGRHckdkXzE2NzkzOTEzMTg6MTY3OTM5NDkxOF9WNA" data-single-block="true" data-snapshot="eyJ0eXBlIjoiaW1hZ2UiLCJwYXJlbnRfaWQiOiJObUJOZEFSZFRvUkozd3hOVEdiY3NRY2NuZUMiLCJjb21tZW50cyI6W10sImxvY2tlZCI6ZmFsc2UsImhpZGRlbiI6ZmFsc2UsImF1dGhvciI6IjcwODM0MjgyMjY4OTg0MTE1NDgiLCJhbGlnbiI6IiIsImltYWdlIjp7InRva2VuIjoiYm94Y25QekF2UEpUcXM4bmJhNUdVMGRHckdkIiwibWltZVR5cGUiOiJpbWFnZS9wbmciLCJzaXplIjo4MjM2MDksInNjYWxlIjoxLCJ3aWR0aCI6NjAwLCJoZWlnaHQiOjYwMCwibmFtZSI6ImJveGNuUDNKV0hQc2x3QmF6aGRNVzFjT2p6Yi5wbmciLCJjcm9wIjpbMCwwLDAsMF0sInJvdGF0aW9uIjowfX0=" data-suite="eyJmaWxlVG9rZW4iOiJib3hjblB6QXZQSlRxczhuYmE1R1UwZEdyR2QiLCJvYmpUeXBlIjoiZG9jeCIsIm9ialRva2VuIjoiZG94Y252NnFER0pWbnV1ZlR2ZzdtQmxmTUVnIiwib3JpZ2luU3JjIjoiaHR0cHM6Ly9pbnRlcm5hbC1hcGktZHJpdmUtc3RyZWFtLmZlaXNodS5jbi9zcGFjZS9hcGkvYm94L3N0cmVhbS9kb3dubG9hZC9wcmV2aWV3L2JveGNuUHpBdlBKVHFzOG5iYTVHVTBkR3JHZC8/cHJldmlld190eXBlPTE2In0=" data-src="https://internal-api-drive-stream.feishu.cn/space/api/box/stream/download/all/boxcnPzAvPJTqs8nba5GU0dGrGd/?mount_node_token=doxcnv6qDGJVnuufTvg7mBlfMEg&amp;mount_point=docx_image" data-width="600" data-height="600"></div>
+<div class="ace-line ace-line old-record-id-doxcn4cxCcLA9ESaXMM9wD59oWc"><strong># Supergrass</strong></div>
+<div class="ace-line ace-line old-record-id-doxcnY0i9YIscFc0Lbfb6Rqrxug">Supergrass是杂草插件，操作非常简单易于上手，并且会比分散的几何体占用更少的内存，但是仅适用于Vray。</div>
+<div class="ace-line ace-line old-record-id-doxcnItaITGvqCSGImGFyHkkLfN"> </div>
+<div class="ace-line ace-line old-record-id-doxcn5ex6MRmZJPZK0b11WRpbFb"><strong># 参数化雪</strong></div>
+<div class="ace-line ace-line old-record-id-doxcnbHaELLZnyZKyw3cVmOeFod">通过使用样条区域生成“雪”几何体，创建令人惊叹的冬季雪景。</div>
+<div class="image-uploaded gallery old-record-id-doxcnN0PhM7k7p4rO8ONixvrscd" data-type="image" data-ace-gallery-json="{&quot;items&quot;:[{&quot;uuid&quot;:&quot;fd2a96a3-89af-47c1-aaec-077fac3c287d&quot;,&quot;height&quot;:600,&quot;width&quot;:600,&quot;currHeight&quot;:600,&quot;currWidth&quot;:600,&quot;natrualHeight&quot;:600,&quot;natrualWidth&quot;:600,&quot;pluginName&quot;:&quot;imageUpload&quot;,&quot;scale&quot;:1,&quot;src&quot;:&quot;https%3A%2F%2Finternal-api-drive-stream.feishu.cn%2Fspace%2Fapi%2Fbox%2Fstream%2Fdownload%2Fpreview%2FboxcnVT8LoHFd1oZtg78P0qLC9f%2F%3Fpreview_type%3D16&quot;,&quot;file_token&quot;:&quot;boxcnVT8LoHFd1oZtg78P0qLC9f&quot;,&quot;image_type&quot;:&quot;image/png&quot;,&quot;size&quot;:654050,&quot;comments&quot;:[]}]}"><img loading="lazy" src="https://qnzb4xapyg.feishu.cn/space/api/box/stream/download/asynccode/?code=ZmJkY2ZlMDMxMThjZmQwMWQ3ZDkzNWI5MTgyNWNhZjBfV05TMWhkYWdIQkh0OWx1ZUlTcXJpc3Q5WkJJbkpPVDJfVG9rZW46Ym94Y25WVDhMb0hGZDFvWnRnNzhQMHFMQzlmXzE2NzkzOTEzMTg6MTY3OTM5NDkxOF9WNA" data-single-block="true" data-snapshot="eyJ0eXBlIjoiaW1hZ2UiLCJwYXJlbnRfaWQiOiJObUJOZEFSZFRvUkozd3hOVEdiY3NRY2NuZUMiLCJjb21tZW50cyI6W10sImxvY2tlZCI6ZmFsc2UsImhpZGRlbiI6ZmFsc2UsImF1dGhvciI6IjcwODM0MjgyMjY4OTg0MTE1NDgiLCJhbGlnbiI6IiIsImltYWdlIjp7InRva2VuIjoiYm94Y25WVDhMb0hGZDFvWnRnNzhQMHFMQzlmIiwibWltZVR5cGUiOiJpbWFnZS9wbmciLCJzaXplIjo2NTQwNTAsInNjYWxlIjoxLCJ3aWR0aCI6NjAwLCJoZWlnaHQiOjYwMCwibmFtZSI6ImJveGNua2wyT2RzSHRNMU5iUTBOUzh2dzVuYy5wbmciLCJjcm9wIjpbMCwwLDAsMF0sInJvdGF0aW9uIjowfX0=" data-suite="eyJmaWxlVG9rZW4iOiJib3hjblZUOExvSEZkMW9adGc3OFAwcUxDOWYiLCJvYmpUeXBlIjoiZG9jeCIsIm9ialRva2VuIjoiZG94Y25OMFBoTTdrN3A0ck84T05peHZyc2NkIiwib3JpZ2luU3JjIjoiaHR0cHM6Ly9pbnRlcm5hbC1hcGktZHJpdmUtc3RyZWFtLmZlaXNodS5jbi9zcGFjZS9hcGkvYm94L3N0cmVhbS9kb3dubG9hZC9wcmV2aWV3L2JveGNuVlQ4TG9IRmQxb1p0Zzc4UDBxTEM5Zi8/cHJldmlld190eXBlPTE2In0=" data-src="https://internal-api-drive-stream.feishu.cn/space/api/box/stream/download/all/boxcnVT8LoHFd1oZtg78P0qLC9f/?mount_node_token=doxcnN0PhM7k7p4rO8ONixvrscd&amp;mount_point=docx_image" data-width="600" data-height="600"></div>
+<div class="ace-line ace-line old-record-id-doxcnROAs5oHPEuLj03fJbxbMZg"> </div>
+<div class="image-uploaded gallery old-record-id-doxcnzeIFEywJTd45YU3cIW1Cmg" data-type="image" data-ace-gallery-json="{&quot;items&quot;:[{&quot;uuid&quot;:&quot;e3e5141c-5dff-4274-b094-df176c344aeb&quot;,&quot;height&quot;:600,&quot;width&quot;:600,&quot;currHeight&quot;:600,&quot;currWidth&quot;:600,&quot;natrualHeight&quot;:600,&quot;natrualWidth&quot;:600,&quot;pluginName&quot;:&quot;imageUpload&quot;,&quot;scale&quot;:1,&quot;src&quot;:&quot;https%3A%2F%2Finternal-api-drive-stream.feishu.cn%2Fspace%2Fapi%2Fbox%2Fstream%2Fdownload%2Fpreview%2Fboxcnm9VruccWybiL8ezFWRcoof%2F%3Fpreview_type%3D16&quot;,&quot;file_token&quot;:&quot;boxcnm9VruccWybiL8ezFWRcoof&quot;,&quot;image_type&quot;:&quot;image/png&quot;,&quot;size&quot;:653053,&quot;comments&quot;:[]}]}"><img loading="lazy" src="https://qnzb4xapyg.feishu.cn/space/api/box/stream/download/asynccode/?code=NTg0MmRlNDA3YWQzNTBmMzg2N2Q3YmVhOTYwOWFjY2NfemxaR3p4OTVwWkxRNHoyM2QyUExJSUZOTUJtWWRuNVdfVG9rZW46Ym94Y25tOVZydWNjV3liaUw4ZXpGV1Jjb29mXzE2NzkzOTEzMTg6MTY3OTM5NDkxOF9WNA" data-single-block="true" data-snapshot="eyJ0eXBlIjoiaW1hZ2UiLCJwYXJlbnRfaWQiOiJObUJOZEFSZFRvUkozd3hOVEdiY3NRY2NuZUMiLCJjb21tZW50cyI6W10sImxvY2tlZCI6ZmFsc2UsImhpZGRlbiI6ZmFsc2UsImF1dGhvciI6IjcwODM0MjgyMjY4OTg0MTE1NDgiLCJhbGlnbiI6IiIsImltYWdlIjp7InRva2VuIjoiYm94Y25tOVZydWNjV3liaUw4ZXpGV1Jjb29mIiwibWltZVR5cGUiOiJpbWFnZS9wbmciLCJzaXplIjo2NTMwNTMsInNjYWxlIjoxLCJ3aWR0aCI6NjAwLCJoZWlnaHQiOjYwMCwibmFtZSI6ImJveGNuUDhlS1ZIdjk4RGN2eEpMTlplS3JyZi5wbmciLCJjcm9wIjpbMCwwLDAsMF0sInJvdGF0aW9uIjowfX0=" data-suite="eyJmaWxlVG9rZW4iOiJib3hjbm05VnJ1Y2NXeWJpTDhlekZXUmNvb2YiLCJvYmpUeXBlIjoiZG9jeCIsIm9ialRva2VuIjoiZG94Y256ZUlGRXl3SlRkNDVZVTNjSVcxQ21nIiwib3JpZ2luU3JjIjoiaHR0cHM6Ly9pbnRlcm5hbC1hcGktZHJpdmUtc3RyZWFtLmZlaXNodS5jbi9zcGFjZS9hcGkvYm94L3N0cmVhbS9kb3dubG9hZC9wcmV2aWV3L2JveGNubTlWcnVjY1d5YmlMOGV6RldSY29vZi8/cHJldmlld190eXBlPTE2In0=" data-src="https://internal-api-drive-stream.feishu.cn/space/api/box/stream/download/all/boxcnm9VruccWybiL8ezFWRcoof/?mount_node_token=doxcnzeIFEywJTd45YU3cIW1Cmg&amp;mount_point=docx_image" data-width="600" data-height="600"></div>
+<div class="ace-line ace-line old-record-id-doxcnDAhdr0oBoJUH0AidLEiiSe"><strong># 参数化水</strong></div>
+<div class="ace-line ace-line old-record-id-doxcnqT6n9cS5PmJoHAxb3ibCXe">轻松创建逼真的湖泊、水库和池塘，选择样条区域，指定深度，然后单击生成按钮即可。</div>
+<div class="ace-line ace-line old-record-id-doxcnmmmcFOhje3KHeVIo6SRK3e"> </div>
+<div class="ace-line ace-line old-record-id-doxcnH7vbXfO5ePcGdbE9sEQRTU"><strong># 参数化地形</strong></div>
+<div class="ace-line ace-line old-record-id-doxcnzEvbgdGIpcdnpD2bUYaLwg">修改现有地形或从一个简单的平面创建一个新地形。可以使用样条区域生成护堤、地形凹陷和表面中的孔。</div>
+<div class="image-uploaded gallery old-record-id-doxcnM80Tzu7G0bI0RhXCN4zJRf" data-type="image" data-ace-gallery-json="{&quot;items&quot;:[{&quot;uuid&quot;:&quot;c0ee68d3-7cf0-4d54-81c0-ae6ce526bbc1&quot;,&quot;height&quot;:400,&quot;width&quot;:400,&quot;currHeight&quot;:400,&quot;currWidth&quot;:400,&quot;natrualHeight&quot;:400,&quot;natrualWidth&quot;:400,&quot;pluginName&quot;:&quot;imageUpload&quot;,&quot;scale&quot;:1,&quot;src&quot;:&quot;https%3A%2F%2Finternal-api-drive-stream.feishu.cn%2Fspace%2Fapi%2Fbox%2Fstream%2Fdownload%2Fpreview%2FboxcnsMsC0HCYKozGvpJyxdnfLe%2F%3Fpreview_type%3D16&quot;,&quot;file_token&quot;:&quot;boxcnsMsC0HCYKozGvpJyxdnfLe&quot;,&quot;image_type&quot;:&quot;image/png&quot;,&quot;size&quot;:326263,&quot;comments&quot;:[]}]}"><img loading="lazy" src="https://qnzb4xapyg.feishu.cn/space/api/box/stream/download/asynccode/?code=MDg3Y2I1YTU5YTVlZTQyNDU1OTY0OGI0OGFlNmVjM2JfR1BiVUhZekNzTGxrbTFOS3BkRUN0NjExUGY2ZDdtNDhfVG9rZW46Ym94Y25zTXNDMEhDWUtvekd2cEp5eGRuZkxlXzE2NzkzOTEzMTg6MTY3OTM5NDkxOF9WNA" data-single-block="true" data-snapshot="eyJ0eXBlIjoiaW1hZ2UiLCJwYXJlbnRfaWQiOiJObUJOZEFSZFRvUkozd3hOVEdiY3NRY2NuZUMiLCJjb21tZW50cyI6W10sImxvY2tlZCI6ZmFsc2UsImhpZGRlbiI6ZmFsc2UsImF1dGhvciI6IjcwODM0MjgyMjY4OTg0MTE1NDgiLCJhbGlnbiI6IiIsImltYWdlIjp7InRva2VuIjoiYm94Y25zTXNDMEhDWUtvekd2cEp5eGRuZkxlIiwibWltZVR5cGUiOiJpbWFnZS9wbmciLCJzaXplIjozMjYyNjMsInNjYWxlIjoxLCJ3aWR0aCI6NDAwLCJoZWlnaHQiOjQwMCwibmFtZSI6ImJveGNuZ3A4eFYyTFN2aTFrb0NaZEZVQlYwZS5wbmciLCJjcm9wIjpbMCwwLDAsMF0sInJvdGF0aW9uIjowfX0=" data-suite="eyJmaWxlVG9rZW4iOiJib3hjbnNNc0MwSENZS296R3ZwSnl4ZG5mTGUiLCJvYmpUeXBlIjoiZG9jeCIsIm9ialRva2VuIjoiZG94Y25NODBUenU3RzBiSTBSaFhDTjR6SlJmIiwib3JpZ2luU3JjIjoiaHR0cHM6Ly9pbnRlcm5hbC1hcGktZHJpdmUtc3RyZWFtLmZlaXNodS5jbi9zcGFjZS9hcGkvYm94L3N0cmVhbS9kb3dubG9hZC9wcmV2aWV3L2JveGNuc01zQzBIQ1lLb3pHdnBKeXhkbmZMZS8/cHJldmlld190eXBlPTE2In0=" data-src="https://internal-api-drive-stream.feishu.cn/space/api/box/stream/download/all/boxcnsMsC0HCYKozGvpJyxdnfLe/?mount_node_token=doxcnM80Tzu7G0bI0RhXCN4zJRf&amp;mount_point=docx_image" data-width="400" data-height="400"></div>
+<div class="ace-line ace-line old-record-id-doxcnWeeJQj9Xbu11z5lWaZTDvc"> </div>
+<div class="image-uploaded gallery old-record-id-doxcnMyAu3tTncRjav8coADDfnd" data-type="image" data-ace-gallery-json="{&quot;items&quot;:[{&quot;uuid&quot;:&quot;a02e3611-93c7-43d4-8430-c66bd9e66138&quot;,&quot;height&quot;:600,&quot;width&quot;:600,&quot;currHeight&quot;:600,&quot;currWidth&quot;:600,&quot;natrualHeight&quot;:600,&quot;natrualWidth&quot;:600,&quot;pluginName&quot;:&quot;imageUpload&quot;,&quot;scale&quot;:1,&quot;src&quot;:&quot;https%3A%2F%2Finternal-api-drive-stream.feishu.cn%2Fspace%2Fapi%2Fbox%2Fstream%2Fdownload%2Fpreview%2FboxcnqNZI0Eia7r9t4gVLwbybhe%2F%3Fpreview_type%3D16&quot;,&quot;file_token&quot;:&quot;boxcnqNZI0Eia7r9t4gVLwbybhe&quot;,&quot;image_type&quot;:&quot;image/png&quot;,&quot;size&quot;:506829,&quot;comments&quot;:[]}]}"><img loading="lazy" src="https://qnzb4xapyg.feishu.cn/space/api/box/stream/download/asynccode/?code=ZGUxN2RmNjM0ZmM1ZWJjMTY0MmJkNDU3NDU1ZjAzZWRfTlhRSGNJNk9IdU1BTFZPTEFJNVIzY0N3dnRLM2NEaHRfVG9rZW46Ym94Y25xTlpJMEVpYTdyOXQ0Z1ZMd2J5YmhlXzE2NzkzOTEzMTg6MTY3OTM5NDkxOF9WNA" data-single-block="true" data-snapshot="eyJ0eXBlIjoiaW1hZ2UiLCJwYXJlbnRfaWQiOiJObUJOZEFSZFRvUkozd3hOVEdiY3NRY2NuZUMiLCJjb21tZW50cyI6W10sImxvY2tlZCI6ZmFsc2UsImhpZGRlbiI6ZmFsc2UsImF1dGhvciI6IjcwODM0MjgyMjY4OTg0MTE1NDgiLCJhbGlnbiI6IiIsImltYWdlIjp7InRva2VuIjoiYm94Y25xTlpJMEVpYTdyOXQ0Z1ZMd2J5YmhlIiwibWltZVR5cGUiOiJpbWFnZS9wbmciLCJzaXplIjo1MDY4MjksInNjYWxlIjoxLCJ3aWR0aCI6NjAwLCJoZWlnaHQiOjYwMCwibmFtZSI6ImJveGNuR0tOMDNob2xBZmpZSEU2U1hDSkhVYy5wbmciLCJjcm9wIjpbMCwwLDAsMF0sInJvdGF0aW9uIjowfX0=" data-suite="eyJmaWxlVG9rZW4iOiJib3hjbnFOWkkwRWlhN3I5dDRnVkx3YnliaGUiLCJvYmpUeXBlIjoiZG9jeCIsIm9ialRva2VuIjoiZG94Y25NeUF1M3RUbmNSamF2OGNvQUREZm5kIiwib3JpZ2luU3JjIjoiaHR0cHM6Ly9pbnRlcm5hbC1hcGktZHJpdmUtc3RyZWFtLmZlaXNodS5jbi9zcGFjZS9hcGkvYm94L3N0cmVhbS9kb3dubG9hZC9wcmV2aWV3L2JveGNucU5aSTBFaWE3cjl0NGdWTHdieWJoZS8/cHJldmlld190eXBlPTE2In0=" data-src="https://internal-api-drive-stream.feishu.cn/space/api/box/stream/download/all/boxcnqNZI0Eia7r9t4gVLwbybhe/?mount_node_token=doxcnMyAu3tTncRjav8coADDfnd&amp;mount_point=docx_image" data-width="600" data-height="600"></div>
+<div class="ace-line ace-line old-record-id-doxcnaFRVGsMBOxyC2P64VM93Uf"><strong># 材料库</strong></div>
+<div class="ace-line ace-line old-record-id-doxcndQClqoBCHY3dhNSCo6SZBc">材料库中包含70多种高质量的可平铺材料，可在Cityscape Pro环境中使用，也可在其外部使用。</div>
+<div class="ace-line ace-line old-record-id-doxcnaSw1SNnkaw5fkcw4vT04Gd"> </div>
+<h1 class="heading-1 ace-line old-record-id-doxcnwJGt2RSbzD5pcxm3cgt9vb">五、HOUDINI（程序化）</h1>
+<blockquote class=" old-record-id-doxcn73WVemNE0AXDAaidyxcq6c" data-type="quote_container">
+<div class="ace-line ace-line old-record-id-doxcnI0Z4L369QvEsLbyA5ixKRd">使用osm数据对区域和建筑进行基础构建，根据程序化思路制作建筑</div>
+<div class="ace-line ace-line old-record-id-doxcnXAJTWTfLiQwCSjhO99MANf">优点：精度高、灵活度高、随机性、编辑性高、效果好、可与引擎互动</div>
+<div class="ace-line ace-line old-record-id-doxcn10dTZgl9g0YYYszxEOe2Wg">缺点：需VEX算法、制作慢、难度大</div>
+</blockquote>
+<div class="ace-line ace-line old-record-id-doxcnMCjcp3MM00tIHaCmrDfqPf"> </div>
+</div>
+               </div>
+                  <footer>
+
+                           <p class="post__last-updated">
+                              本文更新于
+                                 03/21/2023
+                           </p>
+
+                        <div class="post__tags-share">
+                                 <ul class="post__tag">
+                                       <li>
+                                          <a href="https://vinceofx.github.io/tags/graphical/">Graphics</a>
+                                       </li>
+                                 </ul>
+
+                              <aside class="post__share">
+                                 
+                                 
+                                 
+                                 
+                                 
+                                 
+                                 
+                              </aside>
+                        </div>
+                           <div class="post__bio author">
+                                 <img 
+                                    src="https://vinceofx.github.io/media/website/20221208-154009410.png" 
+                                     loading="lazy"
+                                    height="700"
+                                    width="700" 
+                                    class="author__avatar" 
+                                    alt="VINCE清慕">  
+                              <div>
+                                    <h3 class="h6 author__name">
+                                       <a href="https://vinceofx.github.io/authors/vinceqing-mu/" class="invert" title="VINCE清慕">VINCE清慕</a>
+                                    </h3>
+                              </div>
+                           </div>
+
+                           <nav class="post__nav">
+                                 <div class="post__nav__prev">
+                                    <a class="post__nav__link" href="https://vinceofx.github.io/shi-chuang-wen-li-qie-huan.html" rel="prev">
+                                       上一篇文章
+                                       <h3 class="h6">视窗纹理切换</h3>
+                                    </a>
+                                 </div>
+                           </nav>
+
+                  </footer>
+            </div>
+         </article>
+
+         <div class="comments-area post__inner" id="comments">
+            
+         </div>
+
+
+   </div>
+
+</main>
+<footer class="footer">
+      <div class="footer__social">
+            <a href="https://vincezw.github.io/blog/wei-xin" aria-label="Facebook" class="facebook">
+               <svg class="u-icon" viewBox="0 0 32 32">//wechat
+                    <path
+                  d="M21.6,7.86a10.09,10.09,0,0,1,1.1,0C21.72,3.35,16.85,0,11.29,0,5.09.08,0,4.27,0,9.59a9.12,9.12,0,0,0,4.53,7.62L3.39,20.5l4-2a19.9,19.9,0,0,0,4,.58,9.37,9.37,0,0,0,1.06,0A8.1,8.1,0,0,1,12,16.71a9.2,9.2,0,0,1,9.55-8.85Zm-6-3A1.33,1.33,0,0,1,17,6.08a.66.66,0,0,1,0,.14,1.35,1.35,0,0,1-1.29,1.42h-.12a1.6,1.6,0,0,1-1.7-1.42,1.57,1.57,0,0,1,1.62-1.39Zm-8,2.81A1.6,1.6,0,0,1,6,6.22a1.58,1.58,0,0,1,1.7-1.39A1.31,1.31,0,0,1,9.09,6a.54.54,0,0,1,0,.18A1.32,1.32,0,0,1,7.85,7.64a.89.89,0,0,1-.23,0Zm24.27,8.93c0-4.46-4.53-8.11-9.59-8.11s-9.62,3.65-9.62,8.11,4.25,8.12,9.62,8.12a14.47,14.47,0,0,0,3.39-.56l3.09,1.68L27.92,23A8.49,8.49,0,0,0,31.91,16.57Zm-12.7-1.35a1.22,1.22,0,0,1-1.14-1.12A1.22,1.22,0,0,1,19.21,13a1.27,1.27,0,0,1,1.41,1.12A1.27,1.27,0,0,1,19.21,15.22Zm6.2,0a1.12,1.12,0,0,1,0-2.24h0a1.29,1.29,0,0,1,1.42,1.12A1.29,1.29,0,0,1,25.41,15.22Z">
+                    </path>
+                    </svg>
+            </a>
+            <a href="https://qm.qq.com/cgi-bin/qm/qr?k&#x3D;bSr1j9j-AOrK5SmnaXW1wBedka-HnDtL&amp;noverify&#x3D;0&amp;personal_qrcode_source&#x3D;4" aria-label="Twitter" class="twitter">
+               <svg class="u-icon" viewBox="0 0 32 32">//QQ
+                        <path
+                        d="M25.63,19.77c-.63-2-1.36-3.73-2.48-6.52C23.33,5.92,20.28,0,13.27,0S3.2,6,3.39,13.25C2.27,16,1.55,17.73.92,19.77-.42,24.09,0,25.87.34,25.91c.71.09,2.77-3.25,2.77-3.25a8.62,8.62,0,0,0,3.14,6.28c-1,.31-3.38,1.17-2.82,2.12.45.76,7.74.48,9.84.25,2.1.23,9.39.51,9.84-.25.56-.94-1.79-1.81-2.82-2.12a8.65,8.65,0,0,0,3.14-6.28S25.49,26,26.2,25.91C26.53,25.87,27,24.08,25.63,19.77Z">
+                        </path>
+                        </svg>
+            </a>
+            <a href="https://vines.zcool.com.cn/" aria-label="Instagram" class="instagram">
+                <svg class="u-icon" viewBox="0 0 32 32">//ZCOOL
+                        <path
+                        d="M26.26,14.39a16.31,16.31,0,0,0,4-10.72,17.7,17.7,0,0,0-.13-2.07A16.34,16.34,0,0,1,19.77,7.72,12.23,12.23,0,0,0,20.2,0,12.12,12.12,0,0,1,11,6.42,12.15,12.15,0,1,0,24.12,20.59a12.17,12.17,0,0,0,6.82-7.23A12.2,12.2,0,0,1,26.26,14.39Zm-8,8.53c.11.71-.51,1-1.39,1.09h-9c-.85-.08-1.27-.39-1.26-.9V22a1.63,1.63,0,0,1,.73-1.27l5.38-3.93H7.45a.8.8,0,0,1-.87-.72c-.07-.87.13-2.23,1.11-2.56.18,0,.15.13.12.18-.14.2.06.36.42.38h6.62a16.36,16.36,0,0,0,2.83-.1c.26-.06.39,0,.33.17A3.84,3.84,0,0,0,18,15.25a2.34,2.34,0,0,1-1.34,2.54L12,21.24h5.07c.49,0,.45-.45.38-.73,0-.09.14-.14.23-.07.24.18.52.62.52,1.73Z">
+                        </path>
+                        </svg>
+            </a>
+            <a href="https://space.bilibili.com/250546761?spm_id_from&#x3D;333.1007.0.0" aria-label="LinkedIn" class="linkedin">
+               <svg class="u-icon" viewBox="0 0 32 32">//Bilibili
+                        <path
+                        d="M6.59.21a2.3,2.3,0,0,1,1.92,0,5,5,0,0,1,1.17.86L14.2,5h3.22l4.52-3.95A5,5,0,0,1,23.11.21,2.27,2.27,0,0,1,26,1.58a2.71,2.71,0,0,1,.11.51,2.23,2.23,0,0,1-.49,1.51,12.12,12.12,0,0,1-1,.9A6.21,6.21,0,0,1,24,5h2.82a4.81,4.81,0,0,1,3.32,1.49,4.83,4.83,0,0,1,1.51,3.32v13a8.61,8.61,0,0,1-.11,2,5,5,0,0,1-2.26,3.16,4.85,4.85,0,0,1-2.59.72H6a9.19,9.19,0,0,1-2-.11A5,5,0,0,1,.81,26.28,4.85,4.85,0,0,1,0,23.69V10.85A11.8,11.8,0,0,1,0,9,5,5,0,0,1,4.56,5h3c-.47-.33-.88-.74-1.3-1.1A2.24,2.24,0,0,1,5.48,2,2.29,2.29,0,0,1,6.59.21M6.07,9A2.25,2.25,0,0,0,4.29,10.6a3,3,0,0,0,0,.85V22.13a2.27,2.27,0,0,0,1.55,2.26,3.23,3.23,0,0,0,1,.16H25.17a2.27,2.27,0,0,0,2.14-1.34,3.29,3.29,0,0,0,.23-1.49V11.79a3.91,3.91,0,0,0,0-1.08,2.31,2.31,0,0,0-1.47-1.54,3.93,3.93,0,0,0-1.4-.2H7.13A9.37,9.37,0,0,0,6.07,9Zm3.7,3.52a2.22,2.22,0,0,1,2.35,2.19v2.26a2.2,2.2,0,0,1-3.63,1.78A2,2,0,0,1,8,18.11a2.88,2.88,0,0,1-.3-1.53V14.32a2.26,2.26,0,0,1,2-1.89Zm11.67,0a2.25,2.25,0,0,1,2.41,2.09v2.29a2.67,2.67,0,0,1-.34,1.49,2.26,2.26,0,0,1-3.14.59,2.36,2.36,0,0,1-.59-.59,2.7,2.7,0,0,1-.36-1.6V14.5a2.25,2.25,0,0,1,2-2Z">
+                        </path>
+                        </svg>
+            </a>
+            <a href="https://www.cgmodel.com/designer/1186390.html" aria-label="Vimeo" class="vimeo">
+               <svg class="u-icon" viewBox="0 0 32 32">//CG MODEL
+                        <path
+                        d="M30.83,3.47a4.77,4.77,0,0,1-3.48,4.17c-2.18.71-4.44,1.13-6.79,1.71V20.84c4.6-.5,4.54-.39,4.08-6.82l-2.49.3v-3.2l3.29-.66c1.11-.22,2.23-.42,3.47-.65,0,3.68.12,7.22-.06,10.74a3.92,3.92,0,0,1-3,3.56c-3,.8-6.17,1.34-9.4,2,0-.6-.08-1-.08-1.43,0-5.79,0-11.58,0-17.37,0-1.16.3-1.64,1.49-1.81,2.11-.3,4.2-.77,6.28-1.22a6.31,6.31,0,0,0,2-.74c1.22-.74-.5-3.15-.75-3.55C26.2,0,31,1.45,30.83,3.47ZM0,3v.66a11,11,0,0,1,2,7.6c-.21,2.55-.05,5.13,0,7.7,0,3.22,1.43,4.94,4.58,5.61,2,.42,3.94.87,5.92,1.26a15.61,15.61,0,0,0,2.06.14c0-1-.05-1.86,0-2.67.09-1.05-.2-1.57-1.36-1.72a31.67,31.67,0,0,1-5.13-1c-.71-.21-1.75-1-1.77-1.51-.17-3.48-.09-7-.09-10.58L14.56,10c0-1-.06-1.83,0-2.63C14.71,6.2,14.3,5.65,13,5.5a51.19,51.19,0,0,1-5.31-1,10.66,10.66,0,0,1-2.78-.91C3.69,2.91,5.35.41,5.59,0,4.82,0,.63,1.45,0,3Z">
+                        </path>
+                        </svg>
+            </a>
+      </div>
+      <div class="footer__copyright">
+         copyright ©2023 by vince | the final interpretation right belongs to this platform
+      </div>
+</footer>
+<script>
+   window.publiiThemeMenuConfig = {    
+      mobileMenuMode: 'sidebar',
+      animationSpeed: 300,
+      submenuWidth: 'auto',
+      doubleClickTime: 500,
+      mobileMenuExpandableSubmenus: true, 
+      relatedContainerForOverlayMenuSelector: '.navbar',
+   };
+</script>
+<script defer src="https://vinceofx.github.io/assets/js/scripts.min.js?v=66112a161d5939d966ce2b20c13988d9"></script>
+   <script>        
+      var images = document.querySelectorAll('img[loading]');
+
+      for (var i = 0; i < images.length; i++) {
+         if (images[i].complete) {
+               images[i].classList.add('is-loaded');
+         } else {
+               images[i].addEventListener('load', function () {
+                  this.classList.add('is-loaded');
+               }, false);
+         }
+      }
+   </script>
+
+
+
+
+</body>
+</html>
