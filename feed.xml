@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <title>vinceofx</title>
+    <title>VINCE | 威仕</title>
     <link href="https://vinceofx.github.io/feed.xml" rel="self" />
     <link href="https://vinceofx.github.io" />
     <updated>2023-03-21T17:55:57+08:00</updated>
     <author>
-        <name>VINCE清慕</name>
+        <name>Vince</name>
     </author>
     <id>https://vinceofx.github.io</id>
 
     <entry>
         <title>5种建筑快速建模方法</title>
         <author>
-            <name>VINCE清慕</name>
+            <name>Vince</name>
         </author>
         <link href="https://vinceofx.github.io/5zhong-jian-zhu-kuai-su-jian-mo-fang-fa.html"/>
         <id>https://vinceofx.github.io/5zhong-jian-zhu-kuai-su-jian-mo-fang-fa.html</id>
@@ -293,7 +293,7 @@
     <entry>
         <title>视窗纹理切换</title>
         <author>
-            <name>VINCE清慕</name>
+            <name>Vince</name>
         </author>
         <link href="https://vinceofx.github.io/shi-chuang-wen-li-qie-huan.html"/>
         <id>https://vinceofx.github.io/shi-chuang-wen-li-qie-huan.html</id>
@@ -307,7 +307,7 @@
     <entry>
         <title>OSL WindowBox Shader 视差窗口着色器</title>
         <author>
-            <name>VINCE清慕</name>
+            <name>Vince</name>
         </author>
         <link href="https://vinceofx.github.io/osl-windowbox-shader-shi-chai-chuang-kou-zhao-se-qi.html"/>
         <id>https://vinceofx.github.io/osl-windowbox-shader-shi-chai-chuang-kou-zhao-se-qi.html</id>
@@ -321,7 +321,7 @@
     <entry>
         <title>【3Ds Max】口红</title>
         <author>
-            <name>VINCE清慕</name>
+            <name>Vince</name>
         </author>
         <link href="https://vinceofx.github.io/3ds-max-kou-hong.html"/>
         <id>https://vinceofx.github.io/3ds-max-kou-hong.html</id>
@@ -421,7 +421,7 @@
     <entry>
         <title>【C4D】数据城市</title>
         <author>
-            <name>VINCE清慕</name>
+            <name>Vince</name>
         </author>
         <link href="https://vinceofx.github.io/c4d-shu-ju-cheng-shi.html"/>
         <id>https://vinceofx.github.io/c4d-shu-ju-cheng-shi.html</id>
@@ -456,7 +456,7 @@
     <entry>
         <title>【C4D】XPresso自动化 3D地图</title>
         <author>
-            <name>VINCE清慕</name>
+            <name>Vince</name>
         </author>
         <link href="https://vinceofx.github.io/c4d-xpressozi-dong-hua-3ddi-tu.html"/>
         <id>https://vinceofx.github.io/c4d-xpressozi-dong-hua-3ddi-tu.html</id>
@@ -470,7 +470,7 @@
     <entry>
         <title>【UE5】岩洞</title>
         <author>
-            <name>VINCE清慕</name>
+            <name>Vince</name>
         </author>
         <link href="https://vinceofx.github.io/ue5-yan-dong.html"/>
         <id>https://vinceofx.github.io/ue5-yan-dong.html</id>
@@ -484,7 +484,7 @@
     <entry>
         <title>【UE5】斯托雅</title>
         <author>
-            <name>VINCE清慕</name>
+            <name>Vince</name>
         </author>
         <link href="https://vinceofx.github.io/ue5-si-tuo-ya.html"/>
         <id>https://vinceofx.github.io/ue5-si-tuo-ya.html</id>
@@ -498,7 +498,7 @@
     <entry>
         <title>【3Ds Max】舞台美术&amp;展厅</title>
         <author>
-            <name>VINCE清慕</name>
+            <name>Vince</name>
         </author>
         <link href="https://vinceofx.github.io/3ds-max-wu-tai-mei-shuandzhan-ting.html"/>
         <id>https://vinceofx.github.io/3ds-max-wu-tai-mei-shuandzhan-ting.html</id>
@@ -512,7 +512,7 @@
     <entry>
         <title>【SU】BOOMSHAKE 氛围渲染</title>
         <author>
-            <name>VINCE清慕</name>
+            <name>Vince</name>
         </author>
         <link href="https://vinceofx.github.io/su-boomshake-fen-wei-xuan-ran.html"/>
         <id>https://vinceofx.github.io/su-boomshake-fen-wei-xuan-ran.html</id>
