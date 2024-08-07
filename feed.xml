@@ -3,12 +3,221 @@
     <title>VINCE | 开放视觉平台</title>
     <link href="https://vinceofx.github.io/feed.xml" rel="self" />
     <link href="https://vinceofx.github.io" />
-    <updated>2024-07-30T15:44:41+08:00</updated>
+    <updated>2024-08-07T15:56:20+08:00</updated>
     <author>
         <name>Vince</name>
     </author>
     <id>https://vinceofx.github.io</id>
 
+    <entry>
+        <title>图片格式的全面科普 | JPEG（JPG）、PNG、GIF、BMP、TIFF、EPS、WebP、SVG、PSD</title>
+        <author>
+            <name>Vince</name>
+        </author>
+        <link href="https://vinceofx.github.io/tu-pian-tu-pian-ge-shi-de-quan-mian-ke-pu-or-jpegjpgpnggifbmptiffepswebpsvgpsd.html"/>
+        <id>https://vinceofx.github.io/tu-pian-tu-pian-ge-shi-de-quan-mian-ke-pu-or-jpegjpgpnggifbmptiffepswebpsvgpsd.html</id>
+        <media:content url="https://vinceofx.github.io/media/posts/48/Yi-Xiu-Gai_20240807-155507642.webp" medium="image" />
+
+        <updated>2024-08-07T14:05:39+08:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://vinceofx.github.io/media/posts/48/Yi-Xiu-Gai_20240807-155507642.webp" alt="" />
+                    点击蓝字，关注我们 一、常用图片格式的特点与背景 （一）JPEG（JPG） JPEG 作为广泛使用的有损压缩图片格式，其诞生是为了优化图像文件大小，便于高效存储和传输。常用于数码照片、网页图片及需大量存储图像的场景，如社交媒体照片、在线新闻图片等。因其良好压缩比和广泛兼容性成为常见格式。 二、如何根据项目需求选择图片格式 （一）图像质量要求 专业摄影作品、高质量印刷品等对图像质量有极高要求的，优先考虑无损压缩格式如 PNG、TIFF 或 PSD 。 一般网页、社交媒体展示的图片，JPEG 通常能满足需求并减小文件大小。 需要透明背景时，PNG 是最佳选择。 JPEG 不支持透明。 网站页面等存储空间有限或需快速加载的场景，WebP 或适当压缩的&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://vinceofx.github.io/media/posts/48/Yi-Xiu-Gai_20240807-155507642.webp" class="type:primaryImage" alt="" /></p>
+                <section style="margin-bottom: 0px;" data-role="outer">
+<section class="_135editor" style="letter-spacing: 0.578px; font-family: mp-quote, -apple-system-font, BlinkMacSystemFont, Arial, sans-serif;" data-tools="135编辑器" data-id="123455">
+<section style="margin: 10px auto; text-align: left;">
+<section style="display: inline-block;">
+<section style="padding-right: 10px; padding-left: 5px; box-sizing: border-box;">
+<section style="padding: 5px 1.5em; font-size: 16px; letter-spacing: 1.5px; color: #5c9f3b; text-align: center; background: #faf8eb; box-sizing: border-box;"><strong data-brushtype="text">点击蓝字，关注我们</strong></section>
+</section>
+<section style="margin-top: 5px; width: 100%; height: 1px; background: #80c45d; overflow: hidden; max-width: 100% !important; box-sizing: border-box;" data-width="100%"></section>
+</section>
+</section>
+</section>
+<section class="_135editor" style="padding-left: 16px; box-sizing: border-box;" data-role="title" data-tools="135编辑器" data-id="136572">
+<section style="margin: 10px auto; display: flex; justify-content: center;">
+<section>
+<section style="display: flex; justify-content: space-between; margin-bottom: -15px;">
+<section>
+<section style="width: 15px; height: 15px; border-radius: 100%; background-color: #fffffe; overflow: hidden; box-sizing: border-box; border: 2px solid #ffce73;"></section>
+</section>
+<section style="width: 35px; box-sizing: border-box;"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 61.97 34.09" style="display: block;" xml:space="default"> <g data-name="图层 2"> <g data-name="图层 1"> <path d="M.35,26.41C10.81,16.43,24,9.52,34.16,22.76c7.15,9.31-16.43,17.9-15.18,1.93C21.13-2.66,55.09-2.29,61.62,4" style="fill: none; stroke: #42a9e0; stroke-dasharray: 4,2;"></path> </g> </g> </svg></section>
+</section>
+<section style="padding: 6px 25px; border-radius: 25px; margin-right: 30px; box-sizing: border-box; border: 3px solid #57b8f6;">
+<section style="font-size: 16px; color: #57b8f6; text-align: center;"><strong data-brushtype="text">一、常用图片格式的特点与背景</strong></section>
+</section>
+</section>
+</section>
+</section>
+<p style="-webkit-font-smoothing: antialiased; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); line-height: var(--md-box-samantha-normal-text-line-height); overflow-anchor: auto; font-size: 16px; background-color: #ffffff; color: var(--md-box-samantha-normal-text-color) !important; font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'SF Pro SC', 'SF Pro Display', 'SF Pro Icons', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif;"><strong style="-webkit-font-smoothing: antialiased; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); color: initial; font-size: var(--md-box-samantha-normal-text-font-size); line-height: var(--md-box-samantha-normal-text-line-height); overflow-anchor: auto;">（一）JPEG（JPG）</strong><br style="-webkit-font-smoothing: antialiased; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); overflow-anchor: auto; color: initial; content: &quot;&quot;; display: block; font-size: var(--md-box-paragraph-spacing); margin: 1em;">JPEG 作为广泛使用的有损压缩图片格式，其诞生是为了优化图像文件大小，便于高效存储和传输。常用于数码照片、网页图片及需大量存储图像的场景，如社交媒体照片、在线新闻图片等。因其良好压缩比和广泛兼容性成为常见格式。</p>
+<p> </p>
+<section style="-webkit-font-smoothing: antialiased; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); line-height: var(--md-box-samantha-normal-text-line-height); overflow-anchor: auto; font-size: 16px; background-color: #ffffff; color: var(--md-box-samantha-normal-text-color) !important; font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'SF Pro SC', 'SF Pro Display', 'SF Pro Icons', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif;"><strong style="-webkit-font-smoothing: antialiased; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); color: initial; font-size: var(--md-box-samantha-normal-text-font-size); line-height: var(--md-box-samantha-normal-text-line-height); overflow-anchor: auto;">（二）PNG</strong><br style="-webkit-font-smoothing: antialiased; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); overflow-anchor: auto; color: initial; content: &quot;&quot;; display: block; font-size: var(--md-box-paragraph-spacing); margin: 1em;">PNG 为解决 GIF 格式局限而开发，支持无损压缩和透明背景，在需要高质量透明图像的场景表现出色，如网页设计中的图标、按钮、图形元素，以及高质量打印作品如海报、宣传单页。</section>
+<p> </p>
+<section style="-webkit-font-smoothing: antialiased; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); line-height: var(--md-box-samantha-normal-text-line-height); overflow-anchor: auto; font-size: 16px; background-color: #ffffff; color: var(--md-box-samantha-normal-text-color) !important; font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'SF Pro SC', 'SF Pro Display', 'SF Pro Icons', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif;"><strong style="-webkit-font-smoothing: antialiased; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); color: initial; font-size: var(--md-box-samantha-normal-text-font-size); line-height: var(--md-box-samantha-normal-text-line-height); overflow-anchor: auto;">（三）GIF</strong><br style="-webkit-font-smoothing: antialiased; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); overflow-anchor: auto; color: initial; content: &quot;&quot;; display: block; font-size: var(--md-box-paragraph-spacing); margin: 1em;">GIF 早在早期互联网时代就已出现，主要用于简单动画和低颜色数量图像，因支持动态效果常见于网络表情包、简单动画广告和网页装饰小动画。</section>
+<p> </p>
+<section style="-webkit-font-smoothing: antialiased; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); line-height: var(--md-box-samantha-normal-text-line-height); overflow-anchor: auto; font-size: 16px; background-color: #ffffff; color: var(--md-box-samantha-normal-text-color) !important; font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'SF Pro SC', 'SF Pro Display', 'SF Pro Icons', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif;"><strong style="-webkit-font-smoothing: antialiased; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); color: initial; font-size: var(--md-box-samantha-normal-text-font-size); line-height: var(--md-box-samantha-normal-text-line-height); overflow-anchor: auto;">（四）BMP</strong><br style="-webkit-font-smoothing: antialiased; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); overflow-anchor: auto; color: initial; content: &quot;&quot;; display: block; font-size: var(--md-box-paragraph-spacing); margin: 1em;">BMP 是 Windows 操作系统标准图像文件格式，几乎不压缩，保留完整图像信息，文件体积大，常用于对图像质量要求极高且不考虑文件大小的特定场景，如专业图像编辑软件内部处理格式。</section>
+<p> </p>
+<section style="-webkit-font-smoothing: antialiased; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); line-height: var(--md-box-samantha-normal-text-line-height); overflow-anchor: auto; font-size: 16px; background-color: #ffffff; color: var(--md-box-samantha-normal-text-color) !important; font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'SF Pro SC', 'SF Pro Display', 'SF Pro Icons', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif;"><strong style="-webkit-font-smoothing: antialiased; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); color: initial; font-size: var(--md-box-samantha-normal-text-font-size); line-height: var(--md-box-samantha-normal-text-line-height); overflow-anchor: auto;">（五）TIFF</strong><br style="-webkit-font-smoothing: antialiased; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); overflow-anchor: auto; color: initial; content: &quot;&quot;; display: block; font-size: var(--md-box-paragraph-spacing); margin: 1em;">TIFF 常用于专业印刷和出版领域，支持多种颜色模式、高分辨率和丰富图像信息，摄影师和设计师交付高质量图像作品时常选此格式。</section>
+<p> </p>
+<section style="-webkit-font-smoothing: antialiased; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); line-height: var(--md-box-samantha-normal-text-line-height); overflow-anchor: auto; font-size: 16px; background-color: #ffffff; color: var(--md-box-samantha-normal-text-color) !important; font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'SF Pro SC', 'SF Pro Display', 'SF Pro Icons', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif;"><strong style="-webkit-font-smoothing: antialiased; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); color: initial; font-size: var(--md-box-samantha-normal-text-font-size); line-height: var(--md-box-samantha-normal-text-line-height); overflow-anchor: auto;">（六）PSD</strong><br style="-webkit-font-smoothing: antialiased; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); overflow-anchor: auto; color: initial; content: &quot;&quot;; display: block; font-size: var(--md-box-paragraph-spacing); margin: 1em;">PSD 是 Photoshop 专属格式，完整保留图像编辑信息，包括图层、通道、路径等，方便设计师随时回到之前编辑步骤修改调整，在图像设计和后期处理中至关重要。</section>
+<p> </p>
+<section style="-webkit-font-smoothing: antialiased; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); line-height: var(--md-box-samantha-normal-text-line-height); overflow-anchor: auto; font-size: 16px; background-color: #ffffff; color: var(--md-box-samantha-normal-text-color) !important; font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'SF Pro SC', 'SF Pro Display', 'SF Pro Icons', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif;"><strong style="-webkit-font-smoothing: antialiased; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); color: initial; font-size: var(--md-box-samantha-normal-text-font-size); line-height: var(--md-box-samantha-normal-text-line-height); overflow-anchor: auto;">（七）WMF</strong><br style="-webkit-font-smoothing: antialiased; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); overflow-anchor: auto; color: initial; content: &quot;&quot;; display: block; font-size: var(--md-box-paragraph-spacing); margin: 1em;">WMF 主要用于 Word 等文档处理软件，能保证图片在文档中显示质量不受缩放影响，便于插入和编辑图形。</section>
+<p> </p>
+<section style="-webkit-font-smoothing: antialiased; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); line-height: var(--md-box-samantha-normal-text-line-height); overflow-anchor: auto; font-size: 16px; background-color: #ffffff; color: var(--md-box-samantha-normal-text-color) !important; font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'SF Pro SC', 'SF Pro Display', 'SF Pro Icons', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif;"><strong style="-webkit-font-smoothing: antialiased; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); color: initial; font-size: var(--md-box-samantha-normal-text-font-size); line-height: var(--md-box-samantha-normal-text-line-height); overflow-anchor: auto;">（八）EPS</strong><br style="-webkit-font-smoothing: antialiased; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); overflow-anchor: auto; color: initial; content: &quot;&quot;; display: block; font-size: var(--md-box-paragraph-spacing); margin: 1em;">EPS 是 Adobe Illustrator 等专业矢量图形软件常用格式，适用于高精度、可缩放的图形设计，如标志设计、海报设计中的矢量元素。</section>
+<p> </p>
+<section style="-webkit-font-smoothing: antialiased; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); line-height: var(--md-box-samantha-normal-text-line-height); overflow-anchor: auto; font-size: 16px; background-color: #ffffff; color: var(--md-box-samantha-normal-text-color) !important; font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'SF Pro SC', 'SF Pro Display', 'SF Pro Icons', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif;"><strong style="-webkit-font-smoothing: antialiased; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); color: initial; font-size: var(--md-box-samantha-normal-text-font-size); line-height: var(--md-box-samantha-normal-text-line-height); overflow-anchor: auto;">（九）WebP</strong><br style="-webkit-font-smoothing: antialiased; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); overflow-anchor: auto; color: initial; content: &quot;&quot;; display: block; font-size: var(--md-box-paragraph-spacing); margin: 1em;">WebP 由谷歌推出，旨在提高网页图片加载速度和质量，在网页设计中，尤其对于需快速加载的网页，能保证质量同时减小文件大小。</section>
+<p> </p>
+<section style="-webkit-font-smoothing: antialiased; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); line-height: var(--md-box-samantha-normal-text-line-height); overflow-anchor: auto; font-size: 16px; background-color: #ffffff; color: var(--md-box-samantha-normal-text-color) !important; font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'SF Pro SC', 'SF Pro Display', 'SF Pro Icons', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif;"><strong style="-webkit-font-smoothing: antialiased; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); color: initial; font-size: var(--md-box-samantha-normal-text-font-size); line-height: var(--md-box-samantha-normal-text-line-height); overflow-anchor: auto;">（十）SVG</strong><br style="-webkit-font-smoothing: antialiased; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); overflow-anchor: auto; color: initial; content: &quot;&quot;; display: block; font-size: var(--md-box-paragraph-spacing); margin: 1em;">SVG 是基于 XML 的矢量图形格式，无限缩放不失真，在响应式网页设计和不同尺寸屏幕显示中表现出色，常用于网页图标、图表等。</section>
+<p> </p>
+<section style="-webkit-font-smoothing: antialiased; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); line-height: var(--md-box-samantha-normal-text-line-height); overflow-anchor: auto; font-size: 16px; background-color: #ffffff; color: var(--md-box-samantha-normal-text-color) !important; font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'SF Pro SC', 'SF Pro Display', 'SF Pro Icons', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif;">
+<section class="_135editor" style="padding-left: 16px; box-sizing: border-box;" data-role="title" data-tools="135编辑器" data-id="136572">
+<section style="margin: 10px auto; display: flex; justify-content: center;">
+<section>
+<section style="display: flex; justify-content: space-between; margin-bottom: -15px;">
+<section>
+<section style="width: 15px; height: 15px; border-radius: 100%; background-color: #fffffe; overflow: hidden; box-sizing: border-box; border: 2px solid #ffce73;"></section>
+</section>
+<section style="width: 35px; box-sizing: border-box;"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 61.97 34.09" style="display: block;" xml:space="default"> <g data-name="图层 2"> <g data-name="图层 1"> <path d="M.35,26.41C10.81,16.43,24,9.52,34.16,22.76c7.15,9.31-16.43,17.9-15.18,1.93C21.13-2.66,55.09-2.29,61.62,4" style="fill: none; stroke: #42a9e0; stroke-dasharray: 4,2;"></path> </g> </g> </svg></section>
+</section>
+<section style="padding: 6px 25px; border-radius: 25px; margin-right: 30px; box-sizing: border-box; border: 3px solid #57b8f6;">
+<section style="color: #57b8f6; text-align: center;"><strong data-brushtype="text">二、如何根据项目需求选择图片格式</strong></section>
+</section>
+</section>
+</section>
+</section>
+<strong style="-webkit-font-smoothing: antialiased; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); color: initial; font-size: var(--md-box-samantha-normal-text-font-size); line-height: var(--md-box-samantha-normal-text-line-height); overflow-anchor: auto;">（一）图像质量要求</strong></section>
+<p> </p>
+<ol class="list-paddingleft-2" style="-webkit-font-smoothing: antialiased; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); overflow-anchor: auto; color: #222222; font-size: 16px; background-color: #ffffff; padding-left: 30px; list-style-position: outside; margin: 0px; padding: 0 0 0 30px; font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'SF Pro SC', 'SF Pro Display', 'SF Pro Icons', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif;">
+<li>
+<p>专业摄影作品、高质量印刷品等对图像质量有极高要求的，优先考虑无损压缩格式如 PNG、TIFF 或 PSD 。</p>
+</li>
+<li>
+<p>一般网页、社交媒体展示的图片，JPEG 通常能满足需求并减小文件大小。</p>
+</li>
+</ol>
+<p> </p>
+<section style="-webkit-font-smoothing: antialiased; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); line-height: var(--md-box-samantha-normal-text-line-height); overflow-anchor: auto; font-size: 16px; background-color: #ffffff; color: var(--md-box-samantha-normal-text-color) !important; font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'SF Pro SC', 'SF Pro Display', 'SF Pro Icons', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif;"><strong style="-webkit-font-smoothing: antialiased; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); color: initial; font-size: var(--md-box-samantha-normal-text-font-size); line-height: var(--md-box-samantha-normal-text-line-height); overflow-anchor: auto;">（二）透明度需求</strong></section>
+<p> </p>
+<ol class="list-paddingleft-2" style="-webkit-font-smoothing: antialiased; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); overflow-anchor: auto; color: #222222; font-size: 16px; background-color: #ffffff; padding-left: 30px; list-style-position: outside; margin: 0px; padding: 0 0 0 30px; font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'SF Pro SC', 'SF Pro Display', 'SF Pro Icons', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif;">
+<li>
+<p>需要透明背景时，PNG 是最佳选择。</p>
+</li>
+<li>
+<p>JPEG 不支持透明。</p>
+</li>
+</ol>
+<p> </p>
+<section style="-webkit-font-smoothing: antialiased; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); line-height: var(--md-box-samantha-normal-text-line-height); overflow-anchor: auto; font-size: 16px; background-color: #ffffff; color: var(--md-box-samantha-normal-text-color) !important; font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'SF Pro SC', 'SF Pro Display', 'SF Pro Icons', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif;"><strong style="-webkit-font-smoothing: antialiased; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); color: initial; font-size: var(--md-box-samantha-normal-text-font-size); line-height: var(--md-box-samantha-normal-text-line-height); overflow-anchor: auto;">（三）动画需求</strong><br style="-webkit-font-smoothing: antialiased; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); overflow-anchor: auto; color: initial; content: &quot;&quot;; display: block; font-size: var(--md-box-paragraph-spacing); margin: 1em;">需要创建简单动画，如表情包、小动画，GIF 是常用格式。</section>
+<p> </p>
+<section style="-webkit-font-smoothing: antialiased; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); line-height: var(--md-box-samantha-normal-text-line-height); overflow-anchor: auto; font-size: 16px; background-color: #ffffff; color: var(--md-box-samantha-normal-text-color) !important; font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'SF Pro SC', 'SF Pro Display', 'SF Pro Icons', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif;"><strong style="-webkit-font-smoothing: antialiased; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); color: initial; font-size: var(--md-box-samantha-normal-text-font-size); line-height: var(--md-box-samantha-normal-text-line-height); overflow-anchor: auto;">（四）文件大小限制</strong></section>
+<p> </p>
+<ol class="list-paddingleft-2" style="-webkit-font-smoothing: antialiased; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); overflow-anchor: auto; color: #222222; font-size: 16px; background-color: #ffffff; padding-left: 30px; list-style-position: outside; margin: 0px; padding: 0 0 0 30px; font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'SF Pro SC', 'SF Pro Display', 'SF Pro Icons', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif;">
+<li>
+<p>网站页面等存储空间有限或需快速加载的场景，WebP 或适当压缩的 JPEG 更合适。</p>
+</li>
+<li>
+<p>不考虑文件大小而注重图像质量和细节时，可选择 TIFF 或 PSD 。</p>
+</li>
+</ol>
+<p> </p>
+<section style="-webkit-font-smoothing: antialiased; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); line-height: var(--md-box-samantha-normal-text-line-height); overflow-anchor: auto; font-size: 16px; background-color: #ffffff; color: var(--md-box-samantha-normal-text-color) !important; font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'SF Pro SC', 'SF Pro Display', 'SF Pro Icons', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif;"><strong style="-webkit-font-smoothing: antialiased; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); color: initial; font-size: var(--md-box-samantha-normal-text-font-size); line-height: var(--md-box-samantha-normal-text-line-height); overflow-anchor: auto;">（五）编辑需求</strong></section>
+<p> </p>
+<ol class="list-paddingleft-2" style="-webkit-font-smoothing: antialiased; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); overflow-anchor: auto; color: #222222; font-size: 16px; background-color: #ffffff; padding-left: 30px; list-style-position: outside; margin: 0px; padding: 0 0 0 30px; font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'SF Pro SC', 'SF Pro Display', 'SF Pro Icons', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif;">
+<li>
+<p>后续需多次编辑修改的，PSD 格式能保留所有编辑信息。</p>
+</li>
+<li>
+<p>只需少量编辑或不需要保留多层信息，JPEG 或 PNG 足够。</p>
+</li>
+</ol>
+<p> </p>
+<section style="-webkit-font-smoothing: antialiased; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); line-height: var(--md-box-samantha-normal-text-line-height); overflow-anchor: auto; font-size: 16px; background-color: #ffffff; color: var(--md-box-samantha-normal-text-color) !important; font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'SF Pro SC', 'SF Pro Display', 'SF Pro Icons', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif;"><strong style="-webkit-font-smoothing: antialiased; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); color: initial; font-size: var(--md-box-samantha-normal-text-font-size); line-height: var(--md-box-samantha-normal-text-line-height); overflow-anchor: auto;">（六）应用场景</strong></section>
+<p> </p>
+<ol class="list-paddingleft-2" style="-webkit-font-smoothing: antialiased; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); overflow-anchor: auto; color: #222222; font-size: 16px; background-color: #ffffff; padding-left: 30px; list-style-position: outside; margin: 0px; padding: 0 0 0 30px; font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'SF Pro SC', 'SF Pro Display', 'SF Pro Icons', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif;">
+<li>
+<p>网页设计通常用 JPEG、PNG 和 WebP 平衡图像质量与加载速度。</p>
+</li>
+<li>
+<p>印刷品设计如书籍、杂志封面，TIFF 或高质量 PNG 能保证印刷效果。</p>
+</li>
+</ol>
+<section style="margin-bottom: 0px; letter-spacing: 0.578px; text-wrap: wrap; -webkit-font-smoothing: antialiased; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); line-height: var(--md-box-samantha-normal-text-line-height); overflow-anchor: auto; font-size: 16px; background-color: #ffffff; color: var(--md-box-samantha-normal-text-color) !important; font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'SF Pro SC', 'SF Pro Display', 'SF Pro Icons', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif;">
+<section class="_135editor" style="padding-left: 16px; box-sizing: border-box;" data-role="title" data-tools="135编辑器" data-id="136572">
+<section style="margin: 10px auto; display: flex; justify-content: center;">
+<section>
+<section style="margin-bottom: -15px; display: flex; justify-content: space-between;">
+<section>
+<section style="width: 15px; height: 15px; border-radius: 100%; background-color: #fffffe; overflow: hidden; box-sizing: border-box; border: 2px solid #ffce73;"></section>
+</section>
+<section style="width: 35px; box-sizing: border-box;"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 61.97 34.09" style="display: block;" xml:space="default"> <g data-name="图层 2"> <g data-name="图层 1"> <path d="M.35,26.41C10.81,16.43,24,9.52,34.16,22.76c7.15,9.31-16.43,17.9-15.18,1.93C21.13-2.66,55.09-2.29,61.62,4" style="fill: none; stroke: #42a9e0; stroke-dasharray: 4,2;"></path> </g> </g> </svg></section>
+</section>
+<section style="margin-right: 30px; padding: 6px 25px; border-radius: 25px; box-sizing: border-box; border: 3px solid #57b8f6;">
+<section style="color: #57b8f6; text-align: center;"><strong data-brushtype="text"><span style="font-size: 16px; letter-spacing: 0.578px; text-wrap: wrap; background-color: #ffffff; font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'SF Pro SC', 'SF Pro Display', 'SF Pro Icons', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif;">三、实际案例</span></strong></section>
+</section>
+</section>
+</section>
+</section>
+</section>
+<p> </p>
+<section style="-webkit-font-smoothing: antialiased; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); line-height: var(--md-box-samantha-normal-text-line-height); overflow-anchor: auto; font-size: 16px; background-color: #ffffff; color: var(--md-box-samantha-normal-text-color) !important; font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'SF Pro SC', 'SF Pro Display', 'SF Pro Icons', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif;">例如，电商网站商品展示页面需快速加载且保证一定图片质量，可选择 WebP 或优化压缩的 JPEG 格式。</section>
+<p> </p>
+<section style="-webkit-font-smoothing: antialiased; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); line-height: var(--md-box-samantha-normal-text-line-height); overflow-anchor: auto; font-size: 16px; background-color: #ffffff; color: var(--md-box-samantha-normal-text-color) !important; font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'SF Pro SC', 'SF Pro Display', 'SF Pro Icons', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif;">再如，设计公司为客户制作的品牌标志可能用于不同场景且需保持清晰可编辑，选择 PSD 或 SVG 格式更合适。</section>
+<section data-role="paragraph">
+<section class="_135editor" data-tools="135编辑器" data-id="123419">
+<section style="margin: 10px; text-align: center;">
+<section style="display: inline-block;">
+<section style="padding-right: 4px; padding-left: 4px; font-size: 16px; letter-spacing: 1.5px; color: #5c9f3b; box-sizing: border-box;"><strong data-brushtype="text">END</strong></section>
+<section style="margin-top: -8px; width: 100%; height: 7px; background-color: #faf4d4; overflow: hidden; max-width: 100% !important; box-sizing: border-box;" data-width="100%"></section>
+</section>
+</section>
+</section>
+<section class="_135editor" data-tools="135编辑器" data-id="123418">
+<section style="margin: 10px auto; padding-bottom: 4px; text-align: center; box-sizing: border-box;">
+<section style="display: flex;">
+<section style="flex: 1 1 0%;">
+<section style="margin-left: 4px; width: 50px; height: 50px; background: #faf4d4; border-radius: 100%; overflow: hidden; box-sizing: border-box;"></section>
+<section style="margin-top: -30px; padding-right: 15px; padding-left: 15px; box-sizing: border-box;">
+<section style="width: 50%; height: 1px; background: #80c45d; overflow: hidden; box-sizing: border-box; max-width: 50% !important;" data-width="50%"></section>
+<section style="margin-top: 1em; margin-bottom: 1em; display: flex; justify-content: space-around; align-items: center;">
+<section style="width: 40%; box-sizing: border-box; max-width: 40% !important;" data-width="40%">
+<section style="margin-right: auto; margin-left: auto; width: 100px; box-sizing: border-box;"><figure class="rich_pages wxw-img"><img loading="lazy"  style="width: 100%; display: block; vertical-align: baseline; box-sizing: border-box; max-width: 100% !important;" draggable="false" src="https://mmbiz.qpic.cn/sz_mmbiz_jpg/JNfRxIpdo2O0lTWlZeOImk1KP27ZamiaGTZCKrAcJKicWXbribbPZbyuzxvXoFnz6Djp5nHB8kTRiaHF0QPn078PLQ/640?wx_fmt=jpeg&amp;from=appmsg" data-imgfileid="100001164" data-type="jpeg" data-width="100%" data-ratio="1" data-w="258"></figure></section>
+</section>
+<section style="width: 58%; display: flex; justify-content: center; box-sizing: border-box; max-width: 58% !important;" data-width="58%">
+<section style="text-align: left;">
+<section style="display: inline-block;">
+<section style="display: flex; justify-content: flex-end;">
+<section style="width: 10px; height: 10px; background: #80c45d; overflow: hidden; box-sizing: border-box;"></section>
+</section>
+<section style="margin-top: -6px; padding-right: 6px; display: flex; justify-content: center; align-items: center; box-sizing: border-box;">
+<section style="padding-top: 4px; padding-bottom: 4px; font-size: 16px; letter-spacing: 1.5px; color: #80c45d; box-sizing: border-box;"><strong data-brushtype="text">扫码关注</strong></section>
+<section style="padding: 4px 1em 4px 6px; font-size: 16px; letter-spacing: 1.5px; background: #80c45d; color: #ffffff; box-sizing: border-box;"><strong data-brushtype="text">我们</strong></section>
+</section>
+</section>
+<section style="margin-top: 4px; font-size: 14px; letter-spacing: 1.5px; color: #333333;" data-brushtype="text">关注科技创意前沿</section>
+<section style="font-size: 14px; letter-spacing: 1.5px; color: #333333;" data-brushtype="text">探索图形无限可能</section>
+</section>
+</section>
+</section>
+<section style="width: 100%; height: 1px; background: #80c45d; overflow: hidden; max-width: 100% !important; box-sizing: border-box;" data-width="100%"></section>
+</section>
+</section>
+<section style="margin-bottom: -4px; margin-left: 4px; width: 7px; height: 90px; background: #80c45d; align-self: flex-end; flex-shrink: 0; overflow: hidden; box-sizing: border-box;"></section>
+</section>
+</section>
+</section>
+</section>
+</section>
+<p style="display: none;"> </p>
+<section class="_135editor"></section>
+<p> </p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>拙劣的呈现：早期作品集</title>
         <author>
@@ -16,141 +225,141 @@
         </author>
         <link href="https://vinceofx.github.io/zhuo-lie-de-cheng-xianzao-qi-zuo-pin-ji.html"/>
         <id>https://vinceofx.github.io/zhuo-lie-de-cheng-xianzao-qi-zuo-pin-ji.html</id>
-        <media:content url="https://vinceofx.github.io/media/posts/47/im_138acd00-d544-47d1-9abe-dcf04896ef72_Page1.jpg" medium="image" />
+        <media:content url="https://vinceofx.github.io/media/posts/47/Yi-Xiu-Gai_Zhuo-Lie-De-Cheng-XianZao-Qi-Zuo-Pin-Ji-Zhu-Ye-Zhuan-Tu-Pian.webp" medium="image" />
             <category term="Gallery"/>
 
         <updated>2024-07-30T14:56:29+08:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://vinceofx.github.io/media/posts/47/im_138acd00-d544-47d1-9abe-dcf04896ef72_Page1.jpg" alt="" />
-                    点击蓝字，关注我们 今天整理一了很早之前做的练习，有点情怀，删掉又觉得可惜，故而发出来，有些拙劣不堪。 在此次创作中，我尝试用 3DS MAX 打造类似 C4D 和 Blender 风格的作品。 作品包含充满童趣的卡通小屋和活泼的气球装饰，风格抽象。3DS MAX 功能强大，能精准建模，通过材质与灯光设置营造独特氛围。 C4D 以高效和出色的渲染效果著称，适合创意设计。Blender 则开源免费，功能全面。 我期望用 3DS MAX 展现别样的抽象之美，给您全新视觉感受。
+                        <img src="https://vinceofx.github.io/media/posts/47/Yi-Xiu-Gai_Zhuo-Lie-De-Cheng-XianZao-Qi-Zuo-Pin-Ji-Zhu-Ye-Zhuan-Tu-Pian.webp" alt="" />
+                    点击蓝字，关注我们 今天整理了一些很久很久以前做的一些练习，有点情怀，删掉又觉得可惜，故而发出来，有些拙劣不堪。 在此次创作中，我尝试用 3DS MAX 打造类似 C4D 和 Blender 风格的作品。 作品包含充满童趣的卡通小屋和活泼的气球装饰，风格抽象。3DS MAX 功能强大，能精准建模，通过材质与灯光设置营造独特氛围。 C4D 以高效和出色的渲染效果著称，适合创意设计。Blender 则开源免费，功能全面。 我期望用 3DS MAX 展现别样的抽象之美，给您全新视觉感受。
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://vinceofx.github.io/media/posts/47/im_138acd00-d544-47d1-9abe-dcf04896ef72_Page1.jpg" class="type:primaryImage" alt="" /></p>
-                <section class="article135" data-role="outer">
-<section class="_135editor assistant" data-tools="135编辑器" data-id="123455">
-<section class="">
+                    <p><img src="https://vinceofx.github.io/media/posts/47/Yi-Xiu-Gai_Zhuo-Lie-De-Cheng-XianZao-Qi-Zuo-Pin-Ji-Zhu-Ye-Zhuan-Tu-Pian.webp" class="type:primaryImage" alt="" /></p>
+                <section data-role="outer">
+<section class="_135editor" data-tools="135编辑器" data-id="123455">
+<section style="margin: 10px auto; text-align: left;">
+<section style="display: inline-block;">
+<section style="display: flex; justify-content: flex-end;">
+<section style="width: 20px; height: 20px; border-radius: 100%; margin-bottom: -11px; overflow: hidden; box-sizing: border-box; border: 1px solid #80c45d;"></section>
+</section>
+<section style="padding-right: 10px; padding-left: 5px; box-sizing: border-box;">
+<section style="font-size: 16px; letter-spacing: 1.5px; padding: 5px 1.5em; color: #5c9f3b; text-align: center; background: #faf8eb; box-sizing: border-box;"><strong data-brushtype="text">点击蓝字，关注我们</strong></section>
+</section>
+<section style="width: 100%; height: 1px; background: #80c45d; margin-top: 5px; overflow: hidden; box-sizing: border-box; max-width: 100% !important;" data-width="100%"></section>
+</section>
+</section>
+</section>
+<p>今天整理了一些很久很久以前做的一些练习，有点情怀，删掉又觉得可惜，故而发出来，有些拙劣不堪。</p>
 <section>
-<section class="">
-<section class="assistant"></section>
-</section>
-<section class="">
-<section class=""><strong class="135brush" data-brushtype="text">点击蓝字，关注我们</strong></section>
-</section>
-<section class="" data-width="100%"></section>
-</section>
-</section>
-</section>
-<p>今天整理一了很早之前做的练习，有点情怀，删掉又觉得可惜，故而发出来，有些拙劣不堪。</p>
-<section class="">
-<section class="">
-<section class="">
-<section class="assistant"></section>
-<section>
-<section class="">
-<section class="">
-<section class=""><strong class="135brush" data-brushtype="text">3Ds Max 练习 | 作品集</strong></section>
+<section style="text-align: center; margin: 10px; padding-bottom: 10px; box-sizing: border-box;">
+<section style="display: inline-block; transform-style: preserve-3d;">
+<section style="width: 35px; height: 35px; background-image: linear-gradient(#faf4d4 0%, #faf4d4 100%); background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; border-radius: 50%; overflow: hidden; box-sizing: border-box; transform: translate(-10px, 0px) translateZ(9px); -webkit-transform: translate(-10px, 0px) translateZ(9px); -moz-transform: translate(-10px, 0px) translateZ(9px); -o-transform: translate(-10px, 0px) translateZ(9px);"></section>
+<section style="margin-top: -20px; transform: translateZ(10px); -webkit-transform: translateZ(10px); -moz-transform: translateZ(10px); -o-transform: translateZ(10px);">
+<section style="padding-top: 3px; padding-left: 3px; margin-top: -8px; margin-bottom: -8px; box-shadow: #80c45d 4px 4px 0px 0px; box-sizing: border-box; border: 1px solid #80c45d;">
+<section style="background-color: #80c45d; padding: 5px 17px; box-sizing: border-box;">
+<section style="font-size: 16px; letter-spacing: 1.5px; color: #fff;"><strong data-brushtype="text">3Ds Max 练习 | 作品集</strong></section>
 </section>
 </section>
 </section>
 </section>
 </section>
 <section class="_135editor" data-tools="135编辑器" data-id="123419">
-<section class="">
-<section>
-<section class="">
-<section class="auto-hide-last-sibling-br paragraph-u1TS5p paragraph-element br-paragraph-space">
-<p>在此次创作中，我尝试用 3DS MAX 打造类似 C4D 和 Blender 风格的作品。</p>
+<section style="text-align: center; margin: 10px;">
+<section style="display: inline-block;">
+<section style="font-size: 16px; letter-spacing: 1.5px; color: #5c9f3b; padding-right: 4px; padding-left: 4px; box-sizing: border-box;">
+<section style="-webkit-font-smoothing: antialiased; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); overflow-anchor: auto; line-height: var(--md-box-samantha-normal-text-line-height); background-color: #ffffff; text-align: left; color: var(--md-box-samantha-normal-text-color) !important; font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'SF Pro SC', 'SF Pro Display', 'SF Pro Icons', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif;">
+<p style="text-indent: 2.1875em;">在此次创作中，我尝试用 3DS MAX 打造类似 C4D 和 Blender 风格的作品。</p>
 </section>
-<br class="container-PzX343 wrapper-NZ1vL1 undefined">
-<section class="auto-hide-last-sibling-br paragraph-u1TS5p paragraph-element br-paragraph-space">
-<p>作品包含充满童趣的卡通小屋和活泼的气球装饰，风格抽象。3DS MAX 功能强大，能精准建模，通过材质与灯光设置营造独特氛围。</p>
+<br style="-webkit-font-smoothing: antialiased; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); overflow-anchor: auto; content: '\';display: block;font-size: var(--md-box-paragraph-spacing);margin: 1em;color: #222222;background-color: #ffffff;font-family:Inter, -apple-system, BlinkMacSystemFont, \'Segoe UI\', \'SF Pro SC\', \'SF Pro Display\', \'SF Pro Icons\', \'PingFang SC\', \'Hiragino Sans GB\', \'Microsoft YaHei\', \'Helvetica Neue', Helvetica, Arial, sans-serif;">
+<section style="-webkit-font-smoothing: antialiased; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); overflow-anchor: auto; line-height: var(--md-box-samantha-normal-text-line-height); background-color: #ffffff; text-align: left; color: var(--md-box-samantha-normal-text-color) !important; font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'SF Pro SC', 'SF Pro Display', 'SF Pro Icons', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif;">
+<p style="text-indent: 2.1875em;">作品包含充满童趣的卡通小屋和活泼的气球装饰，风格抽象。3DS MAX 功能强大，能精准建模，通过材质与灯光设置营造独特氛围。</p>
 </section>
-<br class="container-PzX343 wrapper-NZ1vL1 undefined">
-<section class="auto-hide-last-sibling-br paragraph-u1TS5p paragraph-element br-paragraph-space">
-<p>C4D 以高效和出色的渲染效果著称，适合创意设计。Blender 则开源免费，功能全面。</p>
+<br style="-webkit-font-smoothing: antialiased; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); overflow-anchor: auto; content: '\';display: block;font-size: var(--md-box-paragraph-spacing);margin: 1em;color: #222222;background-color: #ffffff;font-family:Inter, -apple-system, BlinkMacSystemFont, \'Segoe UI\', \'SF Pro SC\', \'SF Pro Display\', \'SF Pro Icons\', \'PingFang SC\', \'Hiragino Sans GB\', \'Microsoft YaHei\', \'Helvetica Neue', Helvetica, Arial, sans-serif;">
+<section style="-webkit-font-smoothing: antialiased; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); overflow-anchor: auto; line-height: var(--md-box-samantha-normal-text-line-height); background-color: #ffffff; text-align: left; color: var(--md-box-samantha-normal-text-color) !important; font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'SF Pro SC', 'SF Pro Display', 'SF Pro Icons', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif;">
+<p style="text-indent: 2.1875em;">C4D 以高效和出色的渲染效果著称，适合创意设计。Blender 则开源免费，功能全面。</p>
 </section>
-<br class="container-PzX343 wrapper-NZ1vL1 undefined">
-<section class="auto-hide-last-sibling-br paragraph-u1TS5p paragraph-element br-paragraph-space">
-<p>我期望用 3DS MAX 展现别样的抽象之美，给您全新视觉感受。</p>
-</section>
-</section>
+<br style="-webkit-font-smoothing: antialiased; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); overflow-anchor: auto; content: '\';display: block;font-size: var(--md-box-paragraph-spacing);margin: 1em;color: #222222;background-color: #ffffff;font-family:Inter, -apple-system, BlinkMacSystemFont, \'Segoe UI\', \'SF Pro SC\', \'SF Pro Display\', \'SF Pro Icons\', \'PingFang SC\', \'Hiragino Sans GB\', \'Microsoft YaHei\', \'Helvetica Neue', Helvetica, Arial, sans-serif;">
+<section style="-webkit-font-smoothing: antialiased; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); overflow-anchor: auto; line-height: var(--md-box-samantha-normal-text-line-height); background-color: #ffffff; text-align: left; color: var(--md-box-samantha-normal-text-color) !important; font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'SF Pro SC', 'SF Pro Display', 'SF Pro Icons', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif;">
+<p style="text-indent: 2.1875em;">我期望用 3DS MAX 展现别样的抽象之美，给您全新视觉感受。</p>
 </section>
 </section>
-</section>
-<section class="_135editor" data-tools="135编辑器" data-id="123423">
-<section>
-<section class="">
-<p><img loading="lazy" draggable="false" src="https://bexp.135editor.com/files/users/1182/11827998/202407/OMKVT3Or_Iwq7.jpg?auth_key=1722787199-0-0-8429765a26d25b375affd4531a09887a" data-width="100%" data-ratio="1.1251830161054173" data-w="1366"></p>
 </section>
 </section>
 </section>
 <section class="_135editor" data-tools="135编辑器" data-id="123423">
-<section>
-<section class="">
-<section class="" data-width="100%"><img loading="lazy" draggable="false" src="https://bexp.135editor.com/files/users/1182/11827998/202407/WBEGwZDU_yx7W.jpg?auth_key=1722787199-0-0-dac6f422258d1509101307ecfcce2813" data-width="100%" data-ratio="0.5622254758418741" data-w="1366"></section>
+<section style="margin: 10px auto;">
+<section style="padding: 4px; box-sizing: border-box; border: 1px solid #80c45d;">
+<figure class="rich_pages wxw-img"><img loading="lazy"  style="width: 100%; display: block; vertical-align: baseline; box-sizing: border-box; max-width: 100% !important;" draggable="false" src="https://mmbiz.qpic.cn/sz_mmbiz_jpg/JNfRxIpdo2O0lTWlZeOImk1KP27ZamiaGRwN55jbzas1xqSwpr9HiaDkN4j2iaREE3z6VWE8651cgiaQMbzic8u4F7g/640?wx_fmt=jpeg&amp;from=appmsg" data-imgfileid="100001120" data-type="jpeg" data-width="100%" data-ratio="1.125" data-w="1080"></figure>
 </section>
 </section>
 </section>
 <section class="_135editor" data-tools="135编辑器" data-id="123423">
-<section>
-<section class="">
-<section class="" data-width="100%"><img loading="lazy" draggable="false" src="https://bexp.135editor.com/files/users/1182/11827998/202407/eR2keY2E_xkYA.jpg?auth_key=1722787199-0-0-239ff4127334655966c83ba73b8d61ba" data-width="100%" data-ratio="0.5622254758418741" data-w="1366"></section>
+<section style="margin: 10px auto;">
+<section style="padding: 4px; box-sizing: border-box; border: 1px solid #80c45d;">
+<section style="width: 100%; box-sizing: border-box; max-width: 100% !important;" data-width="100%"><figure class="rich_pages wxw-img"><img loading="lazy"  style="width: 100%; display: block; vertical-align: baseline; box-sizing: border-box; max-width: 100% !important;" draggable="false" src="https://mmbiz.qpic.cn/sz_mmbiz_jpg/JNfRxIpdo2O0lTWlZeOImk1KP27ZamiaGqXBYGlVLr6FhF5Noffq3dlPYSq4TlgmXf73icgRd1bdVM4mtegJ7jQA/640?wx_fmt=jpeg&amp;from=appmsg" data-imgfileid="100001119" data-type="jpeg" data-width="100%" data-ratio="0.562037037037037" data-w="1080"></figure></section>
 </section>
 </section>
 </section>
 <section class="_135editor" data-tools="135编辑器" data-id="123423">
-<section>
-<section class="">
-<section class="" data-width="100%"><img loading="lazy" draggable="false" src="https://bexp.135editor.com/files/users/1182/11827998/202407/zFbYzP3k_6hQ3.jpg?auth_key=1722787199-0-0-b44541d5c009fd623044bf97f1ea239e" data-width="100%" data-ratio="0.5622254758418741" data-w="1366"></section>
+<section style="margin: 10px auto;">
+<section style="padding: 4px; box-sizing: border-box; border: 1px solid #80c45d;">
+<section style="width: 100%; box-sizing: border-box; max-width: 100% !important;" data-width="100%"><figure class="rich_pages wxw-img"><img loading="lazy"  style="width: 100%; display: block; vertical-align: baseline; box-sizing: border-box; max-width: 100% !important;" draggable="false" src="https://mmbiz.qpic.cn/sz_mmbiz_jpg/JNfRxIpdo2O0lTWlZeOImk1KP27ZamiaGBChNMWgVPCSe0RzqnhZmy1KzMZgv6AnctuaaDBv6jfkWckhh2KMAyA/640?wx_fmt=jpeg&amp;from=appmsg" data-imgfileid="100001118" data-type="jpeg" data-width="100%" data-ratio="0.562037037037037" data-w="1080"></figure></section>
 </section>
 </section>
 </section>
 <section class="_135editor" data-tools="135编辑器" data-id="123423">
-<section>
-<section class="">
-<section class="" data-width="100%"><img loading="lazy" draggable="false" src="https://bexp.135editor.com/files/users/1182/11827998/202407/bGNSFKEm_2Mwn.jpg?auth_key=1722787199-0-0-ebbe17ac46874c90fc4b5387a3685a4f" data-width="100%" data-ratio="0.5622254758418741" data-w="1366"></section>
+<section style="margin: 10px auto;">
+<section style="padding: 4px; box-sizing: border-box; border: 1px solid #80c45d;">
+<section style="width: 100%; box-sizing: border-box; max-width: 100% !important;" data-width="100%"><figure class="rich_pages wxw-img"><img loading="lazy"  style="width: 100%; display: block; vertical-align: baseline; box-sizing: border-box; max-width: 100% !important;" draggable="false" src="https://mmbiz.qpic.cn/sz_mmbiz_jpg/JNfRxIpdo2O0lTWlZeOImk1KP27ZamiaGjpic38Anic5ialPkeJiaUcib4AQDnFNKmUTMYdzic7PDk2IpTdXuTqYib4sAA/640?wx_fmt=jpeg&amp;from=appmsg" data-imgfileid="100001116" data-type="jpeg" data-width="100%" data-ratio="0.562037037037037" data-w="1080"></figure></section>
 </section>
 </section>
 </section>
 <section class="_135editor" data-tools="135编辑器" data-id="123423">
-<section>
-<section class="">
-<section class="" data-width="100%"><img loading="lazy" draggable="false" src="https://bexp.135editor.com/files/users/1182/11827998/202407/K8Wd2xFd_GEbG.jpg?auth_key=1722787199-0-0-8ca8bdb9fbd6845e5336a813f1246a97" data-width="100%" data-ratio="0.5622254758418741" data-w="1366"></section>
+<section style="margin: 10px auto;">
+<section style="padding: 4px; box-sizing: border-box; border: 1px solid #80c45d;">
+<section style="width: 100%; box-sizing: border-box; max-width: 100% !important;" data-width="100%"><figure class="rich_pages wxw-img"><img loading="lazy"  style="width: 100%; display: block; vertical-align: baseline; box-sizing: border-box; max-width: 100% !important;" draggable="false" src="https://mmbiz.qpic.cn/sz_mmbiz_jpg/JNfRxIpdo2O0lTWlZeOImk1KP27ZamiaG40flUUZN3RiaibBbZiaW6wMwgqx2C2ibVFhgK9vyM54rQc3oOloQmMA6Cw/640?wx_fmt=jpeg&amp;from=appmsg" data-imgfileid="100001117" data-type="jpeg" data-width="100%" data-ratio="0.562037037037037" data-w="1080"></figure></section>
 </section>
 </section>
 </section>
 <section class="_135editor" data-tools="135编辑器" data-id="123423">
-<section>
-<section class="">
-<section class="" data-width="100%"><img loading="lazy" draggable="false" src="https://bexp.135editor.com/files/users/1182/11827998/202407/WkkJNSgA_7jcH.jpg?auth_key=1722787199-0-0-aa78182c9d0c8f09100007d9f7da2d2f" data-width="100%" data-ratio="0.5622254758418741" data-w="1366"></section>
+<section style="margin: 10px auto;">
+<section style="padding: 4px; box-sizing: border-box; border: 1px solid #80c45d;">
+<section style="width: 100%; box-sizing: border-box; max-width: 100% !important;" data-width="100%"><figure class="rich_pages wxw-img"><img loading="lazy"  style="width: 100%; display: block; vertical-align: baseline; box-sizing: border-box; max-width: 100% !important;" draggable="false" src="https://mmbiz.qpic.cn/sz_mmbiz_jpg/JNfRxIpdo2O0lTWlZeOImk1KP27ZamiaG6fCkqGSb6VFpH2sIQichEX8h6XOaBKvsEBN84k8DPNeGic09s1xq975w/640?wx_fmt=jpeg&amp;from=appmsg" data-imgfileid="100001122" data-type="jpeg" data-width="100%" data-ratio="0.562037037037037" data-w="1080"></figure></section>
 </section>
 </section>
 </section>
 <section class="_135editor" data-tools="135编辑器" data-id="123423">
-<section>
-<section class="">
-<section class="" data-width="100%"><img loading="lazy" draggable="false" src="https://bexp.135editor.com/files/users/1182/11827998/202407/qNInpkCe_gKmc.png?auth_key=1722787199-0-0-7ca505e905e7b7baf7ad151f678ea4db" data-width="100%" data-ratio="0.6251830161054173" data-w="1366"></section>
+<section style="margin: 10px auto;">
+<section style="padding: 4px; box-sizing: border-box; border: 1px solid #80c45d;">
+<section style="width: 100%; box-sizing: border-box; max-width: 100% !important;" data-width="100%"><figure class="rich_pages wxw-img"><img loading="lazy"  style="width: 100%; display: block; vertical-align: baseline; box-sizing: border-box; max-width: 100% !important;" draggable="false" src="https://mmbiz.qpic.cn/sz_mmbiz_jpg/JNfRxIpdo2O0lTWlZeOImk1KP27ZamiaGFcw422OVQMibpkMcLYuiaBxbDNmVocgcDym3YS9QDpxP4jweoiaFQ5Suw/640?wx_fmt=jpeg&amp;from=appmsg" data-imgfileid="100001124" data-type="jpeg" data-width="100%" data-ratio="0.562037037037037" data-w="1080"></figure></section>
 </section>
 </section>
 </section>
 <section class="_135editor" data-tools="135编辑器" data-id="123423">
-<section>
-<section class="">
-<section class="" data-width="100%"><img loading="lazy" draggable="false" src="https://bexp.135editor.com/files/users/1182/11827998/202407/Fvrkk7uz_5L76.jpg?auth_key=1722787199-0-0-f698b6ce68eb88056235d62231b12eae" data-width="100%" data-ratio="0.5622254758418741" data-w="1366"></section>
+<section style="margin: 10px auto;">
+<section style="padding: 4px; box-sizing: border-box; border: 1px solid #80c45d;">
+<section style="width: 100%; box-sizing: border-box; max-width: 100% !important;" data-width="100%"><figure class="rich_pages wxw-img"><img loading="lazy"  style="width: 100%; display: block; vertical-align: baseline; box-sizing: border-box; max-width: 100% !important;" draggable="false" src="https://mmbiz.qpic.cn/sz_mmbiz_jpg/JNfRxIpdo2O0lTWlZeOImk1KP27ZamiaG1VPKx1EMtCtEknGMQLUhiabOLlUzWRAqp990yWldMxDvZicQ283nmaPA/640?wx_fmt=jpeg&amp;from=appmsg" data-imgfileid="100001121" data-type="jpeg" data-width="100%" data-ratio="0.625" data-w="1080"></figure></section>
+</section>
+</section>
+</section>
+<section class="_135editor" data-tools="135编辑器" data-id="123423">
+<section style="margin: 10px auto;">
+<section style="padding: 4px; box-sizing: border-box; border: 1px solid #80c45d;">
+<section style="width: 100%; box-sizing: border-box; max-width: 100% !important;" data-width="100%"><figure class="rich_pages wxw-img"><img loading="lazy"  style="width: 100%; display: block; vertical-align: baseline; box-sizing: border-box; max-width: 100% !important;" draggable="false" src="https://mmbiz.qpic.cn/sz_mmbiz_jpg/JNfRxIpdo2O0lTWlZeOImk1KP27ZamiaGNkNfNITVqq2k9piaKbiaBicBT4wicqtZOuMiclv0927105zTj0VV9rsyLaA/640?wx_fmt=jpeg&amp;from=appmsg" data-imgfileid="100001123" data-type="jpeg" data-width="100%" data-ratio="0.562037037037037" data-w="1080"></figure></section>
 </section>
 </section>
 </section>
 <section class="_135editor" data-tools="135编辑器" data-id="123451">
-<section class="">
-<section class="">
-<section class="assistant"></section>
-<section>
-<section class="">
-<section class="">
-<section class=""><strong class="135brush" data-brushtype="text">HOUDINI 练习 | 作品集</strong></section>
+<section style="text-align: center; margin: 10px; padding-bottom: 10px; box-sizing: border-box;">
+<section style="display: inline-block; transform-style: preserve-3d;">
+<section style="width: 35px; height: 35px; background-image: linear-gradient(#faf4d4 0%, #faf4d4 100%); background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; border-radius: 50%; overflow: hidden; box-sizing: border-box; transform: translate(-10px, 0px) translateZ(9px); -webkit-transform: translate(-10px, 0px) translateZ(9px); -moz-transform: translate(-10px, 0px) translateZ(9px); -o-transform: translate(-10px, 0px) translateZ(9px);"></section>
+<section style="margin-top: -20px; transform: translateZ(10px); -webkit-transform: translateZ(10px); -moz-transform: translateZ(10px); -o-transform: translateZ(10px);">
+<section style="padding-top: 3px; padding-left: 3px; margin-top: -8px; margin-bottom: -8px; box-shadow: #80c45d 4px 4px 0px 0px; box-sizing: border-box; border: 1px solid #80c45d;">
+<section style="background-color: #80c45d; padding: 5px 17px; box-sizing: border-box;">
+<section style="font-size: 16px; letter-spacing: 1.5px; color: #fff;"><strong data-brushtype="text">HOUDINI 练习 | 作品集</strong></section>
 </section>
 </section>
 </section>
@@ -158,97 +367,143 @@
 </section>
 </section>
 <section class="_135editor" data-tools="135编辑器" data-id="123419">
-<section class="">
-<section>
-<section class="">
-<section class="auto-hide-last-sibling-br paragraph-u1TS5p paragraph-element br-paragraph-space">这些作品是通过特效软件 Houdini 完成的。Houdini 极其强大，拥有众多出色的功能。</section>
-<br class="container-PzX343 wrapper-NZ1vL1 undefined">
-<section class="auto-hide-last-sibling-br paragraph-u1TS5p paragraph-element br-paragraph-space">在此次创作中，我主要钻研了它的程序化建模和粒子等功能。程序化建模让我能够高效地创建复杂且有规律的模型结构，大大提高了工作效率和创作的可能性。</section>
-<br class="container-PzX343 wrapper-NZ1vL1 undefined">
-<section class="auto-hide-last-sibling-br paragraph-u1TS5p paragraph-element br-paragraph-space">而粒子功能更是为作品增添了绚丽多彩的动态效果，使整个画面充满了生机与活力。</section>
-<br class="container-PzX343 wrapper-NZ1vL1 undefined">
-<section class="auto-hide-last-sibling-br paragraph-u1TS5p paragraph-element br-paragraph-space">通过对 Houdini 这些功能的深入研究和运用，可以打造出了独具特色的作品，展现了 Houdini 强大功能所带来的无限创意空间。</section>
+<section style="text-align: center; margin: 10px;">
+<section style="display: inline-block;">
+<section style="font-size: 16px; letter-spacing: 1.5px; color: #5c9f3b; padding-right: 4px; padding-left: 4px; box-sizing: border-box;">
+<section style="-webkit-font-smoothing: antialiased; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); overflow-anchor: auto; line-height: var(--md-box-samantha-normal-text-line-height); background-color: #ffffff; text-align: left; color: var(--md-box-samantha-normal-text-color) !important; font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'SF Pro SC', 'SF Pro Display', 'SF Pro Icons', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif;">这些作品是通过特效软件 Houdini 完成的。Houdini 极其强大，拥有众多出色的功能。</section>
+<br style="-webkit-font-smoothing: antialiased; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); overflow-anchor: auto; content: '\';display: block;font-size: var(--md-box-paragraph-spacing);margin: 1em;color: #222222;background-color: #ffffff;font-family:Inter, -apple-system, BlinkMacSystemFont, \'Segoe UI\', \'SF Pro SC\', \'SF Pro Display\', \'SF Pro Icons\', \'PingFang SC\', \'Hiragino Sans GB\', \'Microsoft YaHei\', \'Helvetica Neue', Helvetica, Arial, sans-serif;">
+<section style="-webkit-font-smoothing: antialiased; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); overflow-anchor: auto; line-height: var(--md-box-samantha-normal-text-line-height); background-color: #ffffff; text-align: left; color: var(--md-box-samantha-normal-text-color) !important; font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'SF Pro SC', 'SF Pro Display', 'SF Pro Icons', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif;">在此次创作中，我主要钻研了它的程序化建模和粒子等功能。程序化建模让我能够高效地创建复杂且有规律的模型结构，大大提高了工作效率和创作的可能性。</section>
+<br style="-webkit-font-smoothing: antialiased; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); overflow-anchor: auto; content: '\';display: block;font-size: var(--md-box-paragraph-spacing);margin: 1em;color: #222222;background-color: #ffffff;font-family:Inter, -apple-system, BlinkMacSystemFont, \'Segoe UI\', \'SF Pro SC\', \'SF Pro Display\', \'SF Pro Icons\', \'PingFang SC\', \'Hiragino Sans GB\', \'Microsoft YaHei\', \'Helvetica Neue', Helvetica, Arial, sans-serif;">
+<section style="-webkit-font-smoothing: antialiased; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); overflow-anchor: auto; line-height: var(--md-box-samantha-normal-text-line-height); background-color: #ffffff; text-align: left; color: var(--md-box-samantha-normal-text-color) !important; font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'SF Pro SC', 'SF Pro Display', 'SF Pro Icons', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif;">而粒子功能更是为作品增添了绚丽多彩的动态效果，使整个画面充满了生机与活力。</section>
+<br style="-webkit-font-smoothing: antialiased; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); overflow-anchor: auto; content: '\';display: block;font-size: var(--md-box-paragraph-spacing);margin: 1em;color: #222222;background-color: #ffffff;font-family:Inter, -apple-system, BlinkMacSystemFont, \'Segoe UI\', \'SF Pro SC\', \'SF Pro Display\', \'SF Pro Icons\', \'PingFang SC\', \'Hiragino Sans GB\', \'Microsoft YaHei\', \'Helvetica Neue', Helvetica, Arial, sans-serif;">
+<section style="-webkit-font-smoothing: antialiased; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); overflow-anchor: auto; line-height: var(--md-box-samantha-normal-text-line-height); background-color: #ffffff; text-align: left; color: var(--md-box-samantha-normal-text-color) !important; font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'SF Pro SC', 'SF Pro Display', 'SF Pro Icons', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif;">通过对 Houdini 这些功能的深入研究和运用，可以打造出了独具特色的作品，展现了 Houdini 强大功能所带来的无限创意空间。</section>
 </section>
 </section>
 </section>
 </section>
-<section class="_135editor" data-role="paragraph">
+<section data-role="paragraph">
 <section class="_135editor" data-tools="135编辑器" data-id="123423">
-<section>
-<section class="">
-<section class="" data-width="100%"><img loading="lazy" draggable="false" src="https://bexp.135editor.com/files/users/1182/11827998/202407/BHEucSzu_r9vz.jpg?auth_key=1722787199-0-0-577d26fa4326f4c2356e52805a931f78" data-width="100%" data-ratio="1" data-w="1366"></section>
-</section>
-</section>
-</section>
-<section class="_135editor" data-tools="135编辑器" data-id="123423">
-<section>
-<section class="">
-<section class="" data-width="100%"><img loading="lazy" draggable="false" src="https://bexp.135editor.com/files/users/1182/11827998/202407/c4YcdtZ5_g9bv.png?auth_key=1722787199-0-0-d936e1ae8628d531887ce05c94c78a29" data-width="100%" data-ratio="0.5625" data-w="1280"></section>
+<section style="margin: 10px auto;">
+<section style="padding: 4px; box-sizing: border-box; border: 1px solid #80c45d;">
+<section style="width: 100%; box-sizing: border-box; max-width: 100% !important;" data-width="100%"><figure class="rich_pages wxw-img"><img loading="lazy"  style="width: 100%; display: block; vertical-align: baseline; box-sizing: border-box; max-width: 100% !important;" draggable="false" src="https://mmbiz.qpic.cn/sz_mmbiz_jpg/JNfRxIpdo2O0lTWlZeOImk1KP27ZamiaGebz2mrOUnyTCVEjNIPhW5QkkzXsPIeQhx3MWWpibGGstaN8ibe9J4kpA/640?wx_fmt=jpeg&amp;from=appmsg" data-imgfileid="100001125" data-type="jpeg" data-width="100%" data-ratio="1" data-w="1080"></figure></section>
 </section>
 </section>
 </section>
 <section class="_135editor" data-tools="135编辑器" data-id="123423">
-<section>
-<section class="">
-<section class="" data-width="100%"><img loading="lazy" draggable="false" src="https://bexp.135editor.com/files/users/1182/11827998/202407/NLRH3zTu_FJ67.png?auth_key=1722787199-0-0-9849c28aa116956a4ef7a5acf25c2066" data-width="100%" data-ratio="1" data-w="1024"></section>
+<section style="margin: 10px auto;">
+<section style="padding: 4px; box-sizing: border-box; border: 1px solid #80c45d;">
+<section style="width: 100%; box-sizing: border-box; max-width: 100% !important;" data-width="100%"><figure class="rich_pages wxw-img"><img loading="lazy"  style="width: 100%; display: block; vertical-align: baseline; box-sizing: border-box; max-width: 100% !important;" draggable="false" src="https://mmbiz.qpic.cn/sz_mmbiz_png/JNfRxIpdo2O0lTWlZeOImk1KP27ZamiaGic07FX9Pw5bSLnPP4FAsdEoHEGT9TLqUeksd3m663ic2gpmvwmDzc2Zw/640?wx_fmt=png&amp;from=appmsg" data-imgfileid="100001129" data-type="png" data-width="100%" data-ratio="0.562962962962963" data-w="1080"></figure></section>
 </section>
 </section>
 </section>
 <section class="_135editor" data-tools="135编辑器" data-id="123423">
-<section>
-<section class="">
-<section class="" data-width="100%"><img loading="lazy" draggable="false" src="https://bexp.135editor.com/files/users/1182/11827998/202407/EfGtYxhw_Y9qD.png?auth_key=1722787199-0-0-1106ab0701d2c1711d65df4c9dc6e011" data-width="100%" data-ratio="0.5622254758418741" data-w="1366"></section>
+<section style="margin: 10px auto;">
+<section style="padding: 4px; box-sizing: border-box; border: 1px solid #80c45d;">
+<section style="width: 100%; box-sizing: border-box; max-width: 100% !important;" data-width="100%"><figure class="rich_pages wxw-img"><img loading="lazy"  style="width: 100%; display: block; vertical-align: baseline; box-sizing: border-box; max-width: 100% !important;" draggable="false" src="https://mmbiz.qpic.cn/sz_mmbiz_png/JNfRxIpdo2O0lTWlZeOImk1KP27ZamiaG4X1vXY5P55IcofqqFbbUIUA2k2XtaK4aoRA3RJtxU0n4oSRbTnBclw/640?wx_fmt=png&amp;from=appmsg" data-imgfileid="100001130" data-type="png" data-width="100%" data-ratio="1" data-w="1024"></figure></section>
 </section>
 </section>
 </section>
 <section class="_135editor" data-tools="135编辑器" data-id="123423">
-<section>
-<section class="">
-<section class="" data-width="100%"><img loading="lazy" draggable="false" src="https://bexp.135editor.com/files/users/1182/11827998/202407/rPZ3shve_GPxb.png?auth_key=1722787199-0-0-221eb7901f66c32cc33ff7c24824590c" data-width="100%" data-ratio="1" data-w="1024"></section>
+<section style="margin: 10px auto;">
+<section style="padding: 4px; box-sizing: border-box; border: 1px solid #80c45d;">
+<section style="width: 100%; box-sizing: border-box; max-width: 100% !important;" data-width="100%"><img loading="lazy" style="width: 100%; display: block; vertical-align: baseline; box-sizing: border-box; max-width: 100% !important;" draggable="false" src="https://mmbiz.qpic.cn/sz_mmbiz_png/JNfRxIpdo2O0lTWlZeOImk1KP27ZamiaGicTvgYaB8cGNI1mpMvwRtJD8Ep0bAcaicNqaBs0IyHCAWicqEsGym8hMA/640?wx_fmt=png&amp;from=appmsg" data-imgfileid="100001128" data-type="png" data-width="100%" data-ratio="0.562037037037037" data-w="1080"></section>
 </section>
 </section>
 </section>
 <section class="_135editor" data-tools="135编辑器" data-id="123423">
-<section>
-<section class="">
-<section class="" data-width="100%"><img loading="lazy" draggable="false" src="https://bexp.135editor.com/files/users/1182/11827998/202407/IT6GIRJK_QsYn.png?auth_key=1722787199-0-0-e232a0d9d270e97db06bf8e34284373d" data-width="100%" data-ratio="1" data-w="1366"></section>
+<section style="margin: 10px auto;">
+<section style="padding: 4px; box-sizing: border-box; border: 1px solid #80c45d;">
+<section style="width: 100%; box-sizing: border-box; max-width: 100% !important;" data-width="100%"><img loading="lazy" style="width: 100%; display: block; vertical-align: baseline; box-sizing: border-box; max-width: 100% !important;" draggable="false" src="https://mmbiz.qpic.cn/sz_mmbiz_jpg/JNfRxIpdo2O0lTWlZeOImk1KP27ZamiaGTjpzx2EoCeiburUIROLu1zibP0X8UFPmvLmluQG0OWZliax0mXWa6y2tw/640?wx_fmt=jpeg&amp;from=appmsg" data-imgfileid="100001126" data-type="jpeg" data-width="100%" data-ratio="1" data-w="1024"></section>
 </section>
 </section>
 </section>
 <section class="_135editor" data-tools="135编辑器" data-id="123423">
-<section>
-<section class="">
-<section class="" data-width="100%"><img loading="lazy" draggable="false" src="https://bexp.135editor.com/files/users/1182/11827998/202407/Qvthctzn_eShV.png?auth_key=1722787199-0-0-80b7fe666c5e396764df7d922492d212" data-width="100%" data-ratio="1" data-w="1024"></section>
+<section style="margin: 10px auto;">
+<section style="padding: 4px; box-sizing: border-box; border: 1px solid #80c45d;">
+<section style="width: 100%; box-sizing: border-box; max-width: 100% !important;" data-width="100%"><figure class="rich_pages wxw-img"><img loading="lazy"  style="width: 100%; display: block; vertical-align: baseline; box-sizing: border-box; max-width: 100% !important;" draggable="false" src="https://mmbiz.qpic.cn/sz_mmbiz_jpg/JNfRxIpdo2O0lTWlZeOImk1KP27ZamiaGoAhokichqjzsOkcNk1kpWEX6MRibIwlxZjV40j9zEtDTeAQ7b5Mo6vBQ/640?wx_fmt=jpeg&amp;from=appmsg" data-imgfileid="100001127" data-type="jpeg" data-width="100%" data-ratio="1" data-w="1080"></figure></section>
 </section>
 </section>
 </section>
 <section class="_135editor" data-tools="135编辑器" data-id="123423">
-<section>
-<section class="">
-<section class="" data-width="100%"><img loading="lazy" draggable="false" src="https://bexp.135editor.com/files/users/1182/11827998/202407/HKtp8POc_AftP.png?auth_key=1722787199-0-0-54ac2933f41834d130f53dfeb7e16299" data-width="100%" data-ratio="1" data-w="719"></section>
+<section style="margin: 10px auto;">
+<section style="padding: 4px; box-sizing: border-box; border: 1px solid #80c45d;">
+<section style="width: 100%; box-sizing: border-box; max-width: 100% !important;" data-width="100%"><figure class="rich_pages wxw-img"><img loading="lazy"  style="width: 100%; display: block; vertical-align: baseline; box-sizing: border-box; max-width: 100% !important;" draggable="false" src="https://mmbiz.qpic.cn/sz_mmbiz_jpg/JNfRxIpdo2O0lTWlZeOImk1KP27ZamiaGpL5akiaQQgvYvBcB2jaut5to017twkYibQCzD91lRGh5Ny7SmcSwGNDQ/640?wx_fmt=jpeg&amp;from=appmsg" data-imgfileid="100001135" data-type="jpeg" data-width="100%" data-ratio="1" data-w="1024"></figure></section>
 </section>
 </section>
 </section>
 <section class="_135editor" data-tools="135编辑器" data-id="123423">
-<section>
-<section class="">
-<section class="" data-width="100%"><img loading="lazy" draggable="false" src="https://bexp.135editor.com/files/users/1182/11827998/202407/pBb4RDHV_DRju.png?auth_key=1722787199-0-0-d66ae3e380aebf8716b159c707a07565" data-width="100%" data-ratio="1" data-w="1366"></section>
+<section style="margin: 10px auto;">
+<section style="padding: 4px; box-sizing: border-box; border: 1px solid #80c45d;">
+<section style="width: 100%; box-sizing: border-box; max-width: 100% !important;" data-width="100%"><figure class="rich_pages wxw-img"><img loading="lazy"  style="width: 100%; display: block; vertical-align: baseline; box-sizing: border-box; max-width: 100% !important;" draggable="false" src="https://mmbiz.qpic.cn/sz_mmbiz_jpg/JNfRxIpdo2O0lTWlZeOImk1KP27ZamiaGaDlQFiaK95U87dbQG8qP5P10YCPsiaTRHUDk9ZqMzqzw6rZzRDYhRBgA/640?wx_fmt=jpeg&amp;from=appmsg" data-imgfileid="100001133" data-type="jpeg" data-width="100%" data-ratio="1" data-w="719"></figure></section>
 </section>
 </section>
 </section>
 <section class="_135editor" data-tools="135编辑器" data-id="123423">
-<section>
-<section class="">
-<section class="" data-width="100%"><img loading="lazy" draggable="false" src="https://bexp.135editor.com/files/users/1182/11827998/202407/KxVQDmJr_OC8R.png?auth_key=1722787199-0-0-3841d893bd26066b61ca40f5a1d146be" data-width="100%" data-ratio="1" data-w="1280"></section>
+<section style="margin: 10px auto;">
+<section style="padding: 4px; box-sizing: border-box; border: 1px solid #80c45d;">
+<section style="width: 100%; box-sizing: border-box; max-width: 100% !important;" data-width="100%"><figure class="rich_pages wxw-img"><img loading="lazy"  style="width: 100%; display: block; vertical-align: baseline; box-sizing: border-box; max-width: 100% !important;" draggable="false" src="https://mmbiz.qpic.cn/sz_mmbiz_jpg/JNfRxIpdo2O0lTWlZeOImk1KP27ZamiaGtcv3PNTWOJj8MxM2a71eWzAo7mPFDhibTqryaym2UJagWD1uY8iclPbg/640?wx_fmt=jpeg&amp;from=appmsg" data-imgfileid="100001134" data-type="jpeg" data-width="100%" data-ratio="1" data-w="1080"></figure></section>
+</section>
+</section>
+</section>
+<section class="_135editor" data-tools="135编辑器" data-id="123423">
+<section style="margin: 10px auto;">
+<section style="padding: 4px; box-sizing: border-box; border: 1px solid #80c45d;">
+<section style="width: 100%; box-sizing: border-box; max-width: 100% !important;" data-width="100%"><figure class="rich_pages wxw-img"><img loading="lazy"  style="width: 100%; display: block; vertical-align: baseline; box-sizing: border-box; max-width: 100% !important;" draggable="false" src="https://mmbiz.qpic.cn/sz_mmbiz_jpg/JNfRxIpdo2O0lTWlZeOImk1KP27ZamiaGSGlHDtzhZcxfMCDfYosWibDiaiblxM1n6K8UZZDKfafOvpwJOOyndCUCw/640?wx_fmt=jpeg&amp;from=appmsg" data-imgfileid="100001132" data-type="jpeg" data-width="100%" data-ratio="1" data-w="1080"></figure></section>
 </section>
 </section>
 </section>
 </section>
+<section class="_135editor" data-tools="135编辑器" data-id="123419">
+<section style="text-align: center; margin: 10px;">
+<section style="display: inline-block;">
+<section style="font-size: 16px; letter-spacing: 1.5px; color: #5c9f3b; padding-right: 4px; padding-left: 4px; box-sizing: border-box;"><strong data-brushtype="text">END</strong></section>
+<section style="width: 100%; height: 7px; background-color: #faf4d4; margin-top: -8px; overflow: hidden; box-sizing: border-box; max-width: 100% !important;" data-width="100%"></section>
 </section>
-<section class="_135editor" data-role="paragraph">
+</section>
+</section>
+<section class="_135editor" data-tools="135编辑器" data-id="123418">
+<section style="margin: 10px auto; text-align: center; padding-bottom: 4px; box-sizing: border-box;">
+<section style="display: flex;">
+<section style="flex: 1;">
+<section style="width: 50px; height: 50px; background: #faf4d4; border-radius: 100%; margin-left: 4px; overflow: hidden; box-sizing: border-box;"></section>
+<section style="margin-top: -30px; padding-right: 15px; padding-left: 15px; box-sizing: border-box;">
+<section style="width: 50%; height: 1px; background: #80c45d; overflow: hidden; box-sizing: border-box; max-width: 50% !important;" data-width="50%"></section>
+<section style="display: flex; justify-content: space-around; align-items: center; margin-top: 1em; margin-bottom: 1em;">
+<section style="width: 40%; box-sizing: border-box; max-width: 40% !important;" data-width="40%">
+<section style="width: 100px; margin-right: auto; margin-left: auto; box-sizing: border-box;"><img loading="lazy" style="width: 100%; display: block; vertical-align: baseline; box-sizing: border-box; max-width: 100% !important;" draggable="false" src="https://mmbiz.qpic.cn/sz_mmbiz_jpg/JNfRxIpdo2O0lTWlZeOImk1KP27ZamiaGTZCKrAcJKicWXbribbPZbyuzxvXoFnz6Djp5nHB8kTRiaHF0QPn078PLQ/640?wx_fmt=jpeg&amp;from=appmsg" data-imgfileid="100001131" data-type="jpeg" data-width="100%" data-ratio="1" data-w="258"></section>
+</section>
+<section style="width: 58%; display: flex; justify-content: center; box-sizing: border-box; max-width: 58% !important;" data-width="58%">
+<section style="text-align: left;">
+<section style="display: inline-block;">
+<section style="display: flex; justify-content: flex-end;">
+<section style="width: 10px; height: 10px; background: #80c45d; overflow: hidden; box-sizing: border-box;"></section>
+</section>
+<section style="display: flex; justify-content: center; align-items: center; margin-top: -6px; padding-right: 6px; box-sizing: border-box;">
+<section style="font-size: 16px; letter-spacing: 1.5px; padding-top: 4px; padding-bottom: 4px; color: #80c45d; box-sizing: border-box;"><strong data-brushtype="text">扫码关注</strong></section>
+<section style="font-size: 16px; letter-spacing: 1.5px; padding: 4px 1em 4px 6px; background: #80c45d; color: #ffffff; box-sizing: border-box;"><strong data-brushtype="text">我们</strong></section>
+</section>
+</section>
+<section style="font-size: 14px; letter-spacing: 1.5px; color: #333; margin-top: 4px;" data-brushtype="text">关注科技创意前沿</section>
+<section style="font-size: 14px; letter-spacing: 1.5px; color: #333;" data-brushtype="text">探索图形无限可能</section>
+</section>
+</section>
+</section>
+<section style="width: 100%; height: 1px; background: #80c45d; overflow: hidden; box-sizing: border-box; max-width: 100% !important;" data-width="100%"></section>
+</section>
+</section>
+<section style="width: 7px; height: 90px; background: #80c45d; align-self: flex-end; margin-left: 4px; flex-shrink: 0; margin-bottom: -4px; overflow: hidden; box-sizing: border-box;"></section>
+</section>
+</section>
+</section>
+</section>
+<section data-role="paragraph">
 <p> </p>
 </section>
 </section>
+<p> </p>
+<p style="display: none;"> </p>
+<section class="_135editor"></section>
+<p> </p>
             ]]>
         </content>
     </entry>
@@ -737,55 +992,5 @@
         <updated>2023-03-09T15:42:37+08:00</updated>
             <summary></summary>
         <content></content>
-    </entry>
-    <entry>
-        <title>【3Ds Max】舞台美术&amp;展厅</title>
-        <author>
-            <name>Vince</name>
-        </author>
-        <link href="https://vinceofx.github.io/3ds-max-wu-tai-mei-shuandzhan-ting.html"/>
-        <id>https://vinceofx.github.io/3ds-max-wu-tai-mei-shuandzhan-ting.html</id>
-        <media:content url="https://vinceofx.github.io/media/posts/38/work-15.jpg" medium="image" />
-            <category term="Workflow"/>
-
-        <updated>2023-03-09T15:39:42+08:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://vinceofx.github.io/media/posts/38/work-15.jpg" alt="" />
-                    在苏宁之夏晚会中，我充分利用 Vizrt 维斯虚拟在线植入技术，结合 AR 虚拟植入、3DS MAX 建模等手段，打造出令人惊艳的舞台效果。 Vizrt 维斯虚拟在线植入技术具有以下特点： 高精度的跟踪与定位能力，能精准捕捉摄像机动作，确保虚拟元素与真实舞台无缝融合。 强大的实时渲染能力，可快速生成高质量虚拟图像和特效，如复杂的三维模型和逼真光影，为观众带来震撼体验。 丰富的素材库与模板，方便快速搭建虚拟场景和元素，保证设计的专业性与一致性，呈现多样统一的风格。 在晚会设计中，我将这些技术特点运用到各个环节，通过 3DS MAX 建模构建精细的虚拟物体和场景。利用 AR 虚拟植入技术，创造出与节目紧密结合的虚拟场景和元素，营造独特氛围和意境。利用实时渲染和跟踪定位，让虚拟物体或特效随演员或摄像机自然变化，增强舞台空间感和动态感。借助丰富素材库，打造出一系列精美视觉效果，提升艺术水准，为观众带来美轮美奂的视听盛宴。
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://vinceofx.github.io/media/posts/38/work-15.jpg" class="type:primaryImage" alt="" /></p>
-                <div class="inter-ltf2Se">
-<div class="inview-wrapper-VT59mm">
-<div class="item-wkcHha">
-<div class="container-may7Ze chrome70-container leftVisible-CfLmyr rightVisible-bMpX2d undefined">
-<div class="inner-SZBapM inner-item-urVErU" data-target-id="message-box-target-id" data-testid="union_message">
-<div class="message-block-container-ll6qVi" data-testid="message-block-container">
-<div class="message-box-fWSpGO" data-testid="receive_message">
-<div class="message-box-content-wrapper-nDROih">
-<div class="message-content message-box-content-lcvP3O receive-message-box-content-nIBmeh samantha-message-box-content-Yyzbw_" data-testid="message_content">
-<div class="container-p2nY4f flow-markdown-body theme-samantha-D0_4Ug" dir="ltr" data-testid="message_text_content" data-show-indicator="false">
-<p class="auto-hide-last-sibling-br paragraph-u1TS5p paragraph-element br-paragraph-space msg--highlight    msg--info msg ">在苏宁之夏晚会中，我充分利用 Vizrt 维斯虚拟在线植入技术，结合 AR 虚拟植入、3DS MAX 建模等手段，打造出令人惊艳的舞台效果。<br><br>Vizrt 维斯虚拟在线植入技术具有以下特点：<br>高精度的跟踪与定位能力，能精准捕捉摄像机动作，确保虚拟元素与真实舞台无缝融合。<br>强大的实时渲染能力，可快速生成高质量虚拟图像和特效，如复杂的三维模型和逼真光影，为观众带来震撼体验。<br>丰富的素材库与模板，方便快速搭建虚拟场景和元素，保证设计的专业性与一致性，呈现多样统一的风格。<br><br>在晚会设计中，我将这些技术特点运用到各个环节，通过 3DS MAX 建模构建精细的虚拟物体和场景。利用 AR 虚拟植入技术，创造出与节目紧密结合的虚拟场景和元素，营造独特氛围和意境。利用实时渲染和跟踪定位，让虚拟物体或特效随演员或摄像机自然变化，增强舞台空间感和动态感。借助丰富素材库，打造出一系列精美视觉效果，提升艺术水准，为观众带来美轮美奂的视听盛宴。</p>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="gallery-wrapper"><div class="gallery"  data-is-empty="false" data-translation="添加图片" data-columns="1">
-<figure class="gallery__item"><a href="https://vinceofx.github.io/media/posts/38/gallery/Hua-Ban-1.png" data-size="3000x1352"><img loading="lazy" src="https://vinceofx.github.io/media/posts/38/gallery/Hua-Ban-1-thumbnail.png" alt="" width="1920" height="1080"></a></figure>
-<figure class="gallery__item"><a href="https://vinceofx.github.io/media/posts/38/gallery/Hua-Ban-2.png" data-size="3000x1352"><img loading="lazy" src="https://vinceofx.github.io/media/posts/38/gallery/Hua-Ban-2-thumbnail.png" alt="" width="1920" height="1080"></a></figure>
-<figure class="gallery__item"><a href="https://vinceofx.github.io/media/posts/38/gallery/Hua-Ban-4.png" data-size="3000x1352"><img loading="lazy" src="https://vinceofx.github.io/media/posts/38/gallery/Hua-Ban-4-thumbnail.png" alt="" width="1920" height="1080"></a></figure>
-</div></div>
-<p> </p>
-            ]]>
-        </content>
     </entry>
 </feed>
