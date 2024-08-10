@@ -31,6 +31,7 @@
         <meta name="referrer" content="never"><meta data-draft-node="block" data-draft-type="table" data-size="normal" data-row-style="normal">
 
 <script defer src="/_vercel/insights/script.js"></script>
+<link rel="stylesheet" href="https://vinceofx.github.io/media/plugins/docSearch/docsearch.min.css">
     </head>
     <body>
         <header class="header" id="js-header">
@@ -110,7 +111,7 @@
 
       <div class="search">
          <div class="search__overlay js-search-overlay">
-            
+            <div id="docsearch"></div>
          </div>
          <button
             class="search__btn js-search-btn"
@@ -492,5 +493,18 @@
 
 
 
+		   <script src="https://vinceofx.github.io/media/plugins/docSearch/docsearch.min.js"></script>
+			<script type="text/javascript">
+			docsearch({
+				container: '#docsearch',
+				appId: '',
+				indexName: '',
+				apiKey: '',
+				debug: false
+			});
+			</script>
+
+			
+		
 </body>
 </html>
