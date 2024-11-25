@@ -3,7 +3,7 @@
     <title>VINCE | 技术社区</title>
     <link href="https://vinceofx.github.io/feed.xml" rel="self" />
     <link href="https://vinceofx.github.io" />
-    <updated>2024-11-25T21:51:38+08:00</updated>
+    <updated>2024-11-25T21:59:21+08:00</updated>
     <author>
         <name>Vince</name>
     </author>
@@ -16,15 +16,19 @@
         </author>
         <link href="https://vinceofx.github.io/ue5-yi-chang-wu-tai-jujie-xi-bing-li-jie-ue5zhong-gameplayyou-xi-ji-chu-kuang-jia.html"/>
         <id>https://vinceofx.github.io/ue5-yi-chang-wu-tai-jujie-xi-bing-li-jie-ue5zhong-gameplayyou-xi-ji-chu-kuang-jia.html</id>
+        <media:content url="https://vinceofx.github.io/media/posts/51/Yi-Zhuan-Hua_20241125-213908124.jpg" medium="image" />
+            <category term="Blog"/>
 
         <updated>2024-11-25T21:51:38+08:00</updated>
             <summary>
                 <![CDATA[
+                        <img src="https://vinceofx.github.io/media/posts/51/Yi-Zhuan-Hua_20241125-213908124.jpg" alt="" />
                     点击蓝字，关注我们 在了解Unreal Engine的世界时，你可以把它想象成一个舞台剧，而这场剧的每一个元素都在幕后努力，共同构建了一场丰富多彩的表演。你不仅会找到导演、演员和剧本，还有幕后编剧和指挥演员表演的“交响乐指挥家”。那么，这场精彩的“舞台剧”到底是如何运作的呢？让我们逐一揭晓它的奥秘。 首先登场的是关卡蓝图（Level Blueprint），它可以被视作剧场的导演。它不在台前表演，而是默默掌控着整场剧的节奏和氛围。无论是灯光的变化、舞台机关的启动，还是演员的进出场，导演都在幕后指挥。 想象一下：在一款解谜冒险游戏中，当玩家接近一个神秘的门时，背景音乐变得低沉，门缓缓打开，雾气从门缝中飘出。这些效果都由关卡蓝图导演在幕后精心安排。它告诉游戏中的各种元素何时该动作、何时停止，以及如何相互联动，来创造出一个生动的游戏场景。 无论是游戏中的一块石头、一棵树、还是主角和敌人，Actor都是这场表演的“演员”。每个Actor都有自己的个性和行为，比如石头不动，但会影响玩家的路径；敌人会追逐玩家；树可能在风中轻轻摇曳。 比如：在一场战争游戏中，坦克和士兵都是Actor，每个都有独立的脚本来指导它们的行为。一个士兵可能会在受到攻击时寻找掩护，而坦克可能会开火。 小贴士：Actor不仅限于物体和角色，它还可以是灯光、声音源，甚至是看不见的触发器。它们的生命力来源于背后的蓝图和代码。 类蓝图（Class Blueprint）是为每个“演员”编写的剧本。它告诉每个Actor该怎么行动，什么时候该“说台词”或者“做动作”。这些蓝图使得一个简单的NPC可以从纯粹的静态模型变成一个会与玩家互动的角色。 形象化：类蓝图就是一位演员手中的剧本。例如，一个商店老板NPC类蓝图可以指示它在玩家接近时打招呼，并展示商品。而一个敌人角色的蓝图则会规定它何时巡逻、何时追击玩家，以及如何攻击。 Game Mode Base相当于幕后编剧，它设定了整个游戏的基调和规则。你可以想象它为整场舞台剧提供了框架：是喜剧还是悲剧？观众看的是一场紧张刺激的战斗，还是悠闲惬意的冒险？它决定了游戏的胜利条件、玩家如何重生、以及游戏进程。 举个例子：在一款多人射击游戏中，Game Mode Base会规定比赛时间、胜利分数、以及玩家在死亡后如何重生。这一切都在幕后定义，确保游戏有一个明确的目标和结构。 如果玩家是观众，玩家控制器（Player Controller）就是将玩家的意图传达给“演员”的纽带。它是观众指挥演员的“遥控器”，把输入的信号转化为游戏中的动作。按下跳跃键？控制器会告诉角色起跳。移动鼠标？控制器会让视角跟着移动。&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
+                    <p><img src="https://vinceofx.github.io/media/posts/51/Yi-Zhuan-Hua_20241125-213908124.jpg" class="type:primaryImage" alt="" /></p>
                 <section style="margin-bottom: 0px;" data-role="outer">
 <section class="_135editor" style="letter-spacing: 0.578px; font-family: mp-quote, -apple-system-font, BlinkMacSystemFont, Arial, sans-serif;" data-tools="135编辑器" data-id="123455">
 <section style="margin: 10px auto; text-align: left;">
